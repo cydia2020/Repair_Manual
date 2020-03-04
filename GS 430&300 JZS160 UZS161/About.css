@@ -1,0 +1,54 @@
+body { margin:0px; background-color:#B8B8B8; }
+
+.About
+{	
+	margin:0px;
+	height:100%;
+	font-family: Verdana, Arial;
+}
+
+.About table
+{
+	width:100%;
+	height:100%;		
+}
+
+.About table .Title
+{
+	padding-left:20px;	
+	padding-top:5px;
+	background-color:#808080;
+	padding-bottom:5px;
+	color:#FFFF00;
+	font-weight:bold;
+	font-size:1.1em;
+}
+
+.About table .Middle
+{
+	padding:20px;	
+	font-size:0.8em;
+	font-weight:bold;
+}
+
+.About table a, a:visited
+{
+	font-size:1.1em;
+	font-weight:bolder;
+	color:#FFFF00;
+	text-decoration:none;
+}
+
+.About table a:hover
+{
+	font-size:1.1em;
+	font-weight:bolder;
+	color:#FF0000;
+	text-decoration:none;
+}
+
+.About table .Middle div
+{
+	border:solid 1px #808080;
+	padding:20px;
+}

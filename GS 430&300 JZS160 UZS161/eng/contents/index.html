@@ -1,0 +1,16 @@
+<html>
+<head>
+<link rel=stylesheet type="text/css" href="disp.css">
+<script>
+function fullscrennopen() {
+  oObj=window.open("index2.html", "pdfml", "resizable=1,toolbar=0,location=0,status=0,menubar=0,directories=0");
+  opener=self;
+  self.close();
+  oObj.moveTo(0,0);
+  oObj.resizeTo(screen.width, screen.height);
+}
+</script>
+</head>
+<body class="main" onload="fullscrennopen();">
+</body>
+</html>

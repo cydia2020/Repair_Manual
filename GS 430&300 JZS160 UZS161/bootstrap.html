@@ -1,0 +1,47 @@
+﻿<HTML>
+<HEAD>
+	<TITLE>Bootstrap</TITLE>
+	<link href="Home.css" rel="stylesheet" type="text/css" />	
+	<SCRIPT LANGUAGE="javascript">
+		function bootstrap() {
+			oObj=window.open("Home.htm", "pdfml", "resizable=0,toolbar=0,location=0,status=0,menubar=0,directories=0");
+  			opener=self;
+  			self.close();
+  			oObj.moveTo(0,0);
+  			oObj.resizeTo(screen.width, screen.height);
+		}		 
+	</SCRIPT>
+</HEAD>
+<BODY onload="bootstrap();">
+	<table cellpadding="0" cellspacing="0" class="Content">
+            <tr>
+                <td class="Left">
+                    <div class="Page">
+                        <table cellpadding="0" cellspacing="0">
+                        	<tr>
+                                <td colspan="2"><img src="Images/Lex1_new.jpg" /></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="Vehicle" nowrap>GS430/300</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="ManualType" nowrap><br>Service Information Library</td>
+                            <tr>
+                                <td colspan="2" class="Series">JZS160, UZS161&nbsp;Series<br><br></td>
+                            </tr>
+                            <tr>
+                                <td class="PartNumber" nowrap>Part Number:&nbsp;PZ471-ZX008-CA</td>
+                                <td class="Logo"><img src="Images/Lex3.jpg" alt="image" /></td>
+                            </tr>
+                        </table>
+                    </div> 
+                    </td>
+				<td class="Right">
+                    <table cellpadding="0" cellspacing="10" class="Navigator">
+                    </table>
+                </td>
+
+            </tr>
+	</table>	
+</BODY>
+</HTML>

@@ -1,0 +1,1 @@
+This is the repair manual for the Lexus GS Series 1997 - 2002, please open Home.htm in Internet Explorer to access the manual

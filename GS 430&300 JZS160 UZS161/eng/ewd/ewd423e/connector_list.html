@@ -1,0 +1,488 @@
+<html>
+<head>
+<link REL="STYLESHEET" type="text/css" href="menu.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Connector List</title>
+<script language="javaScript">
+<!--
+	var imgFile = new Array("img/tree-p.gif", "img/tree-m.gif");
+	var img = new Array(imgFile.length);
+	for(var i = 0; i < (imgFile.length - 1); i++){
+		img[i] = new Image();
+		img[i].src = imgFile[i];
+	}
+	var bSelectedID = "";
+
+	function selectItem(idSel)
+	{
+		nID = "id" + idSel;
+		if( bSelectedID != "" ){
+			document.all(bSelectedID).className = "item";
+		}
+		document.all(nID).className = "selectedItem";
+		bSelectedID = nID;
+	}
+
+	function chgImg(id){
+		if(window.document.images[id].src.indexOf(imgFile[0]) != -1){
+			window.document.images[id].src  = imgFile[1];
+		}
+		else{
+			window.document.images[id].src  = imgFile[0];
+		}
+	}
+
+	function selectTree(id){
+		var destObj;
+		if( document.all )
+			destObj = document.all;
+		else if( document.getElementById )
+			destObj = document.getElementById;
+		else
+			return;
+		if(destObj(id).style.display == "block"){
+			destObj(id).style.display = "none";
+		}
+		else if(destObj(id).style.display == "none"){
+			destObj(id).style.display = "block";
+		}
+	}
+-->
+</script>
+</head>
+<body>
+<font size="+1"><b>Connector List</b></font><br/>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d1');chgImg('img1');"><img id="img1" src="img/tree-p.gif" border="0"/>A</a><br/>
+<div id="d1" class="tree" style="display:none">
+<div class="item"><a id="id1" class="item" href="../connector/90980-11070.pdf" target="PDF_Frame" onClick="selectItem(1)">A 1:&nbsp;&nbsp;&nbsp;A/C Ambient Temp. Sensor</a></div>
+<div class="item"><a id="id2" class="item" href="../connector/90980-10928.pdf" target="PDF_Frame" onClick="selectItem(2)">A 2:&nbsp;&nbsp;&nbsp;A/C Condenser Fan Motor</a></div>
+<div class="item"><a id="id3" class="item" href="../connector/90980-11016.pdf" target="PDF_Frame" onClick="selectItem(3)">A 3:&nbsp;&nbsp;&nbsp;A/C Magnetic Clutch and Lock Sensor</a></div>
+<div class="item"><a id="id4" class="item" href="../connector/90980-10943.pdf" target="PDF_Frame" onClick="selectItem(4)">A 4:&nbsp;&nbsp;&nbsp;A/C Triple Pressure SW (A/C Dual and Single Pressure SW)</a></div>
+<div class="item"><a id="id5" class="item" href="../connector/90980-11151.pdf" target="PDF_Frame" onClick="selectItem(5)">A 5:&nbsp;&nbsp;&nbsp;ABS &amp; TRC &amp; VSC Actuator</a></div>
+<div class="item"><a id="id6" class="item" href="../connector/90980-10895.pdf" target="PDF_Frame" onClick="selectItem(6)">A 6:&nbsp;&nbsp;&nbsp;ABS &amp; TRC &amp; VSC Actuator</a></div>
+<div class="item"><a id="id7" class="item" href="../connector/90980-11413.pdf" target="PDF_Frame" onClick="selectItem(7)">A 7:&nbsp;&nbsp;&nbsp;ABS &amp; TRC &amp; VSC Actuator</a></div>
+<div class="item"><a id="id8" class="item" href="../connector/90980-11074.pdf" target="PDF_Frame" onClick="selectItem(8)">A 8:&nbsp;&nbsp;&nbsp;ABS Speed Sensor Front LH</a></div>
+<div class="item"><a id="id9" class="item" href="../connector/90980-11074.pdf" target="PDF_Frame" onClick="selectItem(9)">A 9:&nbsp;&nbsp;&nbsp;ABS Speed Sensor Front RH</a></div>
+<div class="item"><a id="id10" class="item" href="../connector/90980-11150.pdf" target="PDF_Frame" onClick="selectItem(10)">A10:&nbsp;&nbsp;&nbsp;Accel Position Sensor (2JZ-GE)</a></div>
+<div class="item"><a id="id11" class="item" href="../connector/90980-11144.pdf" target="PDF_Frame" onClick="selectItem(11)">A10:&nbsp;&nbsp;&nbsp;Accel Position Sensor (3UZ-FE)</a></div>
+<div class="item"><a id="id12" class="item" href="../connector/90980-11317.pdf" target="PDF_Frame" onClick="selectItem(12)">A11:&nbsp;&nbsp;&nbsp;Air Flow Meter</a></div>
+<div class="item"><a id="id13" class="item" href="../connector/90980-11856.pdf" target="PDF_Frame" onClick="selectItem(13)">A12:&nbsp;&nbsp;&nbsp;Airbag Sensor Front LH</a></div>
+<div class="item"><a id="id14" class="item" href="../connector/90980-11856.pdf" target="PDF_Frame" onClick="selectItem(14)">A13:&nbsp;&nbsp;&nbsp;Airbag Sensor Front RH</a></div>
+<div class="item"><a id="id15" class="item" href="../connector/90980-09218.pdf" target="PDF_Frame" onClick="selectItem(15)">A14:&nbsp;&nbsp;&nbsp;Alternator</a></div>
+<div class="item"><a id="id16" class="item" href="../connector/90980-11349.pdf" target="PDF_Frame" onClick="selectItem(16)">A15:&nbsp;&nbsp;&nbsp;Alternator</a></div>
+<div class="item"><a id="id17" class="item" href="../connector/90980-11392.pdf" target="PDF_Frame" onClick="selectItem(17)">A16:&nbsp;&nbsp;&nbsp;A/C Control Assembly</a></div>
+<div class="item"><a id="id18" class="item" href="../connector/90980-11391.pdf" target="PDF_Frame" onClick="selectItem(18)">A17:&nbsp;&nbsp;&nbsp;A/C Control Assembly</a></div>
+<div class="item"><a id="id19" class="item" href="../connector/90980-10825.pdf" target="PDF_Frame" onClick="selectItem(19)">A18:&nbsp;&nbsp;&nbsp;A/C Room Temp. Sensor</a></div>
+<div class="item"><a id="id20" class="item" href="../connector/90980-11918.pdf" target="PDF_Frame" onClick="selectItem(20)">A18:&nbsp;&nbsp;&nbsp;A/C Room Temp. Sensor</a></div>
+<div class="item"><a id="id21" class="item" href="../connector/90980-11053.pdf" target="PDF_Frame" onClick="selectItem(21)">A19:&nbsp;&nbsp;&nbsp;A/C Solar Sensor</a></div>
+<div class="item"><a id="id22" class="item" href="../connector/90980-10825.pdf" target="PDF_Frame" onClick="selectItem(22)">A20:&nbsp;&nbsp;&nbsp;A/C Thermistor</a></div>
+<div class="item"><a id="id23" class="item" href="../connector/90980-11212.pdf" target="PDF_Frame" onClick="selectItem(23)">A21:&nbsp;&nbsp;&nbsp;A/T Shift Position Illumination</a></div>
+<div class="item"><a id="id24" class="item" href="../connector/90980-11935.pdf" target="PDF_Frame" onClick="selectItem(24)">A22:&nbsp;&nbsp;&nbsp;ABS &amp; TRC &amp; VSC ECU</a></div>
+<div class="item"><a id="id25" class="item" href="../connector/90980-11476.pdf" target="PDF_Frame" onClick="selectItem(25)">A23:&nbsp;&nbsp;&nbsp;ABS &amp; TRC &amp; VSC ECU</a></div>
+<div class="item"><a id="id26" class="item" href="../connector/90980-11637.pdf" target="PDF_Frame" onClick="selectItem(26)">A24:&nbsp;&nbsp;&nbsp;ABS &amp; TRC &amp; VSC ECU</a></div>
+<div class="item"><a id="id27" class="item" href="../connector/90980-11638.pdf" target="PDF_Frame" onClick="selectItem(27)">A25:&nbsp;&nbsp;&nbsp;ABS &amp; TRC &amp; VSC ECU</a></div>
+<div class="item"><a id="id28" class="item" href="../connector/90980-11182.pdf" target="PDF_Frame" onClick="selectItem(28)">A26:&nbsp;&nbsp;&nbsp;ABS Deceleration Sensor</a></div>
+<div class="item"><a id="id29" class="item" href="../connector/90980-11165.pdf" target="PDF_Frame" onClick="selectItem(29)">A27:&nbsp;&nbsp;&nbsp;Air Inlet Control Servo Motor</a></div>
+<div class="item"><a id="id30" class="item" href="../connector/90980-11165.pdf" target="PDF_Frame" onClick="selectItem(30)">A28:&nbsp;&nbsp;&nbsp;Air Mix Control Servo Motor (Driver Side)</a></div>
+<div class="item"><a id="id31" class="item" href="../connector/90980-11165.pdf" target="PDF_Frame" onClick="selectItem(31)">A29:&nbsp;&nbsp;&nbsp;Air Mix Control Servo Motor (Front Passenger Side)</a></div>
+<div class="item"><a id="id32" class="item" href="../connector/90980-11165.pdf" target="PDF_Frame" onClick="selectItem(32)">A30:&nbsp;&nbsp;&nbsp;Air Vent Mode Control Servo Motor</a></div>
+<div class="item"><a id="id33" class="item" href="../connector/90980-11884.pdf" target="PDF_Frame" onClick="selectItem(33)">A31:&nbsp;&nbsp;&nbsp;Airbag Squib (Front Passenger Airbag Assembly)</a></div>
+<div class="item"><a id="id34" class="item" href="../connector/90980-10850.pdf" target="PDF_Frame" onClick="selectItem(34)">A32:&nbsp;&nbsp;&nbsp;Airbag Squib (Steering Wheel Pad)</a></div>
+<div class="item"><a id="id35" class="item" href="../connector/90980-11107.pdf" target="PDF_Frame" onClick="selectItem(35)">A33:&nbsp;&nbsp;&nbsp;Automatic Light Control Sensor</a></div>
+<div class="item"><a id="id36" class="item" href="../connector/90980-11060.pdf" target="PDF_Frame" onClick="selectItem(36)">A34:&nbsp;&nbsp;&nbsp;ABS Speed Sensor Rear LH</a></div>
+<div class="item"><a id="id37" class="item" href="../connector/90980-11300.pdf" target="PDF_Frame" onClick="selectItem(37)">A35:&nbsp;&nbsp;&nbsp;ABS Speed Sensor Rear RH</a></div>
+<div class="item"><a id="id38" class="item" href="../connector/90981-11041.pdf" target="PDF_Frame" onClick="selectItem(38)">A36:&nbsp;&nbsp;&nbsp;Ashtray Illumination Rear LH</a></div>
+<div class="item"><a id="id39" class="item" href="../connector/90981-11041.pdf" target="PDF_Frame" onClick="selectItem(39)">A37:&nbsp;&nbsp;&nbsp;Ashtray Illumination Rear RH</a></div>
+<div class="item"><a id="id40" class="item" href="../connector/90980-10799.pdf" target="PDF_Frame" onClick="selectItem(40)">A38:&nbsp;&nbsp;&nbsp;Auto Antenna Control Relay and Motor</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d2');chgImg('img2');"><img id="img2" src="img/tree-p.gif" border="0"/>B</a><br/>
+<div id="d2" class="tree" style="display:none">
+<div class="item"><a id="id41" class="item" href="../connector/90980-11009.pdf" target="PDF_Frame" onClick="selectItem(41)">B 1:&nbsp;&nbsp;&nbsp;Brake Fluid Level Warning SW</a></div>
+<div class="item"><a id="id42" class="item" href="../connector/90980-10385.pdf" target="PDF_Frame" onClick="selectItem(42)">B 2:&nbsp;&nbsp;&nbsp;Blower Motor</a></div>
+<div class="item"><a id="id43" class="item" href="../connector/90980-11579.pdf" target="PDF_Frame" onClick="selectItem(43)">B 3:&nbsp;&nbsp;&nbsp;Blower Motor Controller </a></div>
+<div class="item"><a id="id44" class="item" href="../connector/90980-11667.pdf" target="PDF_Frame" onClick="selectItem(44)">B 4:&nbsp;&nbsp;&nbsp;Blower Motor Controller </a></div>
+<div class="item"><a id="id45" class="item" href="../connector/90980-11877.pdf" target="PDF_Frame" onClick="selectItem(45)">B 5:&nbsp;&nbsp;&nbsp;Body ECU No.1</a></div>
+<div class="item"><a id="id46" class="item" href="../connector/90980-11877.pdf" target="PDF_Frame" onClick="selectItem(46)">B 6:&nbsp;&nbsp;&nbsp;Body ECU No.2</a></div>
+<div class="item"><a id="id47" class="item" href="../connector/90980-11399.pdf" target="PDF_Frame" onClick="selectItem(47)">B 7:&nbsp;&nbsp;&nbsp;Buckle SW LH</a></div>
+<div class="item"><a id="id48" class="item" href="../connector/90980-11399.pdf" target="PDF_Frame" onClick="selectItem(48)">B 8:&nbsp;&nbsp;&nbsp;Buckle SW RH</a></div>
+<div class="item"><a id="id49" class="item" href="../connector/90980-11599.pdf" target="PDF_Frame" onClick="selectItem(49)">B 9:&nbsp;&nbsp;&nbsp;Buckle SW LH and Seat Belt Warning Occupant Detection Sensor</a></div>
+<div class="item"><a id="id50" class="item" href="../connector/90980-11599.pdf" target="PDF_Frame" onClick="selectItem(50)">B10:&nbsp;&nbsp;&nbsp;Buckle SW RH and Seat Belt Warning Occupant Detection Sensor</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d3');chgImg('img3');"><img id="img3" src="img/tree-p.gif" border="0"/>C</a><br/>
+<div id="d3" class="tree" style="display:none">
+<div class="item"><a id="id51" class="item" href="../connector/90980-10947.pdf" target="PDF_Frame" onClick="selectItem(51)">C 1:&nbsp;&nbsp;&nbsp;Camshaft Position Sensor</a></div>
+<div class="item"><a id="id52" class="item" href="../connector/90980-11162.pdf" target="PDF_Frame" onClick="selectItem(52)">C 2:&nbsp;&nbsp;&nbsp;Camshaft Timing Oil Control Valve</a></div>
+<div class="item"><a id="id53" class="item" href="../connector/90980-11195.pdf" target="PDF_Frame" onClick="selectItem(53)">C 3:&nbsp;&nbsp;&nbsp;Check Connector</a></div>
+<div class="item"><a id="id54" class="item" href="../connector/90980-10947.pdf" target="PDF_Frame" onClick="selectItem(54)">C 4:&nbsp;&nbsp;&nbsp;Crankshaft Position Sensor (2JZ-GE)</a></div>
+<div class="item"><a id="id55" class="item" href="../connector/90980-11162.pdf" target="PDF_Frame" onClick="selectItem(55)">C 4:&nbsp;&nbsp;&nbsp;Crankshaft Position Sensor (3UZ-FE)</a></div>
+<div class="item"><a id="id56" class="item" href="../connector/90980-11923.pdf" target="PDF_Frame" onClick="selectItem(56)">C 5:&nbsp;&nbsp;&nbsp;CD Automatic Changer</a></div>
+<div class="item"><a id="id57" class="item" href="../connector/90980-11873.pdf" target="PDF_Frame" onClick="selectItem(57)">C 6:&nbsp;&nbsp;&nbsp;Center Airbag Sensor Assembly</a></div>
+<div class="item"><a id="id58" class="item" href="../connector/90980-11872.pdf" target="PDF_Frame" onClick="selectItem(58)">C 7:&nbsp;&nbsp;&nbsp;Center Airbag Sensor Assembly</a></div>
+<div class="item"><a id="id59" class="item" href="../connector/90980-11871.pdf" target="PDF_Frame" onClick="selectItem(59)">C 8:&nbsp;&nbsp;&nbsp;Center Airbag Sensor Assembly</a></div>
+<div class="item"><a id="id60" class="item" href="../connector/90980-11606.pdf" target="PDF_Frame" onClick="selectItem(60)">C 9:&nbsp;&nbsp;&nbsp;Cigarette Lighter</a></div>
+<div class="item"><a id="id61" class="item" href="../connector/90980-10799.pdf" target="PDF_Frame" onClick="selectItem(61)">C10:&nbsp;&nbsp;&nbsp;Clock</a></div>
+<div class="item"><a id="id62" class="item" href="../connector/90980-11195.pdf" target="PDF_Frame" onClick="selectItem(62)">C11:&nbsp;&nbsp;&nbsp;Combination Meter</a></div>
+<div class="item"><a id="id63" class="item" href="../connector/90980-11194.pdf" target="PDF_Frame" onClick="selectItem(63)">C12:&nbsp;&nbsp;&nbsp;Combination Meter</a></div>
+<div class="item"><a id="id64" class="item" href="../connector/90980-11595.pdf" target="PDF_Frame" onClick="selectItem(64)">C13:&nbsp;&nbsp;&nbsp;Combination SW (Europe, G.C.C.)</a></div>
+<div class="item"><a id="id65" class="item" href="../connector/90980-11671.pdf" target="PDF_Frame" onClick="selectItem(65)">C13:&nbsp;&nbsp;&nbsp;Combination SW (Australia)</a></div>
+<div class="item"><a id="id66" class="item" href="../connector/90980-11614.pdf" target="PDF_Frame" onClick="selectItem(66)">C14:&nbsp;&nbsp;&nbsp;Combination SW</a></div>
+<div class="item"><a id="id67" class="item" href="../connector/90980-11616.pdf" target="PDF_Frame" onClick="selectItem(67)">C15:&nbsp;&nbsp;&nbsp;Combination SW</a></div>
+<div class="item"><a id="id68" class="item" href="../connector/90980-11594.pdf" target="PDF_Frame" onClick="selectItem(68)">C16:&nbsp;&nbsp;&nbsp;Combination SW</a></div>
+<div class="item"><a id="id69" class="item" href="../connector/90980-10998.pdf" target="PDF_Frame" onClick="selectItem(69)">C17:&nbsp;&nbsp;&nbsp;Cellular Phone (Hand Set)</a></div>
+<div class="item"><a id="id70" class="item" href="../connector/90980-10798.pdf" target="PDF_Frame" onClick="selectItem(70)">C18:&nbsp;&nbsp;&nbsp;Cellular Phone (Hand Set)</a></div>
+<div class="item"><a id="id71" class="item" href="../connector/90980-12109.pdf" target="PDF_Frame" onClick="selectItem(71)">C19:&nbsp;&nbsp;&nbsp;Curtain Shield Airbag Squib LH</a></div>
+<div class="item"><a id="id72" class="item" href="../connector/90980-12109.pdf" target="PDF_Frame" onClick="selectItem(72)">C20:&nbsp;&nbsp;&nbsp;Curtain Shield Airbag Squib RH</a></div>
+<div class="item"><a id="id73" class="item" href="../connector/90980-11162.pdf" target="PDF_Frame" onClick="selectItem(73)">C21:&nbsp;&nbsp;&nbsp;Camshaft Timing Oil control Valve LH</a></div>
+<div class="item"><a id="id74" class="item" href="../connector/90980-11162.pdf" target="PDF_Frame" onClick="selectItem(74)">C22:&nbsp;&nbsp;&nbsp;Camshaft Timing Oil control Valve RH</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d4');chgImg('img4');"><img id="img4" src="img/tree-p.gif" border="0"/>D</a><br/>
+<div id="d4" class="tree" style="display:none">
+<div class="item"><a id="id75" class="item" href="../connector/90980-10807.pdf" target="PDF_Frame" onClick="selectItem(75)">D 1:&nbsp;&nbsp;&nbsp;Daytime Running Light Relay</a></div>
+<div class="item"><a id="id76" class="item" href="../connector/90980-11665.pdf" target="PDF_Frame" onClick="selectItem(76)">D 2:&nbsp;&nbsp;&nbsp;DLC3</a></div>
+<div class="item"><a id="id77" class="item" href="../connector/90980-11071.pdf" target="PDF_Frame" onClick="selectItem(77)">D 3:&nbsp;&nbsp;&nbsp;Diode (Luggage Door Open Detection)</a></div>
+<div class="item"><a id="id78" class="item" href="../connector/90980-11148.pdf" target="PDF_Frame" onClick="selectItem(78)">D 4:&nbsp;&nbsp;&nbsp;Door Courtesy Light Front LH</a></div>
+<div class="item"><a id="id79" class="item" href="../connector/90980-11148.pdf" target="PDF_Frame" onClick="selectItem(79)">D 5:&nbsp;&nbsp;&nbsp;Door Courtesy Light Front RH</a></div>
+<div class="item"><a id="id80" class="item" href="../connector/90980-11148.pdf" target="PDF_Frame" onClick="selectItem(80)">D 6:&nbsp;&nbsp;&nbsp;Door Courtesy Light Rear LH</a></div>
+<div class="item"><a id="id81" class="item" href="../connector/90980-11148.pdf" target="PDF_Frame" onClick="selectItem(81)">D 7:&nbsp;&nbsp;&nbsp;Door Courtesy Light Rear RH</a></div>
+<div class="item"><a id="id82" class="item" href="../connector/90980-11156.pdf" target="PDF_Frame" onClick="selectItem(82)">D 8:&nbsp;&nbsp;&nbsp;Door Courtesy SW Front LH</a></div>
+<div class="item"><a id="id83" class="item" href="../connector/90980-11156.pdf" target="PDF_Frame" onClick="selectItem(83)">D 9:&nbsp;&nbsp;&nbsp;Door Courtesy SW Front RH</a></div>
+<div class="item"><a id="id84" class="item" href="../connector/90980-11156.pdf" target="PDF_Frame" onClick="selectItem(84)">D10:&nbsp;&nbsp;&nbsp;Door Courtesy SW Rear LH</a></div>
+<div class="item"><a id="id85" class="item" href="../connector/90980-11156.pdf" target="PDF_Frame" onClick="selectItem(85)">D11:&nbsp;&nbsp;&nbsp;Door Courtesy SW Rear RH</a></div>
+<div class="item"><a id="id86" class="item" href="../connector/90980-11013.pdf" target="PDF_Frame" onClick="selectItem(86)">D12:&nbsp;&nbsp;&nbsp;Door Lock Control SW LH</a></div>
+<div class="item"><a id="id87" class="item" href="../connector/90980-11013.pdf" target="PDF_Frame" onClick="selectItem(87)">D13:&nbsp;&nbsp;&nbsp;Door Lock Control SW RH</a></div>
+<div class="item"><a id="id88" class="item" href="../connector/90980-11150.pdf" target="PDF_Frame" onClick="selectItem(88)">D14:&nbsp;&nbsp;&nbsp;Door Lock Motor and Door Lock Detection SW Rear LH</a></div>
+<div class="item"><a id="id89" class="item" href="../connector/90980-11150.pdf" target="PDF_Frame" onClick="selectItem(89)">D15:&nbsp;&nbsp;&nbsp;Door Lock Motor and Door Lock Detection SW Rear RH</a></div>
+<div class="item"><a id="id90" class="item" href="../connector/90980-11858.pdf" target="PDF_Frame" onClick="selectItem(90)">D16:&nbsp;&nbsp;&nbsp;Door Lock Motor, Door Key Lock and Unlock SW and Door Lock Detection SW Front LH</a></div>
+<div class="item"><a id="id91" class="item" href="../connector/90980-11858.pdf" target="PDF_Frame" onClick="selectItem(91)">D17:&nbsp;&nbsp;&nbsp;Door Lock Motor, Door Key Lock and Unlock SW and Door Lock Detection SW Front RH</a></div>
+<div class="item"><a id="id92" class="item" href="../connector/90980-11595.pdf" target="PDF_Frame" onClick="selectItem(92)">D18:&nbsp;&nbsp;&nbsp;Driver Door ECU</a></div>
+<div class="item"><a id="id93" class="item" href="../connector/90980-11648.pdf" target="PDF_Frame" onClick="selectItem(93)">D19:&nbsp;&nbsp;&nbsp;Driver Door ECU</a></div>
+<div class="item"><a id="id94" class="item" href="../connector/90980-11594.pdf" target="PDF_Frame" onClick="selectItem(94)">D20:&nbsp;&nbsp;&nbsp;Driver Door ECU</a></div>
+<div class="item"><a id="id95" class="item" href="../connector/90980-11165.pdf" target="PDF_Frame" onClick="selectItem(95)">D21:&nbsp;&nbsp;&nbsp;Driving Position Memory SW</a></div>
+<div class="item"><a id="id96" class="item" href="../connector/90980-11539.pdf" target="PDF_Frame" onClick="selectItem(96)">D22:&nbsp;&nbsp;&nbsp;Door Lock Motor and SW Front LH</a></div>
+<div class="item"><a id="id97" class="item" href="../connector/90980-11539.pdf" target="PDF_Frame" onClick="selectItem(97)">D23:&nbsp;&nbsp;&nbsp;Door Lock Motor and SW Front RH</a></div>
+<div class="item"><a id="id98" class="item" href="../connector/90980-11535.pdf" target="PDF_Frame" onClick="selectItem(98)">D24:&nbsp;&nbsp;&nbsp;Door Lock Motor and SW Rear LH</a></div>
+<div class="item"><a id="id99" class="item" href="../connector/90980-11535.pdf" target="PDF_Frame" onClick="selectItem(99)">D25:&nbsp;&nbsp;&nbsp;Door Lock Motor and SW Rear RH</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d5');chgImg('img5');"><img id="img5" src="img/tree-p.gif" border="0"/>E</a><br/>
+<div id="d5" class="tree" style="display:none">
+<div class="item"><a id="id100" class="item" href="../connector/90980-11151.pdf" target="PDF_Frame" onClick="selectItem(100)">E 1:&nbsp;&nbsp;&nbsp;ECT Solenoid</a></div>
+<div class="item"><a id="id101" class="item" href="../connector/90980-11421.pdf" target="PDF_Frame" onClick="selectItem(101)">E 2:&nbsp;&nbsp;&nbsp;Engine and ECT ECU (2JZ-GE)</a></div>
+<div class="item"><a id="id102" class="item" href="../connector/90980-12144.pdf" target="PDF_Frame" onClick="selectItem(102)">E 2:&nbsp;&nbsp;&nbsp;Engine and ECT ECU (3UZ-FE)</a></div>
+<div class="item"><a id="id103" class="item" href="../connector/90980-11476.pdf" target="PDF_Frame" onClick="selectItem(103)">E 3:&nbsp;&nbsp;&nbsp;Engine and ECT ECU (2JZ-GE)</a></div>
+<div class="item"><a id="id104" class="item" href="../connector/90980-12145.pdf" target="PDF_Frame" onClick="selectItem(104)">E 3:&nbsp;&nbsp;&nbsp;Engine and ECT ECU (3UZ-FE)</a></div>
+<div class="item"><a id="id105" class="item" href="../connector/90980-11586.pdf" target="PDF_Frame" onClick="selectItem(105)">E 4:&nbsp;&nbsp;&nbsp;Engine and ECT ECU (2JZ-GE)</a></div>
+<div class="item"><a id="id106" class="item" href="../connector/90980-12143.pdf" target="PDF_Frame" onClick="selectItem(106)">E 4:&nbsp;&nbsp;&nbsp;Engine and ECT ECU (3UZ-FE)</a></div>
+<div class="item"><a id="id107" class="item" href="../connector/90980-11637.pdf" target="PDF_Frame" onClick="selectItem(107)">E 5:&nbsp;&nbsp;&nbsp;Engine and ECT ECU (2JZ-GE)</a></div>
+<div class="item"><a id="id108" class="item" href="../connector/90980-12146.pdf" target="PDF_Frame" onClick="selectItem(108)">E 5:&nbsp;&nbsp;&nbsp;Engine and ECT ECU (3UZ-FE)</a></div>
+<div class="item"><a id="id109" class="item" href="../connector/90980-11638.pdf" target="PDF_Frame" onClick="selectItem(109)">E 6:&nbsp;&nbsp;&nbsp;Engine and ECT ECU (2JZ-GE)</a></div>
+<div class="item"><a id="id110" class="item" href="../connector/90980-12142.pdf" target="PDF_Frame" onClick="selectItem(110)">E 6:&nbsp;&nbsp;&nbsp;Engine and ECT ECU (3UZ-FE)</a></div>
+<div class="item"><a id="id111" class="item" href="../connector/90980-11423.pdf" target="PDF_Frame" onClick="selectItem(111)">E 7:&nbsp;&nbsp;&nbsp;Engine and ECT ECU</a></div>
+<div class="item"><a id="id112" class="item" href="../connector/90980-11189.pdf" target="PDF_Frame" onClick="selectItem(112)">E 8:&nbsp;&nbsp;&nbsp;Engine Hood Courtesy SW</a></div>
+<div class="item"><a id="id113" class="item" href="../connector/90980-11235.pdf" target="PDF_Frame" onClick="selectItem(113)">E 9:&nbsp;&nbsp;&nbsp;Engine Oil Level Sensor</a></div>
+<div class="item"><a id="id114" class="item" href="../connector/90980-10831.pdf" target="PDF_Frame" onClick="selectItem(114)">E10:&nbsp;&nbsp;&nbsp;Exhaust Gas Sensor</a></div>
+<div class="item"><a id="id115" class="item" href="../connector/90980-11165.pdf" target="PDF_Frame" onClick="selectItem(115)">E11:&nbsp;&nbsp;&nbsp;ECT Pattern Select SW</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d6');chgImg('img6');"><img id="img6" src="img/tree-p.gif" border="0"/>F</a><br/>
+<div id="d6" class="tree" style="display:none">
+<div class="item"><a id="id116" class="item" href="../connector/90980-11096.pdf" target="PDF_Frame" onClick="selectItem(116)">F 1:&nbsp;&nbsp;&nbsp;Front Fog Light LH</a></div>
+<div class="item"><a id="id117" class="item" href="../connector/90980-11096.pdf" target="PDF_Frame" onClick="selectItem(117)">F 2:&nbsp;&nbsp;&nbsp;Front Fog Light RH</a></div>
+<div class="item"><a id="id118" class="item" href="../connector/90980-11162.pdf" target="PDF_Frame" onClick="selectItem(118)">F 3:&nbsp;&nbsp;&nbsp;Front Side Turn Signal Light LH</a></div>
+<div class="item"><a id="id119" class="item" href="../connector/90980-11162.pdf" target="PDF_Frame" onClick="selectItem(119)">F 4:&nbsp;&nbsp;&nbsp;Front Side Turn Signal Light RH</a></div>
+<div class="item"><a id="id120" class="item" href="../connector/90980-10942.pdf" target="PDF_Frame" onClick="selectItem(120)">F 5:&nbsp;&nbsp;&nbsp;Front Turn Signal and Clearance Light LH</a></div>
+<div class="item"><a id="id121" class="item" href="../connector/90980-10942.pdf" target="PDF_Frame" onClick="selectItem(121)">F 6:&nbsp;&nbsp;&nbsp;Front Turn Signal and Clearance Light RH</a></div>
+<div class="item"><a id="id122" class="item" href="../connector/90980-11599.pdf" target="PDF_Frame" onClick="selectItem(122)">F 7:&nbsp;&nbsp;&nbsp;Front Wiper Motor</a></div>
+<div class="item"><a id="id123" class="item" href="../connector/90980-10825.pdf" target="PDF_Frame" onClick="selectItem(123)">F 8:&nbsp;&nbsp;&nbsp;Fuel Lid Opener SW</a></div>
+<div class="item"><a id="id124" class="item" href="../connector/90980-10935.pdf" target="PDF_Frame" onClick="selectItem(124)">F 9:&nbsp;&nbsp;&nbsp;Front Door Speaker LH</a></div>
+<div class="item"><a id="id125" class="item" href="../connector/90980-10935.pdf" target="PDF_Frame" onClick="selectItem(125)">F10:&nbsp;&nbsp;&nbsp;Front Door Speaker RH</a></div>
+<div class="item"><a id="id126" class="item" href="../connector/90980-11594.pdf" target="PDF_Frame" onClick="selectItem(126)">F11:&nbsp;&nbsp;&nbsp;Front Passenger Door ECU</a></div>
+<div class="item"><a id="id127" class="item" href="../connector/90980-11648.pdf" target="PDF_Frame" onClick="selectItem(127)">F12:&nbsp;&nbsp;&nbsp;Front Passenger Door ECU</a></div>
+<div class="item"><a id="id128" class="item" href="../connector/90980-11595.pdf" target="PDF_Frame" onClick="selectItem(128)">F13:&nbsp;&nbsp;&nbsp;Front Passenger Door ECU</a></div>
+<div class="item"><a id="id129" class="item" href="../connector/90980-11150.pdf" target="PDF_Frame" onClick="selectItem(129)">F14:&nbsp;&nbsp;&nbsp;Fuel Lid Opener Motor</a></div>
+<div class="item"><a id="id130" class="item" href="../connector/90980-11077.pdf" target="PDF_Frame" onClick="selectItem(130)">F15:&nbsp;&nbsp;&nbsp;Fuel Pump and Sender</a></div>
+<div class="item"><a id="id131" class="item" href="../connector/90980-10862.pdf" target="PDF_Frame" onClick="selectItem(131)">F16:&nbsp;&nbsp;&nbsp;Fuel Pump Control ECU</a></div>
+<div class="item"><a id="id132" class="item" href="../connector/90980-11140.pdf" target="PDF_Frame" onClick="selectItem(132)">F17:&nbsp;&nbsp;&nbsp;Fuel Sender (Sub)</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d7');chgImg('img7');"><img id="img7" src="img/tree-p.gif" border="0"/>G</a><br/>
+<div id="d7" class="tree" style="display:none">
+<div class="item"><a id="id133" class="item" href="../connector/90980-11148.pdf" target="PDF_Frame" onClick="selectItem(133)">G 1:&nbsp;&nbsp;&nbsp;Glove Box Light</a></div>
+<div class="item"><a id="id134" class="item" href="../connector/90980-11098.pdf" target="PDF_Frame" onClick="selectItem(134)">G 2:&nbsp;&nbsp;&nbsp;Glove Box Light SW</a></div>
+<div class="item"><a id="id135" class="item" href="../connector/90980-11911.pdf" target="PDF_Frame" onClick="selectItem(135)">G 3:&nbsp;&nbsp;&nbsp;Gateway ECU</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d8');chgImg('img8');"><img id="img8" src="img/tree-p.gif" border="0"/>H</a><br/>
+<div id="d8" class="tree" style="display:none">
+<div class="item"><a id="id136" class="item" href="../connector/90980-11016.pdf" target="PDF_Frame" onClick="selectItem(136)">H 1:&nbsp;&nbsp;&nbsp;Headlight Beam Level Control Actuator LH</a></div>
+<div class="item"><a id="id137" class="item" href="../connector/90980-11016.pdf" target="PDF_Frame" onClick="selectItem(137)">H 2:&nbsp;&nbsp;&nbsp;Headlight Beam Level Control Actuator RH</a></div>
+<div class="item"><a id="id138" class="item" href="../connector/90980-10897.pdf" target="PDF_Frame" onClick="selectItem(138)">H 3:&nbsp;&nbsp;&nbsp;Headlight Beam Level Control ECU</a></div>
+<div class="item"><a id="id139" class="item" href="../connector/90980-10891.pdf" target="PDF_Frame" onClick="selectItem(139)">H 4:&nbsp;&nbsp;&nbsp;Headlight Beam Level Control ECU</a></div>
+<div class="item"><a id="id140" class="item" href="../connector/90980-11144.pdf" target="PDF_Frame" onClick="selectItem(140)">H 5:&nbsp;&nbsp;&nbsp;Headlight Beam Level Control Motor</a></div>
+<div class="item"><a id="id141" class="item" href="../connector/90980-10939.pdf" target="PDF_Frame" onClick="selectItem(141)">H 6:&nbsp;&nbsp;&nbsp;Headlight Cleaner Control Relay</a></div>
+<div class="item"><a id="id142" class="item" href="../connector/90980-11410.pdf" target="PDF_Frame" onClick="selectItem(142)">H 7:&nbsp;&nbsp;&nbsp;Headlight Cleaner Motor</a></div>
+<div class="item"><a id="id143" class="item" href="../connector/90980-11255.pdf" target="PDF_Frame" onClick="selectItem(143)">H 8:&nbsp;&nbsp;&nbsp;Headlight Control ECU LH</a></div>
+<div class="item"><a id="id144" class="item" href="../connector/90980-11255.pdf" target="PDF_Frame" onClick="selectItem(144)">H 9:&nbsp;&nbsp;&nbsp;Headlight Control ECU RH</a></div>
+<div class="item"><a id="id145" class="item" href="../connector/90980-11095.pdf" target="PDF_Frame" onClick="selectItem(145)">H10:&nbsp;&nbsp;&nbsp;Headlight LH (High)</a></div>
+<div class="item"><a id="id146" class="item" href="../connector/90980-11096.pdf" target="PDF_Frame" onClick="selectItem(146)">H11:&nbsp;&nbsp;&nbsp;Headlight LH (Low)</a></div>
+<div class="item"><a id="id147" class="item" href="../connector/90980-11095.pdf" target="PDF_Frame" onClick="selectItem(147)">H12:&nbsp;&nbsp;&nbsp;Headlight RH (High)</a></div>
+<div class="item"><a id="id148" class="item" href="../connector/90980-11096.pdf" target="PDF_Frame" onClick="selectItem(148)">H13:&nbsp;&nbsp;&nbsp;Headlight RH (Low)</a></div>
+<div class="item"><a id="id149" class="item" href="../connector/90980-11028.pdf" target="PDF_Frame" onClick="selectItem(149)">H14:&nbsp;&nbsp;&nbsp;Heated Oxygen Sensor (Bank 1 Sensor 1) (2JZ-GE)</a></div>
+<div class="item"><a id="id150" class="item" href="../connector/90980-10869.pdf" target="PDF_Frame" onClick="selectItem(150)">H14:&nbsp;&nbsp;&nbsp;Heated Oxygen Sensor (Bank 1 Sensor 1) (3UZ-FE)</a></div>
+<div class="item"><a id="id151" class="item" href="../connector/90980-11028.pdf" target="PDF_Frame" onClick="selectItem(151)">H15:&nbsp;&nbsp;&nbsp;Heated Oxygen Sensor (Bank 1 Sensor 2)</a></div>
+<div class="item"><a id="id152" class="item" href="../connector/90980-10869.pdf" target="PDF_Frame" onClick="selectItem(152)">H16:&nbsp;&nbsp;&nbsp;Heated Oxygen Sensor (Bank 2 Sensor 1)</a></div>
+<div class="item"><a id="id153" class="item" href="../connector/90980-11929.pdf" target="PDF_Frame" onClick="selectItem(153)">H17:&nbsp;&nbsp;&nbsp;Height Control Sensor (Front)</a></div>
+<div class="item"><a id="id154" class="item" href="../connector/90980-10619.pdf" target="PDF_Frame" onClick="selectItem(154)">H18:&nbsp;&nbsp;&nbsp;Horn LH</a></div>
+<div class="item"><a id="id155" class="item" href="../connector/90980-10619.pdf" target="PDF_Frame" onClick="selectItem(155)">H19:&nbsp;&nbsp;&nbsp;Horn RH</a></div>
+<div class="item"><a id="id156" class="item" href="../connector/90980-10801.pdf" target="PDF_Frame" onClick="selectItem(156)">H20:&nbsp;&nbsp;&nbsp;Hazard SW</a></div>
+<div class="item"><a id="id157" class="item" href="../connector/90980-10996.pdf" target="PDF_Frame" onClick="selectItem(157)">H21:&nbsp;&nbsp;&nbsp;Headlight Beam Level Control SW</a></div>
+<div class="item"><a id="id158" class="item" href="../connector/90980-10797.pdf" target="PDF_Frame" onClick="selectItem(158)">H22:&nbsp;&nbsp;&nbsp;Headlight Cleaner SW</a></div>
+<div class="item"><a id="id159" class="item" href="../connector/90980-10601.pdf" target="PDF_Frame" onClick="selectItem(159)">H22:&nbsp;&nbsp;&nbsp;Headlight Cleaner SW</a></div>
+<div class="item"><a id="id160" class="item" href="../connector/90980-11028.pdf" target="PDF_Frame" onClick="selectItem(160)">H23:&nbsp;&nbsp;&nbsp;Heated Oxygen Sensor (Bank 2 Sensor 2)</a></div>
+<div class="item"><a id="id161" class="item" href="../connector/90980-11298.pdf" target="PDF_Frame" onClick="selectItem(161)">H24:&nbsp;&nbsp;&nbsp;Height Control Sensor (Rear)</a></div>
+<div class="item"><a id="id162" class="item" href="../connector/90980-10908.pdf" target="PDF_Frame" onClick="selectItem(162)">H25:&nbsp;&nbsp;&nbsp;High Mounted Stop Light (Bulb Type)</a></div>
+<div class="item"><a id="id163" class="item" href="../connector/90980-11368.pdf" target="PDF_Frame" onClick="selectItem(163)">H26:&nbsp;&nbsp;&nbsp;High Mounted Stop Light (LED Type)</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d9');chgImg('img9');"><img id="img9" src="img/tree-p.gif" border="0"/>I</a><br/>
+<div id="d9" class="tree" style="display:none">
+<div class="item"><a id="id164" class="item" href="../connector/90980-11653.pdf" target="PDF_Frame" onClick="selectItem(164)">I 1:&nbsp;&nbsp;&nbsp;Igniter</a></div>
+<div class="item"><a id="id165" class="item" href="../connector/90980-11246.pdf" target="PDF_Frame" onClick="selectItem(165)">I 2:&nbsp;&nbsp;&nbsp;Ignition Coil No.1</a></div>
+<div class="item"><a id="id166" class="item" href="../connector/90980-11246.pdf" target="PDF_Frame" onClick="selectItem(166)">I 3:&nbsp;&nbsp;&nbsp;Ignition Coil No.2</a></div>
+<div class="item"><a id="id167" class="item" href="../connector/90980-11246.pdf" target="PDF_Frame" onClick="selectItem(167)">I 4:&nbsp;&nbsp;&nbsp;Ignition Coil No.3</a></div>
+<div class="item"><a id="id168" class="item" href="../connector/90980-11153.pdf" target="PDF_Frame" onClick="selectItem(168)">I 5:&nbsp;&nbsp;&nbsp;Injector No.1</a></div>
+<div class="item"><a id="id169" class="item" href="../connector/90980-11153.pdf" target="PDF_Frame" onClick="selectItem(169)">I 6:&nbsp;&nbsp;&nbsp;Injector No.2</a></div>
+<div class="item"><a id="id170" class="item" href="../connector/90980-11153.pdf" target="PDF_Frame" onClick="selectItem(170)">I 7:&nbsp;&nbsp;&nbsp;Injector No.3</a></div>
+<div class="item"><a id="id171" class="item" href="../connector/90980-11153.pdf" target="PDF_Frame" onClick="selectItem(171)">I 8:&nbsp;&nbsp;&nbsp;Injector No.4</a></div>
+<div class="item"><a id="id172" class="item" href="../connector/90980-11153.pdf" target="PDF_Frame" onClick="selectItem(172)">I 9:&nbsp;&nbsp;&nbsp;Injector No.5</a></div>
+<div class="item"><a id="id173" class="item" href="../connector/90980-11153.pdf" target="PDF_Frame" onClick="selectItem(173)">I10:&nbsp;&nbsp;&nbsp;Injector No.6</a></div>
+<div class="item"><a id="id174" class="item" href="../connector/90980-10906.pdf" target="PDF_Frame" onClick="selectItem(174)">I11:&nbsp;&nbsp;&nbsp;Ignition Key Cylinder Light</a></div>
+<div class="item"><a id="id175" class="item" href="../connector/90980-11615.pdf" target="PDF_Frame" onClick="selectItem(175)">I12:&nbsp;&nbsp;&nbsp;Ignition SW</a></div>
+<div class="item"><a id="id176" class="item" href="../connector/90980-11186.pdf" target="PDF_Frame" onClick="selectItem(176)">I13:&nbsp;&nbsp;&nbsp;Inner Mirror</a></div>
+<div class="item"><a id="id177" class="item" href="../connector/90980-11187.pdf" target="PDF_Frame" onClick="selectItem(177)">I14:&nbsp;&nbsp;&nbsp;Interior Light Rear LH</a></div>
+<div class="item"><a id="id178" class="item" href="../connector/90980-11187.pdf" target="PDF_Frame" onClick="selectItem(178)">I15:&nbsp;&nbsp;&nbsp;Interior Light Rear RH</a></div>
+<div class="item"><a id="id179" class="item" href="../connector/90980-11885.pdf" target="PDF_Frame" onClick="selectItem(179)">I16:&nbsp;&nbsp;&nbsp;Ignition Coil and Igniter No.1</a></div>
+<div class="item"><a id="id180" class="item" href="../connector/90980-11885.pdf" target="PDF_Frame" onClick="selectItem(180)">I17:&nbsp;&nbsp;&nbsp;Ignition Coil and Igniter No.2</a></div>
+<div class="item"><a id="id181" class="item" href="../connector/90980-11885.pdf" target="PDF_Frame" onClick="selectItem(181)">I18:&nbsp;&nbsp;&nbsp;Ignition Coil and Igniter No.3</a></div>
+<div class="item"><a id="id182" class="item" href="../connector/90980-11885.pdf" target="PDF_Frame" onClick="selectItem(182)">I19:&nbsp;&nbsp;&nbsp;Ignition Coil and Igniter No.4</a></div>
+<div class="item"><a id="id183" class="item" href="../connector/90980-11885.pdf" target="PDF_Frame" onClick="selectItem(183)">I20:&nbsp;&nbsp;&nbsp;Ignition Coil and Igniter No.5</a></div>
+<div class="item"><a id="id184" class="item" href="../connector/90980-11885.pdf" target="PDF_Frame" onClick="selectItem(184)">I21:&nbsp;&nbsp;&nbsp;Ignition Coil and Igniter No.6</a></div>
+<div class="item"><a id="id185" class="item" href="../connector/90980-11885.pdf" target="PDF_Frame" onClick="selectItem(185)">I22:&nbsp;&nbsp;&nbsp;Ignition Coil and Igniter No.7</a></div>
+<div class="item"><a id="id186" class="item" href="../connector/90980-11885.pdf" target="PDF_Frame" onClick="selectItem(186)">I23:&nbsp;&nbsp;&nbsp;Ignition Coil and Igniter No.8</a></div>
+<div class="item"><a id="id187" class="item" href="../connector/90980-11153.pdf" target="PDF_Frame" onClick="selectItem(187)">I24:&nbsp;&nbsp;&nbsp;Injector No.7</a></div>
+<div class="item"><a id="id188" class="item" href="../connector/90980-11153.pdf" target="PDF_Frame" onClick="selectItem(188)">I25:&nbsp;&nbsp;&nbsp;Injector No.8</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d10');chgImg('img10');"><img id="img10" src="img/tree-p.gif" border="0"/>J</a><br/>
+<div id="d10" class="tree" style="display:none">
+<div class="item"><a id="id189" class="item" href="../connector/90980-10803.pdf" target="PDF_Frame" onClick="selectItem(189)">J 1:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id190" class="item" href="../connector/90980-11542.pdf" target="PDF_Frame" onClick="selectItem(190)">J 2:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id191" class="item" href="../connector/90980-11661.pdf" target="PDF_Frame" onClick="selectItem(191)">J 3:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id192" class="item" href="../connector/90980-11661.pdf" target="PDF_Frame" onClick="selectItem(192)">J 4:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id193" class="item" href="../connector/90980-10803.pdf" target="PDF_Frame" onClick="selectItem(193)">J 5:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id194" class="item" href="../connector/90980-11398.pdf" target="PDF_Frame" onClick="selectItem(194)">J 6:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id195" class="item" href="../connector/90980-11542.pdf" target="PDF_Frame" onClick="selectItem(195)">J 7:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id196" class="item" href="../connector/90980-10976.pdf" target="PDF_Frame" onClick="selectItem(196)">J 8:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id197" class="item" href="../connector/90980-11915.pdf" target="PDF_Frame" onClick="selectItem(197)">J 9:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id198" class="item" href="../connector/90980-11542.pdf" target="PDF_Frame" onClick="selectItem(198)">J10:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id199" class="item" href="../connector/90980-11398.pdf" target="PDF_Frame" onClick="selectItem(199)">J11:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id200" class="item" href="../connector/90980-10802.pdf" target="PDF_Frame" onClick="selectItem(200)">J12:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id201" class="item" href="../connector/90980-11915.pdf" target="PDF_Frame" onClick="selectItem(201)">J13:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id202" class="item" href="../connector/90980-11542.pdf" target="PDF_Frame" onClick="selectItem(202)">J14:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id203" class="item" href="../connector/90980-11915.pdf" target="PDF_Frame" onClick="selectItem(203)">J15:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id204" class="item" href="../connector/90980-11542.pdf" target="PDF_Frame" onClick="selectItem(204)">J16:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id205" class="item" href="../connector/90980-11539.pdf" target="PDF_Frame" onClick="selectItem(205)">J17:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id206" class="item" href="../connector/90980-10803.pdf" target="PDF_Frame" onClick="selectItem(206)">J18:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id207" class="item" href="../connector/90980-11542.pdf" target="PDF_Frame" onClick="selectItem(207)">J19:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id208" class="item" href="../connector/90980-11542.pdf" target="PDF_Frame" onClick="selectItem(208)">J20:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id209" class="item" href="../connector/90980-10976.pdf" target="PDF_Frame" onClick="selectItem(209)">J21:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id210" class="item" href="../connector/90980-10976.pdf" target="PDF_Frame" onClick="selectItem(210)">J22:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id211" class="item" href="../connector/90980-10803.pdf" target="PDF_Frame" onClick="selectItem(211)">J23:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id212" class="item" href="../connector/90980-10803.pdf" target="PDF_Frame" onClick="selectItem(212)">J24:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id213" class="item" href="../connector/90980-10803.pdf" target="PDF_Frame" onClick="selectItem(213)">J25:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id214" class="item" href="../connector/90980-11542.pdf" target="PDF_Frame" onClick="selectItem(214)">J26:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id215" class="item" href="../connector/90980-11661.pdf" target="PDF_Frame" onClick="selectItem(215)">J27:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id216" class="item" href="../connector/90980-11661.pdf" target="PDF_Frame" onClick="selectItem(216)">J28:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id217" class="item" href="../connector/90980-10803.pdf" target="PDF_Frame" onClick="selectItem(217)">J29:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id218" class="item" href="../connector/90980-11396.pdf" target="PDF_Frame" onClick="selectItem(218)">J30:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id219" class="item" href="../connector/90980-11915.pdf" target="PDF_Frame" onClick="selectItem(219)">J31:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id220" class="item" href="../connector/90980-10976.pdf" target="PDF_Frame" onClick="selectItem(220)">J32:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id221" class="item" href="../connector/90980-11398.pdf" target="PDF_Frame" onClick="selectItem(221)">J33:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id222" class="item" href="../connector/90980-10803.pdf" target="PDF_Frame" onClick="selectItem(222)">J34:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id223" class="item" href="../connector/90980-11542.pdf" target="PDF_Frame" onClick="selectItem(223)">J35:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id224" class="item" href="../connector/90980-11915.pdf" target="PDF_Frame" onClick="selectItem(224)">J36:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id225" class="item" href="../connector/90980-10803.pdf" target="PDF_Frame" onClick="selectItem(225)">J37:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id226" class="item" href="../connector/90980-11915.pdf" target="PDF_Frame" onClick="selectItem(226)">J38:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id227" class="item" href="../connector/90980-11542.pdf" target="PDF_Frame" onClick="selectItem(227)">J39:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id228" class="item" href="../connector/90980-10803.pdf" target="PDF_Frame" onClick="selectItem(228)">J40:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id229" class="item" href="../connector/90980-11915.pdf" target="PDF_Frame" onClick="selectItem(229)">J41:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id230" class="item" href="../connector/90980-10976.pdf" target="PDF_Frame" onClick="selectItem(230)">J42:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id231" class="item" href="../connector/90980-11542.pdf" target="PDF_Frame" onClick="selectItem(231)">J43:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id232" class="item" href="../connector/90980-10976.pdf" target="PDF_Frame" onClick="selectItem(232)">J44:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id233" class="item" href="../connector/90980-10976.pdf" target="PDF_Frame" onClick="selectItem(233)">J45:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id234" class="item" href="../connector/90980-10803.pdf" target="PDF_Frame" onClick="selectItem(234)">J46:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id235" class="item" href="../connector/90980-10803.pdf" target="PDF_Frame" onClick="selectItem(235)">J47:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id236" class="item" href="../connector/90980-10803.pdf" target="PDF_Frame" onClick="selectItem(236)">J48:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+<div class="item"><a id="id237" class="item" href="../connector/90980-11542.pdf" target="PDF_Frame" onClick="selectItem(237)">J49:&nbsp;&nbsp;&nbsp;Junction Connector</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d11');chgImg('img11');"><img id="img11" src="img/tree-p.gif" border="0"/>K</a><br/>
+<div id="d11" class="tree" style="display:none">
+<div class="item"><a id="id238" class="item" href="../connector/90980-11166.pdf" target="PDF_Frame" onClick="selectItem(238)">K 1:&nbsp;&nbsp;&nbsp;Knock Sensor 1</a></div>
+<div class="item"><a id="id239" class="item" href="../connector/90980-11166.pdf" target="PDF_Frame" onClick="selectItem(239)">K 2:&nbsp;&nbsp;&nbsp;Knock Sensor 2</a></div>
+<div class="item"><a id="id240" class="item" href="../connector/90980-11156.pdf" target="PDF_Frame" onClick="selectItem(240)">K 3:&nbsp;&nbsp;&nbsp;Kick Down SW</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d12');chgImg('img12');"><img id="img12" src="img/tree-p.gif" border="0"/>L</a><br/>
+<div id="d12" class="tree" style="display:none">
+<div class="item"><a id="id241" class="item" href="../connector/90980-10860.pdf" target="PDF_Frame" onClick="selectItem(241)">L 1:&nbsp;&nbsp;&nbsp;Luggage Compartment Door Opener SW</a></div>
+<div class="item"><a id="id242" class="item" href="../connector/90980-11148.pdf" target="PDF_Frame" onClick="selectItem(242)">L 2:&nbsp;&nbsp;&nbsp;License Plate Light LH</a></div>
+<div class="item"><a id="id243" class="item" href="../connector/90980-11148.pdf" target="PDF_Frame" onClick="selectItem(243)">L 3:&nbsp;&nbsp;&nbsp;License Plate Light RH</a></div>
+<div class="item"><a id="id244" class="item" href="../connector/90980-10803.pdf" target="PDF_Frame" onClick="selectItem(244)">L 4:&nbsp;&nbsp;&nbsp;Light Failure Sensor</a></div>
+<div class="item"><a id="id245" class="item" href="../connector/90980-10825.pdf" target="PDF_Frame" onClick="selectItem(245)">L 5:&nbsp;&nbsp;&nbsp;Luggage Compartment Door Courtesy SW and Opener Motor</a></div>
+<div class="item"><a id="id246" class="item" href="../connector/90980-11212.pdf" target="PDF_Frame" onClick="selectItem(246)">L 6:&nbsp;&nbsp;&nbsp;Luggage Compartment Door Key Unlock SW</a></div>
+<div class="item"><a id="id247" class="item" href="../connector/90980-11148.pdf" target="PDF_Frame" onClick="selectItem(247)">L 7:&nbsp;&nbsp;&nbsp;Luggage Compartment Light</a></div>
+<div class="item"><a id="id248" class="item" href="../connector/90980-10601.pdf" target="PDF_Frame" onClick="selectItem(248)">L 8:&nbsp;&nbsp;&nbsp;Lumbar Support Control SW (Driver's Seat)</a></div>
+<div class="item"><a id="id249" class="item" href="../connector/90980-10601.pdf" target="PDF_Frame" onClick="selectItem(249)">L 9:&nbsp;&nbsp;&nbsp;Lumbar Support Control SW (Front Passenger's Seat)</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d13');chgImg('img13');"><img id="img13" src="img/tree-p.gif" border="0"/>M</a><br/>
+<div id="d13" class="tree" style="display:none">
+<div class="item"><a id="id250" class="item" href="../connector/90980-11451.pdf" target="PDF_Frame" onClick="selectItem(250)">M 1:&nbsp;&nbsp;&nbsp;Master Cylinder Pressure Sensor</a></div>
+<div class="item"><a id="id251" class="item" href="../connector/90980-10799.pdf" target="PDF_Frame" onClick="selectItem(251)">M 2:&nbsp;&nbsp;&nbsp;Multi-Display</a></div>
+<div class="item"><a id="id252" class="item" href="../connector/90980-11911.pdf" target="PDF_Frame" onClick="selectItem(252)">M 3:&nbsp;&nbsp;&nbsp;Multi-Display</a></div>
+<div class="item"><a id="id253" class="item" href="../connector/90980-10997.pdf" target="PDF_Frame" onClick="selectItem(253)">M 4:&nbsp;&nbsp;&nbsp;Moon Roof Control ECU</a></div>
+<div class="item"><a id="id254" class="item" href="../connector/90980-11488.pdf" target="PDF_Frame" onClick="selectItem(254)">M 5:&nbsp;&nbsp;&nbsp;Moon Roof Control SW</a></div>
+<div class="item"><a id="id255" class="item" href="../connector/90980-11923.pdf" target="PDF_Frame" onClick="selectItem(255)">M 6:&nbsp;&nbsp;&nbsp;Multi-Display</a></div>
+<div class="item"><a id="id256" class="item" href="../connector/90980-11090.pdf" target="PDF_Frame" onClick="selectItem(256)">M 7:&nbsp;&nbsp;&nbsp;Mirror Retractor SW</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d14');chgImg('img14');"><img id="img14" src="img/tree-p.gif" border="0"/>N</a><br/>
+<div id="d14" class="tree" style="display:none">
+<div class="item"><a id="id257" class="item" href="../connector/90980-11784.pdf" target="PDF_Frame" onClick="selectItem(257)">N 1:&nbsp;&nbsp;&nbsp;Neutral Start SW</a></div>
+<div class="item"><a id="id258" class="item" href="../connector/90980-10843.pdf" target="PDF_Frame" onClick="selectItem(258)">N 2:&nbsp;&nbsp;&nbsp;Noise Filter (Ignition)</a></div>
+<div class="item"><a id="id259" class="item" href="../connector/90980-11923.pdf" target="PDF_Frame" onClick="selectItem(259)">N 3:&nbsp;&nbsp;&nbsp;Navigation ECU</a></div>
+<div class="item"><a id="id260" class="item" href="../connector/90980-11973.pdf" target="PDF_Frame" onClick="selectItem(260)">N 4:&nbsp;&nbsp;&nbsp;Navigation ECU</a></div>
+<div class="item"><a id="id261" class="item" href="../connector/90980-11259.pdf" target="PDF_Frame" onClick="selectItem(261)">N 5:&nbsp;&nbsp;&nbsp;Noise Filter (Rear Window Defogger)</a></div>
+<div class="item"><a id="id262" class="item" href="../connector/90980-10843.pdf" target="PDF_Frame" onClick="selectItem(262)">N 6:&nbsp;&nbsp;&nbsp;Noise Filter (Ignition No.1)</a></div>
+<div class="item"><a id="id263" class="item" href="../connector/90980-10843.pdf" target="PDF_Frame" onClick="selectItem(263)">N 7:&nbsp;&nbsp;&nbsp;Noise Filter (Ignition No.2)</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d15');chgImg('img15');"><img id="img15" src="img/tree-p.gif" border="0"/>O</a><br/>
+<div id="d15" class="tree" style="display:none">
+<div class="item"><a id="id264" class="item" href="../connector/90980-11156.pdf" target="PDF_Frame" onClick="selectItem(264)">O 1:&nbsp;&nbsp;&nbsp;O/D Direct Clutch Speed Sensor</a></div>
+<div class="item"><a id="id265" class="item" href="../connector/90980-11363.pdf" target="PDF_Frame" onClick="selectItem(265)">O 2:&nbsp;&nbsp;&nbsp;Oil Pressure SW</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d16');chgImg('img16');"><img id="img16" src="img/tree-p.gif" border="0"/>P</a><br/>
+<div id="d16" class="tree" style="display:none">
+<div class="item"><a id="id266" class="item" href="../connector/90980-11003.pdf" target="PDF_Frame" onClick="selectItem(266)">P 2:&nbsp;&nbsp;&nbsp;PPS Solenoid</a></div>
+<div class="item"><a id="id267" class="item" href="../connector/90980-10871.pdf" target="PDF_Frame" onClick="selectItem(267)">P 3:&nbsp;&nbsp;&nbsp;Parking Brake SW</a></div>
+<div class="item"><a id="id268" class="item" href="../connector/90980-10760.pdf" target="PDF_Frame" onClick="selectItem(268)">P 4:&nbsp;&nbsp;&nbsp;Power Outlet</a></div>
+<div class="item"><a id="id269" class="item" href="../connector/90980-10797.pdf" target="PDF_Frame" onClick="selectItem(269)">P 5:&nbsp;&nbsp;&nbsp;PPS ECU</a></div>
+<div class="item"><a id="id270" class="item" href="../connector/90980-11187.pdf" target="PDF_Frame" onClick="selectItem(270)">P 6:&nbsp;&nbsp;&nbsp;Personal Light</a></div>
+<div class="item"><a id="id271" class="item" href="../connector/90980-10797.pdf" target="PDF_Frame" onClick="selectItem(271)">P 7:&nbsp;&nbsp;&nbsp;Power Window Control SW Front LH</a></div>
+<div class="item"><a id="id272" class="item" href="../connector/90980-10797.pdf" target="PDF_Frame" onClick="selectItem(272)">P 8:&nbsp;&nbsp;&nbsp;Power Window Control SW Front RH</a></div>
+<div class="item"><a id="id273" class="item" href="../connector/90980-10797.pdf" target="PDF_Frame" onClick="selectItem(273)">P 9:&nbsp;&nbsp;&nbsp;Power Window Control SW Rear LH</a></div>
+<div class="item"><a id="id274" class="item" href="../connector/90980-10797.pdf" target="PDF_Frame" onClick="selectItem(274)">P10:&nbsp;&nbsp;&nbsp;Power Window Control SW Rear RH</a></div>
+<div class="item"><a id="id275" class="item" href="../connector/90980-11469.pdf" target="PDF_Frame" onClick="selectItem(275)">P11:&nbsp;&nbsp;&nbsp;Power Window Master SW</a></div>
+<div class="item"><a id="id276" class="item" href="../connector/90980-11011.pdf" target="PDF_Frame" onClick="selectItem(276)">P12:&nbsp;&nbsp;&nbsp;Power Window Motor Front LH</a></div>
+<div class="item"><a id="id277" class="item" href="../connector/90980-11011.pdf" target="PDF_Frame" onClick="selectItem(277)">P13:&nbsp;&nbsp;&nbsp;Power Window Motor Front RH</a></div>
+<div class="item"><a id="id278" class="item" href="../connector/90980-11862.pdf" target="PDF_Frame" onClick="selectItem(278)">P14:&nbsp;&nbsp;&nbsp;Pretensioner LH</a></div>
+<div class="item"><a id="id279" class="item" href="../connector/90980-11862.pdf" target="PDF_Frame" onClick="selectItem(279)">P15:&nbsp;&nbsp;&nbsp;Pretensioner RH</a></div>
+<div class="item"><a id="id280" class="item" href="../connector/90980-10997.pdf" target="PDF_Frame" onClick="selectItem(280)">P16:&nbsp;&nbsp;&nbsp;Power Seat Control SW (Driver's Seat)</a></div>
+<div class="item"><a id="id281" class="item" href="../connector/90980-10997.pdf" target="PDF_Frame" onClick="selectItem(281)">P17:&nbsp;&nbsp;&nbsp;Power Seat Control SW (Front Passenger's Seat)</a></div>
+<div class="item"><a id="id282" class="item" href="../connector/90980-11527.pdf" target="PDF_Frame" onClick="selectItem(282)">P18:&nbsp;&nbsp;&nbsp;Power Seat ECU</a></div>
+<div class="item"><a id="id283" class="item" href="../connector/90980-11502.pdf" target="PDF_Frame" onClick="selectItem(283)">P19:&nbsp;&nbsp;&nbsp;Power Seat ECU</a></div>
+<div class="item"><a id="id284" class="item" href="../connector/90980-10825.pdf" target="PDF_Frame" onClick="selectItem(284)">P20:&nbsp;&nbsp;&nbsp;Power Seat Motor (Driver's Seat Front Vertical Control)</a></div>
+<div class="item"><a id="id285" class="item" href="../connector/90980-10825.pdf" target="PDF_Frame" onClick="selectItem(285)">P21:&nbsp;&nbsp;&nbsp;Power Seat Motor (Driver's Seat Lumbar Support Control)</a></div>
+<div class="item"><a id="id286" class="item" href="../connector/90980-10825.pdf" target="PDF_Frame" onClick="selectItem(286)">P22:&nbsp;&nbsp;&nbsp;Power Seat Motor (Driver's Seat Rear Vertical Control)</a></div>
+<div class="item"><a id="id287" class="item" href="../connector/90980-10825.pdf" target="PDF_Frame" onClick="selectItem(287)">P23:&nbsp;&nbsp;&nbsp;Power Seat Motor (Driver's Seat Reclining Control)</a></div>
+<div class="item"><a id="id288" class="item" href="../connector/90980-10825.pdf" target="PDF_Frame" onClick="selectItem(288)">P24:&nbsp;&nbsp;&nbsp;Power Seat Motor (Driver's Seat Slide Control)</a></div>
+<div class="item"><a id="id289" class="item" href="../connector/90980-10825.pdf" target="PDF_Frame" onClick="selectItem(289)">P25:&nbsp;&nbsp;&nbsp;Power Seat Motor (Front Passenger's Seat Front Vertical Control)</a></div>
+<div class="item"><a id="id290" class="item" href="../connector/90980-10825.pdf" target="PDF_Frame" onClick="selectItem(290)">P26:&nbsp;&nbsp;&nbsp;Power Seat Motor (Front Passenger's Seat Lumbar Support Control)</a></div>
+<div class="item"><a id="id291" class="item" href="../connector/90980-10825.pdf" target="PDF_Frame" onClick="selectItem(291)">P27:&nbsp;&nbsp;&nbsp;Power Seat Motor (Front Passenger's Seat Rear Vertical Control)</a></div>
+<div class="item"><a id="id292" class="item" href="../connector/90980-10825.pdf" target="PDF_Frame" onClick="selectItem(292)">P28:&nbsp;&nbsp;&nbsp;Power Seat Motor (Front Passenger's Seat Reclining Control)</a></div>
+<div class="item"><a id="id293" class="item" href="../connector/90980-10825.pdf" target="PDF_Frame" onClick="selectItem(293)">P29:&nbsp;&nbsp;&nbsp;Power Seat Motor (Front Passenger's Seat Slide Control)</a></div>
+<div class="item"><a id="id294" class="item" href="../connector/90980-11296.pdf" target="PDF_Frame" onClick="selectItem(294)">P30:&nbsp;&nbsp;&nbsp;Power Seat Position Sensor (Driver's Seat Front Vertical Control)</a></div>
+<div class="item"><a id="id295" class="item" href="../connector/90980-10908.pdf" target="PDF_Frame" onClick="selectItem(295)">P31:&nbsp;&nbsp;&nbsp;Power Seat Position Sensor (Driver's Seat Rear Vertical Control)</a></div>
+<div class="item"><a id="id296" class="item" href="../connector/90980-10908.pdf" target="PDF_Frame" onClick="selectItem(296)">P32:&nbsp;&nbsp;&nbsp;Power Seat Position Sensor (Driver's Seat Reclining Control)</a></div>
+<div class="item"><a id="id297" class="item" href="../connector/90980-10908.pdf" target="PDF_Frame" onClick="selectItem(297)">P33:&nbsp;&nbsp;&nbsp;Power Seat Position Sensor (Driver's Seat Slide Control)</a></div>
+<div class="item"><a id="id298" class="item" href="../connector/90980-10845.pdf" target="PDF_Frame" onClick="selectItem(298)">P34:&nbsp;&nbsp;&nbsp;Power Steering Oil Pressure Sensor</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d17');chgImg('img17');"><img id="img17" src="img/tree-p.gif" border="0"/>R</a><br/>
+<div id="d17" class="tree" style="display:none">
+<div class="item"><a id="id299" class="item" href="../connector/90980-10928.pdf" target="PDF_Frame" onClick="selectItem(299)">R 1:&nbsp;&nbsp;&nbsp;Radiator Fan Motor</a></div>
+<div class="item"><a id="id300" class="item" href="../connector/90980-12038.pdf" target="PDF_Frame" onClick="selectItem(300)">R 2:&nbsp;&nbsp;&nbsp;Radio and Player</a></div>
+<div class="item"><a id="id301" class="item" href="../connector/90980-10803.pdf" target="PDF_Frame" onClick="selectItem(301)">R 3:&nbsp;&nbsp;&nbsp;Radio and Player</a></div>
+<div class="item"><a id="id302" class="item" href="../connector/82660-20340.pdf" target="PDF_Frame" onClick="selectItem(302)">R 5:&nbsp;&nbsp;&nbsp;Rear Fog Light Relay</a></div>
+<div class="item"><a id="id303" class="item" href="../connector/90980-11090.pdf" target="PDF_Frame" onClick="selectItem(303)">R 6:&nbsp;&nbsp;&nbsp;Rear Fog Light SW</a></div>
+<div class="item"><a id="id304" class="item" href="../connector/90980-11657.pdf" target="PDF_Frame" onClick="selectItem(304)">R 7:&nbsp;&nbsp;&nbsp;Remote Control Mirror SW</a></div>
+<div class="item"><a id="id305" class="item" href="../connector/90980-11165.pdf" target="PDF_Frame" onClick="selectItem(305)">R 8:&nbsp;&nbsp;&nbsp;Rheostat</a></div>
+<div class="item"><a id="id306" class="item" href="../connector/90980-11399.pdf" target="PDF_Frame" onClick="selectItem(306)">R 9:&nbsp;&nbsp;&nbsp;Rear Combination Light LH</a></div>
+<div class="item"><a id="id307" class="item" href="../connector/90980-11587.pdf" target="PDF_Frame" onClick="selectItem(307)">R10:&nbsp;&nbsp;&nbsp;Rear Combination Light LH</a></div>
+<div class="item"><a id="id308" class="item" href="../connector/90980-11399.pdf" target="PDF_Frame" onClick="selectItem(308)">R11:&nbsp;&nbsp;&nbsp;Rear Combination Light RH</a></div>
+<div class="item"><a id="id309" class="item" href="../connector/90980-11587.pdf" target="PDF_Frame" onClick="selectItem(309)">R12:&nbsp;&nbsp;&nbsp;Rear Combination Light RH</a></div>
+<div class="item"><a id="id310" class="item" href="../connector/90980-11877.pdf" target="PDF_Frame" onClick="selectItem(310)">R13:&nbsp;&nbsp;&nbsp;Rear Door LH ECU</a></div>
+<div class="item"><a id="id311" class="item" href="../connector/90980-11877.pdf" target="PDF_Frame" onClick="selectItem(311)">R14:&nbsp;&nbsp;&nbsp;Rear Door RH ECU</a></div>
+<div class="item"><a id="id312" class="item" href="../connector/90980-10935.pdf" target="PDF_Frame" onClick="selectItem(312)">R15:&nbsp;&nbsp;&nbsp;Rear Door Speaker LH</a></div>
+<div class="item"><a id="id313" class="item" href="../connector/90980-10935.pdf" target="PDF_Frame" onClick="selectItem(313)">R16:&nbsp;&nbsp;&nbsp;Rear Door Speaker RH</a></div>
+<div class="item"><a id="id314" class="item" href="../connector/90980-11590.pdf" target="PDF_Frame" onClick="selectItem(314)">R17:&nbsp;&nbsp;&nbsp;Remote Control Mirror LH</a></div>
+<div class="item"><a id="id315" class="item" href="../connector/90980-11590.pdf" target="PDF_Frame" onClick="selectItem(315)">R18:&nbsp;&nbsp;&nbsp;Remote Control Mirror RH</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d18');chgImg('img18');"><img id="img18" src="img/tree-p.gif" border="0"/>S</a><br/>
+<div id="d18" class="tree" style="display:none">
+<div class="item"><a id="id316" class="item" href="../connector/90980-11156.pdf" target="PDF_Frame" onClick="selectItem(316)">S 1:&nbsp;&nbsp;&nbsp;Speed Sensor (ECT)</a></div>
+<div class="item"><a id="id317" class="item" href="../connector/90980-11400.pdf" target="PDF_Frame" onClick="selectItem(317)">S 2:&nbsp;&nbsp;&nbsp;Starter</a></div>
+<div class="item"><a id="id318" class="item" href="../connector/90980-10797.pdf" target="PDF_Frame" onClick="selectItem(318)">S 4:&nbsp;&nbsp;&nbsp;Seat Heater SW</a></div>
+<div class="item"><a id="id319" class="item" href="../connector/90980-11450.pdf" target="PDF_Frame" onClick="selectItem(319)">S 5:&nbsp;&nbsp;&nbsp;Shift Lock Control ECU</a></div>
+<div class="item"><a id="id320" class="item" href="../connector/90980-12110.pdf" target="PDF_Frame" onClick="selectItem(320)">S 6:&nbsp;&nbsp;&nbsp;Step Light LH</a></div>
+<div class="item"><a id="id321" class="item" href="../connector/90980-12110.pdf" target="PDF_Frame" onClick="selectItem(321)">S 7:&nbsp;&nbsp;&nbsp;Step Light RH</a></div>
+<div class="item"><a id="id322" class="item" href="../connector/90980-10803.pdf" target="PDF_Frame" onClick="selectItem(322)">S 8:&nbsp;&nbsp;&nbsp;Stereo Component Amplifier</a></div>
+<div class="item"><a id="id323" class="item" href="../connector/90980-10799.pdf" target="PDF_Frame" onClick="selectItem(323)">S 9:&nbsp;&nbsp;&nbsp;Stereo Component Amplifier</a></div>
+<div class="item"><a id="id324" class="item" href="../connector/90980-10997.pdf" target="PDF_Frame" onClick="selectItem(324)">S10:&nbsp;&nbsp;&nbsp;Stereo Component Amplifier</a></div>
+<div class="item"><a id="id325" class="item" href="../connector/90980-10998.pdf" target="PDF_Frame" onClick="selectItem(325)">S11:&nbsp;&nbsp;&nbsp;Stereo Component Amplifier</a></div>
+<div class="item"><a id="id326" class="item" href="../connector/90980-11118.pdf" target="PDF_Frame" onClick="selectItem(326)">S12:&nbsp;&nbsp;&nbsp;Stop Light SW</a></div>
+<div class="item"><a id="id327" class="item" href="../connector/90980-11857.pdf" target="PDF_Frame" onClick="selectItem(327)">S13:&nbsp;&nbsp;&nbsp;Side Airbag Sensor LH</a></div>
+<div class="item"><a id="id328" class="item" href="../connector/90980-11857.pdf" target="PDF_Frame" onClick="selectItem(328)">S14:&nbsp;&nbsp;&nbsp;Side Airbag Sensor RH</a></div>
+<div class="item"><a id="id329" class="item" href="../connector/90980-10825.pdf" target="PDF_Frame" onClick="selectItem(329)">S16:&nbsp;&nbsp;&nbsp;Seat Heater (Driver's Seat Back)</a></div>
+<div class="item"><a id="id330" class="item" href="../connector/90980-10825.pdf" target="PDF_Frame" onClick="selectItem(330)">S17:&nbsp;&nbsp;&nbsp;Seat Heater (Driver's Seat Cushion)</a></div>
+<div class="item"><a id="id331" class="item" href="../connector/90980-10825.pdf" target="PDF_Frame" onClick="selectItem(331)">S18:&nbsp;&nbsp;&nbsp;Seat Heater (Front Passenger's Seat Back)</a></div>
+<div class="item"><a id="id332" class="item" href="../connector/90980-10825.pdf" target="PDF_Frame" onClick="selectItem(332)">S19:&nbsp;&nbsp;&nbsp;Seat Heater (Front Passenger's Seat Cushion)</a></div>
+<div class="item"><a id="id333" class="item" href="../connector/90980-11864.pdf" target="PDF_Frame" onClick="selectItem(333)">S20:&nbsp;&nbsp;&nbsp;Side Airbag Squib LH</a></div>
+<div class="item"><a id="id334" class="item" href="../connector/90980-11864.pdf" target="PDF_Frame" onClick="selectItem(334)">S21:&nbsp;&nbsp;&nbsp;Side Airbag Squib RH</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d19');chgImg('img19');"><img id="img19" src="img/tree-p.gif" border="0"/>T</a><br/>
+<div id="d19" class="tree" style="display:none">
+<div class="item"><a id="id335" class="item" href="../connector/90980-10619.pdf" target="PDF_Frame" onClick="selectItem(335)">T 1:&nbsp;&nbsp;&nbsp;Theft Deterrent Horn</a></div>
+<div class="item"><a id="id336" class="item" href="../connector/90980-11156.pdf" target="PDF_Frame" onClick="selectItem(336)">T 2:&nbsp;&nbsp;&nbsp;Throttle Control Motor (3UZ-FE)</a></div>
+<div class="item"><a id="id337" class="item" href="../connector/90980-10942.pdf" target="PDF_Frame" onClick="selectItem(337)">T 2:&nbsp;&nbsp;&nbsp;Throttle Control Motor (2JZ-GE)</a></div>
+<div class="item"><a id="id338" class="item" href="../connector/90980-10711.pdf" target="PDF_Frame" onClick="selectItem(338)">T 3:&nbsp;&nbsp;&nbsp;Throttle Position Sensor</a></div>
+<div class="item"><a id="id339" class="item" href="../connector/90980-11369.pdf" target="PDF_Frame" onClick="selectItem(339)">T 4:&nbsp;&nbsp;&nbsp;Telephone Microphone</a></div>
+<div class="item"><a id="id340" class="item" href="../connector/90980-10801.pdf" target="PDF_Frame" onClick="selectItem(340)">T 5:&nbsp;&nbsp;&nbsp;Tilt and Telescopic ECU</a></div>
+<div class="item"><a id="id341" class="item" href="../connector/90980-10789.pdf" target="PDF_Frame" onClick="selectItem(341)">T 6:&nbsp;&nbsp;&nbsp;Transponder Key Amplifier</a></div>
+<div class="item"><a id="id342" class="item" href="../connector/90980-10799.pdf" target="PDF_Frame" onClick="selectItem(342)">T 7:&nbsp;&nbsp;&nbsp;Turn Signal Flasher</a></div>
+<div class="item"><a id="id343" class="item" href="../connector/90980-10802.pdf" target="PDF_Frame" onClick="selectItem(343)">T 8:&nbsp;&nbsp;&nbsp;Telephone Transceiver and Speaker Relay</a></div>
+<div class="item"><a id="id344" class="item" href="../connector/90980-10803.pdf" target="PDF_Frame" onClick="selectItem(344)">T 9:&nbsp;&nbsp;&nbsp;Telephone Transceiver and Speaker Relay</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d20');chgImg('img20');"><img id="img20" src="img/tree-p.gif" border="0"/>U</a><br/>
+<div id="d20" class="tree" style="display:none">
+<div class="item"><a id="id345" class="item" href="../connector/90980-10795.pdf" target="PDF_Frame" onClick="selectItem(345)">U 1:&nbsp;&nbsp;&nbsp;Unlock Warning SW and Key Interlock Solenoid</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d21');chgImg('img21');"><img id="img21" src="img/tree-p.gif" border="0"/>V</a><br/>
+<div id="d21" class="tree" style="display:none">
+<div class="item"><a id="id346" class="item" href="../connector/90980-10902.pdf" target="PDF_Frame" onClick="selectItem(346)">V 1:&nbsp;&nbsp;&nbsp;Variable Resistor</a></div>
+<div class="item"><a id="id347" class="item" href="../connector/90980-11149.pdf" target="PDF_Frame" onClick="selectItem(347)">V 2:&nbsp;&nbsp;&nbsp;VSV (ACIS) (2JZ-GE)</a></div>
+<div class="item"><a id="id348" class="item" href="../connector/90980-11156.pdf" target="PDF_Frame" onClick="selectItem(348)">V 2:&nbsp;&nbsp;&nbsp;VSV (ACIS) (3UZ-FE)</a></div>
+<div class="item"><a id="id349" class="item" href="../connector/90980-11156.pdf" target="PDF_Frame" onClick="selectItem(349)">V 3:&nbsp;&nbsp;&nbsp;VSV (EVAP)</a></div>
+<div class="item"><a id="id350" class="item" href="../connector/90980-11494.pdf" target="PDF_Frame" onClick="selectItem(350)">V 4:&nbsp;&nbsp;&nbsp;VSC Off SW</a></div>
+<div class="item"><a id="id351" class="item" href="../connector/90980-10906.pdf" target="PDF_Frame" onClick="selectItem(351)">V 5:&nbsp;&nbsp;&nbsp;VSC Warning Buzzer</a></div>
+<div class="item"><a id="id352" class="item" href="../connector/90980-11369.pdf" target="PDF_Frame" onClick="selectItem(352)">V 6:&nbsp;&nbsp;&nbsp;Vanity Light LH</a></div>
+<div class="item"><a id="id353" class="item" href="../connector/90980-11369.pdf" target="PDF_Frame" onClick="selectItem(353)">V 7:&nbsp;&nbsp;&nbsp;Vanity Light RH</a></div>
+<div class="item"><a id="id354" class="item" href="../connector/90980-10947.pdf" target="PDF_Frame" onClick="selectItem(354)">V 8:&nbsp;&nbsp;&nbsp;VVT Sensor LH</a></div>
+<div class="item"><a id="id355" class="item" href="../connector/90980-10947.pdf" target="PDF_Frame" onClick="selectItem(355)">V 9:&nbsp;&nbsp;&nbsp;VVT Sensor RH</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d22');chgImg('img22');"><img id="img22" src="img/tree-p.gif" border="0"/>W</a><br/>
+<div id="d22" class="tree" style="display:none">
+<div class="item"><a id="id356" class="item" href="../connector/90980-11068.pdf" target="PDF_Frame" onClick="selectItem(356)">W 1:&nbsp;&nbsp;&nbsp;Washer Level Warning SW</a></div>
+<div class="item"><a id="id357" class="item" href="../connector/90980-10981.pdf" target="PDF_Frame" onClick="selectItem(357)">W 2:&nbsp;&nbsp;&nbsp;Washer Motor</a></div>
+<div class="item"><a id="id358" class="item" href="../connector/90980-10736.pdf" target="PDF_Frame" onClick="selectItem(358)">W 3:&nbsp;&nbsp;&nbsp;Water Temp. Sensor</a></div>
+<div class="item"><a id="id359" class="item" href="../connector/90980-11235.pdf" target="PDF_Frame" onClick="selectItem(359)">W 4:&nbsp;&nbsp;&nbsp;Water Temp. SW</a></div>
+<div class="item"><a id="id360" class="item" href="../connector/90980-11156.pdf" target="PDF_Frame" onClick="selectItem(360)">W 5:&nbsp;&nbsp;&nbsp;Wireless Door Lock Buzzer</a></div>
+<div class="item"><a id="id361" class="item" href="../connector/90980-11165.pdf" target="PDF_Frame" onClick="selectItem(361)">W 6:&nbsp;&nbsp;&nbsp;Wireless Door Lock Control ECU</a></div>
+<div class="item"><a id="id362" class="item" href="../connector/90980-10825.pdf" target="PDF_Frame" onClick="selectItem(362)">W 7:&nbsp;&nbsp;&nbsp;Woofer (Speaker)</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d23');chgImg('img23');"><img id="img23" src="img/tree-p.gif" border="0"/>Y</a><br/>
+<div id="d23" class="tree" style="display:none">
+<div class="item"><a id="id363" class="item" href="../connector/90980-10904.pdf" target="PDF_Frame" onClick="selectItem(363)">Y 1:&nbsp;&nbsp;&nbsp;Yaw Rate Sensor</a></div>
+</div>
+</body>
+</html>

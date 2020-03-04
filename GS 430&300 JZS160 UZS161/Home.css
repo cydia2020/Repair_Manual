@@ -1,0 +1,95 @@
+body {
+	font-family: verdana, arial, sans-serif;
+}
+
+.Content
+{
+	width:100%;
+	height:100%;	
+}
+            
+.Left
+{
+	width:80%;
+	padding-top:3px;
+	padding-bottom:3px;
+	text-align:right;
+}
+            
+.Right
+{
+	width:20%;
+}
+            
+.Navigator
+{
+	vertical-align:middle;	
+	width:100%;
+}
+
+.NavigationItem
+{
+	border:solid 1px black;
+	height:40px;
+	width:100%;
+	background-color:#c0c0c0;
+	font-weight:bold;
+	font-size:0.8em;
+	vertical-align:top;
+}
+
+.NavigationItemHover
+{
+	border:solid 1px black;
+	height:40px;
+	width:100%;
+	background-color:#808080;
+	font-weight:bold;
+	vertical-align:top;
+	font-size:0.8em;
+}
+
+
+.Page
+{
+	text-align:center;
+	border:solid 1px black;
+	width:577px;
+}
+
+.Page table
+{
+	width:477px;
+}
+
+.Vehicle
+{
+	color:black;
+	font-weight:bold;
+	font-size:3em;
+	text-align:left;
+	vertical-align:middle;
+}
+
+.Logo
+{
+	text-align:right;
+	vertical-align:middle;
+	width:134px;
+}
+
+.ManualType
+{
+	font-weight:bolder;
+	text-align:left;
+	font-size:1.6em;
+	vertical-align:top;
+}
+
+.PartNumber, .Series
+{
+	font-weight:bolder;
+	text-align:left;
+	font-size:1.2em;
+	vertical-align:top;
+}

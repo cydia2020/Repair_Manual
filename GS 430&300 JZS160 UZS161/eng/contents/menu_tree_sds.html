@@ -1,0 +1,230 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html" charset="iso-8859-1">
+<link rel="stylesheet" href="./tree.css" type="text/css">
+<SCRIPT language="JavaScript" src="sub.js"></SCRIPT>
+<script type="text/javascript">
+<!--
+function init(){
+  id=0;
+  linkid=0;
+  openFlag=new Array;
+  ColorFlag=new Array;
+  gNoArray=new Array;
+  pImg=new Array("./images/plas1.gif","./images/plas2.gif");
+  mImg=new Array("./images/minas1.gif","./images/minas2.gif");
+
+  fImg=new Array("./images/close_g.gif","./images/open_g.gif",
+                 "./images/close_y.gif","./images/open_y.gif",
+                 "./images/close_r.gif","./images/open_r.gif",
+                 "./images/close_p.gif","./images/open_p.gif",
+                 "./images/close_b.gif","./images/open_b.gif",
+                 "./images/close_lb.gif","./images/open_lb.gif");
+
+  dImg=new Array("./images/tg3.gif","./images/tg4.gif");
+  rImg=new Array("./images/tg1.gif","./images/tg2.gif");
+
+  //DOMƒIƒuƒWƒFƒNƒg‚Ìì¬
+  var xmldoc = new ActiveXObject("Microsoft.XMLDOM");
+  xmldoc.async=false;
+
+  var XmlFile="sdspdf.xml";
+  //ƒz[ƒ€ƒfƒBƒŒƒNƒgƒŠ‚Ö‚Ì‘Š‘ÎƒpƒX
+  HomePath="./"
+
+  //XML•¶‘‚Ì“Ç‚Ýž‚Ý
+  xmldoc.load(HomePath + XmlFile);
+
+  //ƒ‹[ƒgƒm[ƒh‚ÌŽæ“¾
+  var Root=xmldoc.documentElement;
+//  document.write("<xmp>")
+
+  document.write("<span class='TopItem' onclick='AllClose()'><font style='font-size:11pt;'>"); // \n
+  GetModelName();
+  document.write("</font></span><br>"); // \n
+
+  //DOMƒcƒŠ[‚ðƒ‹[ƒg‚©‚ç‘–¸‚·‚é
+  document.write(ParseTree(Root,""));
+  
+//  document.write("</xmp>")
+}
+
+function ParseTree(poNode, PsTree)
+{
+  var gNo;
+  var ItemCnt = 0;
+  var Len=poNode.childNodes.length; // Žqƒm[ƒh”‚ÌŽæ“¾
+  var Buf="";
+  var CenterBuf = "";
+  var BeforeBuf="<div id="+ id;
+  if(id>0) BeforeBuf+=" style=display:none"; // Å‰‚Ìƒm[ƒhˆÈŠO‚Í‘S‚Ä•Â‚¶‚½ó‘Ô‚É‚·‚é
+  BeforeBuf+=">"; // \n
+  
+  for(var i=0;i < Len;i++) {
+    if(poNode.childNodes(i).nodeName!="title" && poNode.childNodes(i).nodeName!="color"){
+      // —v‘f–¼‚ª"title" or "color" ˆÈŠO‚Ìê‡‚Ìˆ—(menu‚ÌŽž)
+      id++;
+      if(i==Len-1) gNo=0; else gNo=1; // ÅŒã‚Ìƒm[ƒh‚Ìê‡ gNo=0 ‚»‚êˆÈŠO gNo=1
+      gNoArray[id] = gNo;
+      
+      var sTree = PsTree + "<img src='"+dImg[gNo]+"' class='treeimg' align='top'>"; // \n ÅŒã‚Ìƒm[ƒh‚ÌŽž‚Í' ' ÅŒã‚Å‚Í–³‚¢Žž‚Í'b'
+
+      var child = poNode.childNodes.item(i); //Žqƒm[ƒh‚ÉƒJƒŒƒ“ƒg‚ðˆÚ“®(menu)
+      var title = child.childNodes(0).text; //ƒeƒLƒXƒgƒm[ƒh"ƒ^ƒCƒgƒ‹"‚ÌŽæ“¾
+
+      if(child.childNodes.length > 1){
+        if(child.childNodes(1).nodeName == "color"){
+          ColorFlag[id]=child.childNodes(1).text;
+        }else{
+          ColorFlag[id]=-1;
+        }
+      }else{
+          ColorFlag[id]=-1;
+      }
+      
+      if(child.nodeName=="menu"){
+        // —v‘f–¼‚ª"menu"‚Ìê‡‚Ìˆ—
+        openFlag[id]=false;
+          if (ColorFlag[id]==-1) {
+            Buf= PsTree + "<span class='fd' onclick='ViewTree("+id+","+gNo+")' title='" + title + "'><font class='treedata'><img id='Node"+id+"' src='"+pImg[gNo]+"' class='treeimg' align='top'>" + title + "</font></span><br>"; // \n
+          } else {
+            Buf= PsTree + "<span class='fd' onclick='ViewTree("+id+","+gNo+")' title='" + title + "'><font class='treedata'><img id='Node"+id+"' src='"+pImg[gNo]+"' class='treeimg' align='top'><img id='FD"+id+"' src='"+fImg[ColorFlag[id] * 2]+"' class='treeimg'  align='top'>" + title + "</font></span><br>"; // \n
+          }
+        if(child.hasChildNodes) {
+		  var ChildBuf = ParseTree(child, sTree); //Žqƒm[ƒh‚ª‚ ‚éê‡AÄ‹Aˆ—
+		  if (ChildBuf!=""){
+		    // Žqƒm[ƒh‚É•\Ž¦‘ÎÛƒf[ƒ^‚ª‚ ‚Á‚½ê‡
+		    CenterBuf+=Buf + ChildBuf;
+		  }
+        }else{
+		  CenterBuf=Buf;
+        }
+      }else if(child.nodeName=="item"){
+        // —v‘f–¼‚ª"item"‚Ìê‡‚Ìˆ—
+        //ƒeƒLƒXƒgƒm[ƒh"URL"‚ÌŽæ“¾
+        linkid++;
+        var iNodeCnt = child.childNodes.length; // Žqƒm[ƒh”‚ÌŽæ“¾
+        var sNodeName="";
+        var sNodeValue="";
+        var sDatatype="";
+        var sStDate="";
+        var sEdDate="";
+        for(var j=1;j < iNodeCnt;j++) {
+          sNodeName = child.childNodes(j).nodeName; // ƒm[ƒh—v‘f–¼‚ÌŽæ“¾
+          sNodeValue = child.childNodes(j).text; // ƒm[ƒh‚Ì’lŽæ“¾
+
+          if(sNodeName=="url"){
+             var url = HomePath + sNodeValue; // URL‚ÌŽæ“¾
+          }else if(sNodeName=="datatype"){
+            sDatatype = sNodeValue;      // ƒf[ƒ^ƒ^ƒCƒv‚ÌŽæ“¾
+          }else if(sNodeName=="stdate"){
+            sStDate = sNodeValue;          // “K‰žŠJŽn”NŒŽ‚ÌŽæ“¾
+          }else if(sNodeName=="eddate"){
+            sEdDate = sNodeValue;          // “K‰žI—¹”NŒŽ‚ÌŽæ“¾
+          }
+        }
+        if(sDatatype=="sb"){
+          CenterBuf+= PsTree + "<font class='treedata'><img src='" + rImg[gNo] + "' class='treeimg' align='top'><a id='link" + linkid + "' onclick=\"linkclick('link" + linkid + "')\" title='" + title + "' class='" + sDatatype + "' href='"+url+"' target='pdf' class='pdf'>" + title + "</a></font><br>"; // \n
+        }else if(sDatatype=="sup"){
+          CenterBuf+= PsTree + "<font class='treedata'><img src='" + rImg[gNo] + "' class='treeimg' align='top'><a id='link" + linkid + "' onclick=\"linkclick('link" + linkid + "')\" title='" + title + "' class='" + sDatatype + "' href='"+url+"' target='pdf' class='pdf'>" + title + "</a></font><br>"; // \n
+        }else{
+          CenterBuf+= PsTree + "<font class='treedata'><img src='" + rImg[gNo] + "' class='treeimg' align='top'><a id='link" + linkid + "' onclick=\"linkclick('link" + linkid + "')\" title='" + title + "' href='" + url + "'  target='pdf' class='pdf'>" + title + "</a></font><br>"; // \n
+        }
+      }
+    } else {
+      // —v‘f–¼‚ª"title" or "color" ‚Ìê‡‚Í‰½‚àˆ—‚µ‚È‚¢
+    }
+  }
+  if (CenterBuf!=""){
+    return(BeforeBuf + CenterBuf + "</div>"); // \n
+  }else{
+    return(""); // \n
+  }
+}
+
+var sBefore = "";
+
+function linkclick(psObj) {
+  if (sBefore != psObj && sBefore != "") document.all(sBefore).style.fontWeight = "normal";
+  document.all(psObj).style.fontWeight = "bold";
+  sBefore = psObj;
+}
+
+function ViewTree(id,n)
+{
+  if(document.getElementById(id)){
+    if(openFlag[id]){
+      document.getElementById("Node"+id).src=pImg[n];
+      if (ColorFlag[id]!=-1) {
+        document.getElementById("FD"+id).src=fImg[ColorFlag[id] * 2];
+      }
+      document.getElementById(id).style.display="none";
+      openFlag[id]=false;
+    }else{
+      document.getElementById("Node"+id).src=mImg[n];
+      if (ColorFlag[id]!=-1) {
+        document.getElementById("FD"+id).src=fImg[ColorFlag[id] * 2 + 1];
+      }
+      document.getElementById(id).style.display="block";
+      openFlag[id]=true;
+    }
+  }
+}
+function AllClose(){
+  var i = 0;
+
+  for (i = 0; i < openFlag.length; i++) {
+    if (openFlag[i] == true) {
+      document.getElementById("Node"+i).src=pImg[gNoArray[i]];
+      if (ColorFlag[i]!=-1) {
+        document.getElementById("FD"+i).src=fImg[ColorFlag[i] * 2];
+      }
+      document.getElementById(i).style.display="none";
+      openFlag[i]=false;
+    }
+  }
+}
+
+function finddisp()
+{
+  parent.location.href = "./menu2.html"
+}
+
+function getParamValue(sGetString, sParamName) {
+  var sValue = "";
+  
+  if (sGetString.indexOf(sParamName) >= 0) {
+    sValue = sGetString.substring(sGetString.indexOf(sParamName) + sParamName.length);
+    if (sValue.indexOf("&") > 0) {
+      sValue = sValue.substring(0, sValue.indexOf("&"));
+    }
+  }
+  return unescape(sValue);
+}
+
+//-->
+</script>
+<script type="text/javascript">
+<!--
+GetTitleName();
+//-->
+</script>
+</head>
+<body class="tree">
+<div class="MenuArea">
+<FONT face="Arial">
+
+<TABLE>
+<TR><TD nowrap>
+<script type="text/javascript">
+<!--
+    init();
+//-->
+</script>
+</TD></TR>
+</TABLE>
+</FONT>
+</div>
+</body>
+</html>

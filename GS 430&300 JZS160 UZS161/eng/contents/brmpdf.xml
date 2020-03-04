@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pdf>
+  <menu>
+    <title>Body Repair Manual for Collision Damage</title>
+    <color>3</color>
+    <menu>
+      <title>INTRODUCTION</title>
+      <color>-1</color>
+      <item>
+        <title>HOW TO USE THIS MANUAL</title>
+        <url>../brm/brm074e/m_in_0002.pdf</url>
+      </item>
+      <item>
+        <title>SYMBOLS</title>
+        <url>../brm/brm074e/m_in_0004.pdf</url>
+      </item>
+      <item>
+        <title>HANDLING PRECAUTIONS ON RELATED COMPONENTS</title>
+        <url>../brm/brm074e/m_in_0006.pdf</url>
+      </item>
+      <item>
+        <title>GENERAL REPAIR INSTRUCTIONS</title>
+        <url>../brm/brm074e/m_in_0010.pdf</url>
+      </item>
+      <item>
+        <title>VEHICLE LIFT AND SUPPORT LOCATIONS</title>
+        <url>../brm/brm074e/m_in_0015.pdf</url>
+      </item>
+      <item>
+        <title>RIVET REMOVAL AND INSTALLATION</title>
+        <url>../brm/brm074e/m_in_0017.pdf</url>
+      </item>
+      <item>
+        <title>ABBREVIATIONS USED IN THIS MANUAL</title>
+        <url>../brm/brm074e/m_in_0021.pdf</url>
+      </item>
+    </menu>
+    <menu>
+      <title>BODY PANEL REPLACEMENT</title>
+      <color>-1</color>
+      <item>
+        <title>RADIATOR UPPER SUPPORT (ASSY)</title>
+        <url>../brm/brm074e/m_re_0002.pdf</url>
+      </item>
+      <item>
+        <title>RADIATOR SIDE SUPPORT (ASSY)</title>
+        <url>../brm/brm074e/m_re_0004.pdf</url>
+      </item>
+      <item>
+        <title>FRONT CROSSMEMBER (ASSY)</title>
+        <url>../brm/brm074e/m_re_0006.pdf</url>
+      </item>
+      <item>
+        <title>RADIATOR SUPPORT (ASSY)</title>
+        <url>../brm/brm074e/m_re_0008.pdf</url>
+      </item>
+      <item>
+        <title>FRONT FENDER FRONT APRON (ASSY)</title>
+        <url>../brm/brm074e/m_re_0010.pdf</url>
+      </item>
+      <item>
+        <title>FRONT APRON TO COWL SIDE MEMBER (ASSY)</title>
+        <url>../brm/brm074e/m_re_0012.pdf</url>
+      </item>
+      <item>
+        <title>FRONT FENDER APRON (ASSY)</title>
+        <url>../brm/brm074e/m_re_0014.pdf</url>
+      </item>
+      <item>
+        <title>FRONT SIDE MEMBER (CUT-P)</title>
+        <url>../brm/brm074e/m_re_0016.pdf</url>
+      </item>
+      <item>
+        <title>FRONT SIDE MEMBER (ASSY)</title>
+        <url>../brm/brm074e/m_re_0018.pdf</url>
+      </item>
+      <item>
+        <title>COWL TOP TO APRON BRACE (ASSY)</title>
+        <url>../brm/brm074e/m_re_0020.pdf</url>
+      </item>
+      <item>
+        <title>COWL TOP SIDE PANEL (ASSY)</title>
+        <url>../brm/brm074e/m_re_0022.pdf</url>
+      </item>
+      <item>
+        <title>FRONT BODY PILLAR (CUT)</title>
+        <url>../brm/brm074e/m_re_0024.pdf</url>
+      </item>
+      <item>
+        <title>CENTER BODY PILLAR (CUT)</title>
+        <url>../brm/brm074e/m_re_0029.pdf</url>
+      </item>
+      <item>
+        <title>FRONT DOOR OUTER PANEL (ASSY)</title>
+        <url>../brm/brm074e/m_re_0032.pdf</url>
+      </item>
+      <item>
+        <title>REAR DOOR OUTER PANEL (ASSY)</title>
+        <url>../brm/brm074e/m_re_0034.pdf</url>
+      </item>
+      <item>
+        <title>ROCKER OUTER PANEL (CUT)</title>
+        <url>../brm/brm074e/m_re_0036.pdf</url>
+      </item>
+      <item>
+        <title>QUARTER PANEL (CUT)</title>
+        <url>../brm/brm074e/m_re_0038.pdf</url>
+      </item>
+      <item>
+        <title>QUARTER PANEL (CUT-P)</title>
+        <url>../brm/brm074e/m_re_0040.pdf</url>
+      </item>
+      <item>
+        <title>QUARTER WHEEL HOUSING OUTER PANEL (ASSY): Right Side</title>
+        <url>../brm/brm074e/m_re_0042.pdf</url>
+      </item>
+      <item>
+        <title>QUARTER WHEEL HOUSING OUTER PANEL (ASSY): Left Side</title>
+        <url>../brm/brm074e/m_re_0044.pdf</url>
+      </item>
+      <item>
+        <title>BODY LOWER BACK PANEL (ASSY)</title>
+        <url>../brm/brm074e/m_re_0046.pdf</url>
+      </item>
+      <item>
+        <title>QUARTER PANEL OUTER EXTENSION (ASSY)</title>
+        <url>../brm/brm074e/m_re_0048.pdf</url>
+      </item>
+      <item>
+        <title>REAR FLOOR PAN (ASSY)</title>
+        <url>../brm/brm074e/m_re_0050.pdf</url>
+      </item>
+      <item>
+        <title>REAR FLOOR SIDE REAR MEMBER (ASSY)</title>
+        <url>../brm/brm074e/m_re_0052.pdf</url>
+      </item>
+      <item>
+        <title>REAR FLOOR NO.1 CROSSMEMBER, REAR FLOOR NO.2 CROSSMEMBER (ASSY)</title>
+        <url>../brm/brm074e/m_re_0054.pdf</url>
+      </item>
+      <item>
+        <title>ROOF PANEL (ASSY): w/o Moon Roof</title>
+        <url>../brm/brm074e/m_re_0056.pdf</url>
+      </item>
+      <item>
+        <title>ROOF PANEL (ASSY): w/ Moon Roof</title>
+        <url>../brm/brm074e/m_re_0058.pdf</url>
+      </item>
+    </menu>
+    <menu>
+      <title>BODY PANEL CONSTRUCTION</title>
+      <color>-1</color>
+      <item>
+        <title>HIGH-STRENGTH STEEL (HSS) PARTS</title>
+        <url>../brm/brm074e/m_cn_0002.pdf</url>
+      </item>
+      <item>
+        <title>RUST-RESISTANT SHEET STEEL PARTS</title>
+        <url>../brm/brm074e/m_cn_0003.pdf</url>
+      </item>
+    </menu>
+    <menu>
+      <title>PLASTIC BODY PARTS</title>
+      <color>-1</color>
+      <item>
+        <title>HANDLING PRECAUTIONS</title>
+        <url>../brm/brm074e/m_pp_0002.pdf</url>
+      </item>
+      <item>
+        <title>LOCATION OF PLASTIC BODY PARTS</title>
+        <url>../brm/brm074e/m_pp_0004.pdf</url>
+      </item>
+    </menu>
+    <menu>
+      <title>ANTI-RUST TREATMENT</title>
+      <color>-1</color>
+      <item>
+        <title>GENERAL INFORMATION</title>
+        <url>../brm/brm074e/m_ar_0002.pdf</url>
+      </item>
+      <item>
+        <title>BODY PANEL SEALING AREAS</title>
+        <url>../brm/brm074e/m_ar_0004.pdf</url>
+      </item>
+      <item>
+        <title>BODY PANEL UNDERCOATING AREAS</title>
+        <url>../brm/brm074e/m_ar_0010.pdf</url>
+      </item>
+      <item>
+        <title>BODY PANEL ANTI-RUST AGENT (WAX) APPLICATION AREAS</title>
+        <url>../brm/brm074e/m_ar_0011.pdf</url>
+      </item>
+      <item>
+        <title>BODY PANEL ANTI-CHIPPING PAINT APPLICATION AREAS</title>
+        <url>../brm/brm074e/m_ar_0012.pdf</url>
+      </item>
+    </menu>
+    <menu>
+      <title>BODY DIMENSIONS</title>
+      <color>-1</color>
+      <item>
+        <title>BODY DIMENSIONS</title>
+        <url>../brm/brm074e/m_di_0002.pdf</url>
+      </item>
+      <item>
+        <title>BODY DIMENSION DRAWINGS</title>
+        <url>../brm/brm074e/m_di_0003.pdf</url>
+      </item>
+    </menu>
+    <menu>
+      <title>APPENDIX</title>
+      <color>-1</color>
+      <item>
+        <title>FIT STANDARDS</title>
+        <url>../brm/brm074e/m_ap_0002.pdf</url>
+      </item>
+      <item>
+        <title>SILENCER SHEET INSTALLATION AREAS</title>
+        <url>../brm/brm074e/m_ap_0003.pdf</url>
+      </item>
+    </menu>
+  </menu>
+</pdf>

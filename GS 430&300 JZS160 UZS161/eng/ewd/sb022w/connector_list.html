@@ -1,0 +1,151 @@
+<html>
+<head>
+<link REL="STYLESHEET" type="text/css" href="menu.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Connector List</title>
+<script language="javaScript">
+<!--
+	var imgFile = new Array("img/tree-p.gif", "img/tree-m.gif");
+	var img = new Array(imgFile.length);
+	for(var i = 0; i < (imgFile.length - 1); i++){
+		img[i] = new Image();
+		img[i].src = imgFile[i];
+	}
+	var bSelectedID = "";
+
+	function selectItem(idSel)
+	{
+		nID = "id" + idSel;
+		if( bSelectedID != "" ){
+			document.all(bSelectedID).className = "item";
+		}
+		document.all(nID).className = "selectedItem";
+		bSelectedID = nID;
+	}
+
+	function chgImg(id){
+		if(window.document.images[id].src.indexOf(imgFile[0]) != -1){
+			window.document.images[id].src  = imgFile[1];
+		}
+		else{
+			window.document.images[id].src  = imgFile[0];
+		}
+	}
+
+	function selectTree(id){
+		var destObj;
+		if( document.all )
+			destObj = document.all;
+		else if( document.getElementById )
+			destObj = document.getElementById;
+		else
+			return;
+		if(destObj(id).style.display == "block"){
+			destObj(id).style.display = "none";
+		}
+		else if(destObj(id).style.display == "none"){
+			destObj(id).style.display = "block";
+		}
+	}
+-->
+</script>
+</head>
+<body>
+<font size="+1"><b>Connector List</b></font><br/>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d1');chgImg('img1');"><img id="img1" src="img/tree-p.gif" border="0"/>A</a><br/>
+<div id="d1" class="tree" style="display:none">
+<div class="item"><a id="id1" class="item" href="../connector/90980-11349.pdf" target="PDF_Frame" onClick="selectItem(1)">A15: &nbsp;Alternator</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d2');chgImg('img2');"><img id="img2" src="img/tree-p.gif" border="0"/>B</a><br/>
+<div id="d2" class="tree" style="display:none">
+<div class="item"><a id="id2" class="item" href="../connector/90980-11877.pdf" target="PDF_Frame" onClick="selectItem(2)">B 5: &nbsp;Body ECU No.1</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d3');chgImg('img3');"><img id="img3" src="img/tree-p.gif" border="0"/>C</a><br/>
+<div id="d3" class="tree" style="display:none">
+<div class="item"><a id="id3" class="item" href="../connector/90980-11915.pdf" target="PDF_Frame" onClick="selectItem(3)">C11: &nbsp;Combination Meter</a></div>
+<div class="item"><a id="id4" class="item" href="../connector/90980-11671.pdf" target="PDF_Frame" onClick="selectItem(4)">C13: &nbsp;Combination SW (RHD Australia)</a></div>
+<div class="item"><a id="id5" class="item" href="../connector/90980-11595.pdf" target="PDF_Frame" onClick="selectItem(5)">C13: &nbsp;Combination SW (LHD, RHD Europe)</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d4');chgImg('img4');"><img id="img4" src="img/tree-p.gif" border="0"/>E</a><br/>
+<div id="d4" class="tree" style="display:none">
+<div class="item"><a id="id6" class="item" href="../connector/90980-11151.pdf" target="PDF_Frame" onClick="selectItem(6)">E 1: &nbsp;ECT Solenoid</a></div>
+<div class="item"><a id="id7" class="item" href="../connector/90980-11421.pdf" target="PDF_Frame" onClick="selectItem(7)">E 2: &nbsp;Engine and ECT ECU</a></div>
+<div class="item"><a id="id8" class="item" href="../connector/90980-10585.pdf" target="PDF_Frame" onClick="selectItem(8)">E 3: &nbsp;Engine and ECT ECU</a></div>
+<div class="item"><a id="id9" class="item" href="../connector/90980-11586.pdf" target="PDF_Frame" onClick="selectItem(9)">E 4: &nbsp;Engine and ECT ECU</a></div>
+<div class="item"><a id="id10" class="item" href="../connector/90980-11637.pdf" target="PDF_Frame" onClick="selectItem(10)">E 5: &nbsp;Engine and ECT ECU</a></div>
+<div class="item"><a id="id11" class="item" href="../connector/90980-10526.pdf" target="PDF_Frame" onClick="selectItem(11)">E 6: &nbsp;Engine and ECT ECU</a></div>
+<div class="item"><a id="id12" class="item" href="../connector/90980-11423.pdf" target="PDF_Frame" onClick="selectItem(12)">E 7: &nbsp;Engine and ECT ECU</a></div>
+<div class="item"><a id="id13" class="item" href="../connector/90980-11165.pdf" target="PDF_Frame" onClick="selectItem(13)">E11: &nbsp;ECT Pattern Select SW</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d5');chgImg('img5');"><img id="img5" src="img/tree-p.gif" border="0"/>F</a><br/>
+<div id="d5" class="tree" style="display:none">
+<div class="item"><a id="id14" class="item" href="../connector/90980-10853.pdf" target="PDF_Frame" onClick="selectItem(14)">F 3: &nbsp;Front Side Turn Signal Light LH</a></div>
+<div class="item"><a id="id15" class="item" href="../connector/90980-10853.pdf" target="PDF_Frame" onClick="selectItem(15)">F 4: &nbsp;Front Side Turn Signal Light RH</a></div>
+<div class="item"><a id="id16" class="item" href="../connector/82824-12050.pdf" target="PDF_Frame" onClick="selectItem(16)">F 5: &nbsp;Front Turn Signal and Clearance Light LH</a></div>
+<div class="item"><a id="id17" class="item" href="../connector/82824-12050.pdf" target="PDF_Frame" onClick="selectItem(17)">F 6: &nbsp;Front Turn Signal and Clearance Light RH</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d6');chgImg('img6');"><img id="img6" src="img/tree-p.gif" border="0"/>H</a><br/>
+<div id="d6" class="tree" style="display:none">
+<div class="item"><a id="id18" class="item" href="../connector/90980-10801.pdf" target="PDF_Frame" onClick="selectItem(18)">H20: &nbsp;Hazard SW</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d7');chgImg('img7');"><img id="img7" src="img/tree-p.gif" border="0"/>I</a><br/>
+<div id="d7" class="tree" style="display:none">
+<div class="item"><a id="id19" class="item" href="../connector/90980-11653.pdf" target="PDF_Frame" onClick="selectItem(19)">I 1: &nbsp;Igniter</a></div>
+<div class="item"><a id="id20" class="item" href="../connector/90980-11068.pdf" target="PDF_Frame" onClick="selectItem(20)">I 2: &nbsp;Ignition Coil No.1</a></div>
+<div class="item"><a id="id21" class="item" href="../connector/90980-11068.pdf" target="PDF_Frame" onClick="selectItem(21)">I 3: &nbsp;Ignition Coil No.2</a></div>
+<div class="item"><a id="id22" class="item" href="../connector/90980-11068.pdf" target="PDF_Frame" onClick="selectItem(22)">I 4: &nbsp;Ignition Coil No.3</a></div>
+<div class="item"><a id="id23" class="item" href="../connector/90980-11615.pdf" target="PDF_Frame" onClick="selectItem(23)">I12: &nbsp;Ignition SW</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d8');chgImg('img8');"><img id="img8" src="img/tree-p.gif" border="0"/>J</a><br/>
+<div id="d8" class="tree" style="display:none">
+<div class="item"><a id="id24" class="item" href="../connector/90980-10803.pdf" target="PDF_Frame" onClick="selectItem(24)">J 1: &nbsp;Junction Connector</a></div>
+<div class="item"><a id="id25" class="item" href="../connector/90980-11542.pdf" target="PDF_Frame" onClick="selectItem(25)">J 2: &nbsp;Junction Connector</a></div>
+<div class="item"><a id="id26" class="item" href="../connector/90980-11661.pdf" target="PDF_Frame" onClick="selectItem(26)">J 3: &nbsp;Junction Connector</a></div>
+<div class="item"><a id="id27" class="item" href="../connector/90980-11661.pdf" target="PDF_Frame" onClick="selectItem(27)">J 4: &nbsp;Junction Connector</a></div>
+<div class="item"><a id="id28" class="item" href="../connector/90980-10803.pdf" target="PDF_Frame" onClick="selectItem(28)">J 5: &nbsp;Junction Connector</a></div>
+<div class="item"><a id="id29" class="item" href="../connector/90980-10976.pdf" target="PDF_Frame" onClick="selectItem(29)">J 8: &nbsp;Junction Connector</a></div>
+<div class="item"><a id="id30" class="item" href="../connector/90980-11542.pdf" target="PDF_Frame" onClick="selectItem(30)">J10: &nbsp;Junction Connector</a></div>
+<div class="item"><a id="id31" class="item" href="../connector/90980-11542.pdf" target="PDF_Frame" onClick="selectItem(31)">J14: &nbsp;Junction Connector</a></div>
+<div class="item"><a id="id32" class="item" href="../connector/90980-11915.pdf" target="PDF_Frame" onClick="selectItem(32)">J15: &nbsp;Junction Connector</a></div>
+<div class="item"><a id="id33" class="item" href="../connector/90980-10803.pdf" target="PDF_Frame" onClick="selectItem(33)">J18: &nbsp;Junction Connector</a></div>
+<div class="item"><a id="id34" class="item" href="../connector/90980-11542.pdf" target="PDF_Frame" onClick="selectItem(34)">J20: &nbsp;Junction Connector</a></div>
+<div class="item"><a id="id35" class="item" href="../connector/90980-10803.pdf" target="PDF_Frame" onClick="selectItem(35)">J25: &nbsp;Junction Connector</a></div>
+<div class="item"><a id="id36" class="item" href="../connector/90980-11661.pdf" target="PDF_Frame" onClick="selectItem(36)">J27: &nbsp;Junction Connector</a></div>
+<div class="item"><a id="id37" class="item" href="../connector/90980-11661.pdf" target="PDF_Frame" onClick="selectItem(37)">J28: &nbsp;Junction Connector</a></div>
+<div class="item"><a id="id38" class="item" href="../connector/90980-10803.pdf" target="PDF_Frame" onClick="selectItem(38)">J29: &nbsp;Junction Connector</a></div>
+<div class="item"><a id="id39" class="item" href="../connector/90980-10976.pdf" target="PDF_Frame" onClick="selectItem(39)">J32: &nbsp;Junction Connector</a></div>
+<div class="item"><a id="id40" class="item" href="../connector/90980-10803.pdf" target="PDF_Frame" onClick="selectItem(40)">J34: &nbsp;Junction Connector</a></div>
+<div class="item"><a id="id41" class="item" href="../connector/90980-11542.pdf" target="PDF_Frame" onClick="selectItem(41)">J35: &nbsp;Junction Connector</a></div>
+<div class="item"><a id="id42" class="item" href="../connector/90980-11915.pdf" target="PDF_Frame" onClick="selectItem(42)">J36: &nbsp;Junction Connector</a></div>
+<div class="item"><a id="id43" class="item" href="../connector/90980-10803.pdf" target="PDF_Frame" onClick="selectItem(43)">J37: &nbsp;Junction Connector</a></div>
+<div class="item"><a id="id44" class="item" href="../connector/90980-10976.pdf" target="PDF_Frame" onClick="selectItem(44)">J42: &nbsp;Junction Connector</a></div>
+<div class="item"><a id="id45" class="item" href="../connector/90980-11542.pdf" target="PDF_Frame" onClick="selectItem(45)">J43: &nbsp;Junction Connector</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d9');chgImg('img9');"><img id="img9" src="img/tree-p.gif" border="0"/>K</a><br/>
+<div id="d9" class="tree" style="display:none">
+<div class="item"><a id="id46" class="item" href="../connector/90980-11156.pdf" target="PDF_Frame" onClick="selectItem(46)">K 3: &nbsp;Kick Down SW</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d10');chgImg('img10');"><img id="img10" src="img/tree-p.gif" border="0"/>N</a><br/>
+<div id="d10" class="tree" style="display:none">
+<div class="item"><a id="id47" class="item" href="../connector/90980-10843.pdf" target="PDF_Frame" onClick="selectItem(47)">N 2: &nbsp;Noise Filter (Ignition)</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d11');chgImg('img11');"><img id="img11" src="img/tree-p.gif" border="0"/>O</a><br/>
+<div id="d11" class="tree" style="display:none">
+<div class="item"><a id="id48" class="item" href="../connector/90980-11156.pdf" target="PDF_Frame" onClick="selectItem(48)">O 1: &nbsp;O/D Direct Clutch Speed Sensor</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d12');chgImg('img12');"><img id="img12" src="img/tree-p.gif" border="0"/>R</a><br/>
+<div id="d12" class="tree" style="display:none">
+<div class="item"><a id="id49" class="item" href="../connector/90980-11587.pdf" target="PDF_Frame" onClick="selectItem(49)">R10: &nbsp;Rear Combination Light LH</a></div>
+<div class="item"><a id="id50" class="item" href="../connector/90980-11587.pdf" target="PDF_Frame" onClick="selectItem(50)">R12: &nbsp;Rear Combination Light RH</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d13');chgImg('img13');"><img id="img13" src="img/tree-p.gif" border="0"/>S</a><br/>
+<div id="d13" class="tree" style="display:none">
+<div class="item"><a id="id51" class="item" href="../connector/90980-11156.pdf" target="PDF_Frame" onClick="selectItem(51)">S 1: &nbsp;Speed Sensor (ECT)</a></div>
+<div class="item"><a id="id52" class="item" href="../connector/90980-11400.pdf" target="PDF_Frame" onClick="selectItem(52)">S 2: &nbsp;Starter</a></div>
+</div>
+<a class="treeMenu" href="JavaScript:onClick=selectTree('d14');chgImg('img14');"><img id="img14" src="img/tree-p.gif" border="0"/>T</a><br/>
+<div id="d14" class="tree" style="display:none">
+<div class="item"><a id="id53" class="item" href="../connector/90980-10799.pdf" target="PDF_Frame" onClick="selectItem(53)">T 7: &nbsp;Turn Signal Flasher</a></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+    <head>
+
+        <title>Lexus TechDoc</title>
+        
+        <script type="text/javascript">
+            function navigationItemOver(object)
+            {
+                this.className = 'NavigationItemHover';
+            }
+            
+            function OpenAboutBox()
+            {
+                //window.open("About.htm", "About", "toolbar=0, resizable=0, location=0, menubar=0, resizable=0, statusbar=0, title=0, scrollbars=0, width=500, height=475");
+                window.showModalDialog("About.htm","About", "dialogWidth:500px;dialogHeight:475px;center:1;scroll:0;status:0;unadorned:1");
+
+            }
+            
+            function OpenLink(url)
+            {
+                window.location.href = url;
+            }
+        </script>
+        
+        <link href="Home.css" rel="stylesheet" type="text/css" />
+        
+    </head>
+
+    
+    <body>
+        <table cellpadding="0" cellspacing="0" class="Content">
+            <tr>
+                <td class="Left">
+                    <div class="Page">
+                        <table cellpadding="0" cellspacing="0">
+                        	<tr>
+                                <td colspan="2"><img src="Images/Lex1_new.jpg" /></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="Vehicle" nowrap>GS430/300</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="ManualType" nowrap><br>Service Information Library</td>
+                            <tr>
+                                <td colspan="2" class="Series">JZS160, UZS161&nbsp;Series<br><br></td>
+                            </tr>
+                            <tr>
+                                <td class="PartNumber" nowrap>Part Number:&nbsp;PZ471-ZX008-CA</td>
+                                <td class="Logo"><img src="Images/Lex3.jpg" alt="image" /></td>
+                            </tr>
+                        </table>
+                    </div>      
+                </td>
+                <td class="Right">
+                    <table cellpadding="0" cellspacing="10" class="Navigator">
+                        <tr><td class="NavigationItem" onmouseover="this.className='NavigationItemHover';" onmouseout="this.className='NavigationItem';" onclick="javascript:OpenLink('ncf.htm')"><img src="Images/Button copy.gif" alt="Select" />&nbsp;New Car Features</td></tr>
+                        <tr><td class="NavigationItem" onmouseover="this.className='NavigationItemHover';" onmouseout="this.className='NavigationItem';" onclick="javascript:OpenLink('rm.htm')"><img src="Images/Button copy.gif" alt="Select" />&nbsp;Repair Manual</td></tr>
+                        <tr><td class="NavigationItem" onmouseover="this.className='NavigationItemHover';" onmouseout="this.className='NavigationItem';" onclick="javascript:OpenLink('wd.htm')"><img src="Images/Button copy.gif" alt="Select" />&nbsp;Wire Diagrammes</td></tr>
+                        <tr><td class="NavigationItem" onmouseover="this.className='NavigationItemHover';" onmouseout="this.className='NavigationItem';" onclick="javascript:OpenLink('cr.htm')"><img src="Images/Button copy.gif" alt="Select" />&nbsp;Collision Repair</td></tr>
+                        <tr><td class="NavigationItem" onmouseover="this.className='NavigationItemHover';" onmouseout="this.className='NavigationItem';" onclick="javascript:OpenLink('sds.htm')"><img src="Images/Button copy.gif" alt="Select" />&nbsp;Service Data Sheet</td></tr>
+                        <tr><td class="NavigationItem" onmouseover="this.className='NavigationItemHover';" onmouseout="this.className='NavigationItem';" onclick="javascript:OpenAboutBox()"><img src="Images/Button copy.gif" alt="Select" />&nbsp;About</td></tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        
+    </body>
+</html>

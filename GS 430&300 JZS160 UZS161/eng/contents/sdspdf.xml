@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pdf>
+  <menu>
+    <title>Service Data Sheet</title>
+    <color>5</color>
+    <item>
+      <title>Gasoline ( 2000 )</title>
+      <url>../sds/sds424e/gs300_gasoline.pdf</url>
+    </item>
+    <item>
+      <title>Gasoline ( 2000.7 - 2001.12 )</title>
+      <url>../sds/sds435e/gs430_gasoline.pdf</url>
+    </item>
+    <item>
+      <title>Gasoline ( 2002 )</title>
+      <url>../sds/sds456e/gs430_gasoline.pdf</url>
+    </item>
+    <item>
+      <title>Gasoline ( 2003 )</title>
+      <url>../sds/sds467e/gs430_gasoline.pdf</url>
+    </item>
+    <item>
+      <title>Gasoline ( 2004 )</title>
+      <url>../sds/sds476e/gs430300_gasoline.pdf</url>
+    </item>
+  </menu>
+</pdf>
