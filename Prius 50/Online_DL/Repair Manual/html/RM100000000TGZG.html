@@ -1,0 +1,2225 @@
+<html>
+ <head>
+  <title>
+   NETWORKING: LIN COMMUNICATION SYSTEM: B2321; Driver Side Door ECU Communication Stop; 2016 - 2022 MY Prius [11/2015 -        ]
+  </title>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <style type="text/css">
+   /*CQ T300010120 - To fix the callout issue. Call out class been added which overrides the default table class to Reduce the gap between the figure & callout table*/
+
+
+body
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 18px;
+	background-color: #ffffff;
+	
+	padding-right: 20px;
+	padding-left: 4px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+H1, H2, H3, H4, H5, H6
+{
+    color: #000000;
+}
+
+H1	
+{
+	font-size: 20px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	line-height: 24px;
+}
+
+H2	
+{
+	font-size: 18px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	line-height: 22px;
+}
+
+H3	
+{
+	font-size: 16px;
+	font-weight: bold;
+	font-style:	normal;
+	text-decoration: none;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	line-height: 18px;
+	}
+
+H4	
+{
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	line-height: 18px;
+	}
+
+H5, DT 
+{
+	font-size: 14px;
+	font-weight: bold;
+	font-style:	normal;
+	text-decoration: none;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	line-height: 16px;
+	}
+
+H6	
+{
+	font-size: 13px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	line-height: 16px;
+}
+
+
+h1.markdiv
+{
+	color: #000099;
+	margin-bottom: 1pt;
+}
+
+h1.modyear
+{
+	color: #000099;
+	margin-bottom: 10pt;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+
+h1.modname
+{
+	color: #000099;
+	margin-bottom: 0pt;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	text-valign:left;
+}
+
+h2.name
+{
+	color: #330099;
+	margin-bottom: 10pt;
+	text-decoration: underline;
+	font-size: 20px;
+	font-weight: bold;
+	text-indent: -3pt;
+	margin-left: 6pt;
+}
+
+h4.tbltitle,h4.listtitle
+{
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+}
+
+h4.gtsInfoTitle
+{
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+	margin-left: 12pt;
+}
+
+table.gtsInfoTable
+{
+	margin-left: 12pt;
+	width:auto;
+}
+
+table.gtsInfoTable td
+{
+	text-align:center;
+}
+
+p.step1
+{
+	font-weight: bold;
+	font-size: 13px;
+	margin-bottom: 5pt;
+	text-indent: -6pt;
+	margin-left: 12pt;
+}
+
+p.test1
+{
+	
+	font-size: 13px;
+	margin-bottom: 5pt;
+	text-indent: -12pt;
+	margin-left: 12pt;
+	font-weight: normal;
+	
+}
+
+p.test1p
+{
+	
+	font-size: 12px;
+	margin-bottom: 5pt;
+	text-indent: -12pt;
+	margin-left: 12pt;
+	font-weight: normal;
+}
+
+p.test2
+{
+	
+	font-size: 13px;
+	margin-bottom: 5pt;
+	text-indent: -12pt;
+	margin-left: 24pt;
+}
+
+p.s1
+{
+	font-weight: bold;
+	font-size: 13px;
+	margin-bottom: 5pt;
+	text-indent: -6pt;
+	margin-left: 12pt;
+}
+
+
+div.step3, ol.list
+{
+	text-indent: -15pt;
+	margin-left: 40pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+div.step3, ul.list
+{
+	text-indent: -15pt;
+	margin-left: 40pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+div.step2, ul.list
+{
+	text-indent: -1pt;
+	margin-left: 25pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+div.step2, ol.list
+{
+	text-indent: -1pt;
+	margin-left: 25pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+
+div.s3, ol.list
+{
+	text-indent: -15pt;
+	margin-left: 40pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+div.s3, ul.list
+{
+	text-indent: -15pt;
+	margin-left: 40pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+div.s2, ul.list
+{
+	text-indent: -1pt;
+	margin-left: 20pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+div.s2, ol.list
+{
+	text-indent: 2pt;
+	margin-left: 20pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+p.step3p
+
+{
+	text-indent: -1pt;
+	margin-left: 48pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+p.step2p
+
+{
+	text-indent: -1pt;
+	margin-left: 30pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+p.s2p
+{
+	text-indent: -1pt;
+	margin-left: 30pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+p.s3p
+
+{
+	text-indent: -1pt;
+	margin-left: 48pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+
+
+p.step2
+{
+	text-indent: -15pt;
+	margin-left: 30pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+p.s2
+{
+	text-indent: -15pt;
+	margin-left: 30pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+/*CQ T300015245 - Modified the style class by reomoving p tag to apply the style for any element with class=xref */
+.xref
+ {
+   font-size: 12px;
+   color: black;
+   font-weight: bold;
+   margin-bottom: 0;
+ }
+
+p.step3
+{
+	text-indent: -17pt;
+	margin-left: 47pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+p.s3
+{
+	text-indent: -17pt;
+	margin-left:47pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+
+/*CQ T300014436 - Repair Procedure NOTICE titles not underlined in standard view*/
+p.notegen
+{
+	color: #CD950C;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: inherit;
+	text-indent: -1pt;
+	margin-left: 12pt;
+	margin-bottom: -4px;
+}
+
+p.note
+{
+	color: #CD950C;
+	margin-top: 5pt;
+	font-size: 12px;
+	line-height: 15px;
+	text-indent: -1pt;
+	margin-left: 30pt;
+	text-align: left;
+}
+
+p.notice
+{
+	color: #CD950C;
+	margin-top: 5pt;
+	font-size: 12px;
+	line-height: 15px;
+	text-indent: -1pt;
+	margin-left: 30pt;
+	text-align: left;
+}
+
+
+p.hintgen { color: green; font-weight: bold; font-size: 12px;line-height: inherit;text-indent: -1pt;margin-left: 12pt;margin-bottom: -4px;}
+p.hint { color: green; margin-top: 5pt; font-size: 12px; line-height: 15px;text-indent: -1pt;margin-left: 30pt;text-align: left;}
+
+
+
+p.warngen
+{
+	color: red;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: inherit;
+	text-indent: -1pt;
+	margin-left: 12pt;
+	margin-bottom: -4px;
+}
+
+p.warning
+{
+	color: red;
+	margin-top: 5pt;
+	font-size: 12px;
+	line-height: 15px;
+	text-indent: -15pt;
+	margin-left: 30pt;
+	text-align: left;
+}
+
+p.warn
+{
+	color: red;
+	margin-top: 5pt;
+	font-size: 12px;
+	line-height: 15px;
+	text-indent: -1pt;
+	margin-left: 30pt;
+	text-align: left;
+}
+
+p.sst
+{
+	text-indent: 40px;
+	font-weight: bold;
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+}
+
+p.subnum
+{
+	text-indent: 20px;
+	font-style: italic;
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+}
+
+p.spec
+{
+	margin-left: 40px;
+	text-indent: -3px;
+	font-size: 12px;
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+}
+
+p.specsub
+{
+	color:  blue;
+	text-indent: 40px;
+	font-style:  italic;
+	font-weight: bold;
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+}
+
+p.torque
+{
+	text-indent: 40px;
+	font-weight: bold;
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+}
+
+p.thead
+{
+	font-weight: bold;
+	text-align:  center;
+	font-size: 12px;
+}
+
+p.dtc
+{
+	color:  #0000FF;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+	font-size: 12px;
+}
+
+p.testgrp
+{
+	font-size: 13px;
+	font-weight: bold;
+	border: 1px none White;
+	background-color: InfoBackground;
+}
+
+p.resright
+{
+	text-indent:  50%;
+	font-size: 12px;
+}
+
+p.rescid
+{
+	text-align: left;
+	font-size: 12px;
+}
+
+/*CQ T300015246 - Modified the font weight style for action ci fins to bold */
+p.actcif
+{
+	text-align: left;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: normal;
+	line-height: inherit;
+	background-color: white;
+	
+}
+
+p.actcir
+{
+	text-align: left;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: normal;
+	line-height: inherit;
+}
+
+p.para
+{
+	margin-left: 2pt;
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+p.entry
+{
+	margin-left: 2pt;
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+p.para2
+{
+	text-indent: -3pt;
+	margin-left: 30pt;
+	margin-top: 10pt;
+	margin-bottom: 0pt;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+p.para3
+{
+	text-indent: 0pt;
+	margin-left: 47pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+p.list
+{
+	font-size: 12px;
+	font-weight: normal;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	line-height: 18px;
+	margin-left: 20pt;
+	text-indent:  -1pt;
+}
+
+li
+{
+	font-size: 12px;
+	font-weight: normal;
+}
+	
+
+p.list1
+{
+	font-size: 12px;
+	font-weight: normal;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	line-height: 18px;
+	margin-left: 20pt;
+	text-indent:  -1pt;
+}
+
+div.side
+{
+	margin-top: 10pt;
+	margin-bottom: 10pt;
+	font-size: 12px;
+}
+
+ul.list
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+ul.note
+{
+	color: #CD950C;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+ul.warn
+{
+	color: red;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+ul.hint
+{
+	color: green;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+ol.note
+{
+	color: #CD950C;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+ol.hint
+{
+	color: green;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+ol.warn
+{
+	color: red;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+td.head
+{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	vertical-align: top;
+	background-color: transparent;
+	font-size: 12px;
+}
+
+td.foot
+{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	vertical-align: top;
+	background-color: transparent;
+	font-size: 12px;
+}
+
+td.arrow
+ {
+        font-size: 16px;
+    	font-weight: bold;
+    	background-gcolor: blue;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	
+	background-color: white;
+ }
+
+td.testgrp
+{
+	background-color: InfoBackground;
+	font-size: 12px;
+}
+
+.testgrp
+{
+	background-color: InfoBackground;
+	border: 1px solid Gray;
+	font-size: 12px;
+}
+
+
+
+.frame
+{
+	
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	background-color: #ffffff;
+	
+}
+
+.header
+{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	background-color: transparent;
+	vertical-align: top;
+	background-image: url(../stylegraphics/header.bg.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	
+}
+
+.footer
+{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	background-color: transparent;
+	vertical-align: top;
+	background-image: url(../stylegraphics/footer.bg.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+
+img.info
+{
+	
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom:  -3px;
+	margin-right: 0px;
+	
+}
+
+IMG 
+{
+	margin-top: 4px;
+	margin-left: 4px;
+	margin-bottom: 4px;
+	margin-right: 4px;
+	
+}
+
+img.block
+{
+	display: block;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	
+}
+
+
+
+BLOCKQUOTE, PRE	
+{	
+	font-family: Courier New, monospace;
+	font-size: 10px;
+	line-height: 12px;
+}
+
+A:link
+{
+	font-size: 12px;
+	line-height: inherit;
+	text-decoration: none;
+	color: Blue;
+}
+
+A:visited
+{
+	font-size: 12px;
+	line-height: inherit;
+	text-decoration: none;
+	color: Blue;
+}
+
+A:active
+{
+	font-size: 12px;
+	line-height: inherit;
+	text-decoration: none;
+	color: Black;
+}
+
+A:hover
+{
+	text-decoration: none;
+}
+
+table.arrow
+{
+	font-size: 16px;
+	font-weight: normal;
+	
+	margin-left: 300px;
+	border: 0;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	
+	
+}
+
+table.arrowdn
+{
+	font-size: 16px;
+	font-weight: normal;
+	
+	
+	border: 0;
+	
+	
+}
+
+table:side 
+{
+	font-size: 12px;
+	font-weight: normal;
+	background-color: white;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+table:no 
+{
+	font-size: 12px;
+	font-weight: normal;
+	background-color: #000000;
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+
+
+
+table 
+{
+	font-size: 12px;
+	font-weight: normal;
+	background-color: #ffffff;
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+
+.side
+{
+	font-size: 12px;
+	font-weight: normal;
+	background-color: white;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	vertical-align:  middle; 
+}
+
+
+
+td:no 
+{
+	font-size: 12px;
+	font-weight: normal;
+	background-color: #000000;
+}
+
+
+
+
+td
+{
+	font-size: 12px;
+	font-weight: normal;
+	background-color: f5f5f5;
+}
+
+
+
+
+
+TH, THEAD, TFOOT
+{
+	color: #000000;
+}
+
+TFOOT, THEAD 
+{	
+	vertical-align: baseline;
+	font-size: 13px;
+	font-weight: bold;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	background-color: #cccccc;
+}
+
+TH	
+{
+	vertical-align: baseline;
+	font-weight: bold;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-transform: uppercase;
+	background-color: #cccccc;
+} 
+
+/*CQ T300010120 - Overrides the default table class to Reduce the gap between the figure & callout table*/
+table.callout 
+{
+	font-size: 12px;
+	font-weight: normal;
+	background-color: #ffffff;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	margin-left: 3px;
+	border-collapse: collapse;
+	border:1px solid #000000;
+}
+
+p.torquevalue
+{
+	text-indent: 60px;
+	font-weight: bold;
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+}
+
+p.torquetext
+{
+	text-indent: 20px;
+	font-weight: bold;
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+}
+
+/*CQ T300015102 - Added to differeniate the table level footnotes and figure related footnotes.*/
+td.tablefootnote
+{
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	background-color: #ffffff;
+	font-size: 90%;
+}
+
+.figurefootnote
+{
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	background-color: #ffffff;
+	font-size: 90%;
+}
+
+span.ewdlink
+{
+	color: #0210dd;
+	text-decoration: underline;
+	font-weight: bold;
+}
+/* TGD Changes */
+div.gtsExec
+{
+	visibility: hidden;
+}
+  </style>
+ </head>
+ <body id="C">
+  <table border="0" cellpadding="4" class="frame" id="RM100000000TGZG" width="100%">
+   <colgroup>
+    <col/>
+   </colgroup>
+   <tbody>
+    <tr>
+     <td class="frame">
+      <table border="1" class="side" width="100%">
+       <tbody>
+        <tr>
+         <td align="left" class="side" colspan="1" valign="top">
+          <b>
+           Last Modified:
+          </b>
+          08-30-2021
+         </td>
+         <td class="side">
+          6.10:8.0.50
+         </td>
+         <td class="side">
+          <b>
+           Doc ID:
+          </b>
+          RM100000000TGZG
+         </td>
+        </tr>
+        <tr>
+         <td align="left" class="side" valign="top">
+          <b>
+           Model Year Start:
+          </b>
+          2016
+         </td>
+         <td align="left" class="side" valign="top">
+          <b>
+           Model:
+          </b>
+          Prius
+         </td>
+         <td align="left" class="side" valign="top">
+          <b>
+           Prod Date Range:
+          </b>
+          [11/2015 -  
+													 
+													 
+													 
+													 
+													 
+													 
+													 
+													 
+													 
+													]
+         </td>
+        </tr>
+        <tr>
+         <td align="left" class="side" colspan="3" valign="top">
+          <b>
+           Title:
+          </b>
+          NETWORKING: LIN COMMUNICATION SYSTEM: B2321; Driver Side Door ECU Communication Stop; 2016 - 2022 MY Prius [11/2015 -        ]
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table border="1" class="dtc" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" valign="middle" width="10%">
+          <p class="dtc">
+           DTC
+          </p>
+         </td>
+         <td align="center" valign="middle" width="10%">
+          <p class="dtc">
+           B2321
+          </p>
+         </td>
+         <td align="left">
+          <p class="dtc">
+           Driver Side Door ECU Communication Stop
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000000TGZG_01">
+      </a>
+      <h2 class="name">
+       DESCRIPTION
+      </h2>
+      <p class="content5">
+       This DTC is stored when LIN communication between the power window regulator motor assembly (for driver door) and main body ECU (multiplex network body ECU) stops for 10 seconds or more.
+      </p>
+      <table border="1" width="100%">
+       <colgroup>
+        <col/>
+        <col/>
+        <col/>
+        <col/>
+       </colgroup>
+       <thead>
+        <tr>
+         <th align="center" valign="middle">
+          <p class="entry">
+           DTC No.
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Detection Item
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           DTC Detection Condition
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Trouble Area
+          </p>
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" valign="middle">
+          <p class="data-name">
+           B2321
+          </p>
+         </td>
+         <td align="left" valign="middle">
+          <p class="data-name">
+           Driver Side Door ECU Communication Stop
+          </p>
+         </td>
+         <td align="left" valign="middle">
+          <p class="data-name">
+           No communication between power window regulator motor assembly (for driver door) and main body ECU (multiplex network body ECU) for 10 seconds or more.
+          </p>
+         </td>
+         <td align="left" valign="middle">
+          <div class="data-name">
+           <ul class="list">
+            <li>
+             Power window regulator motor assembly (for driver door)
+            </li>
+            <li>
+             Main body ECU (multiplex network body ECU)
+            </li>
+            <li>
+             Multiplex network master switch assembly
+            </li>
+            <li>
+             Wire harness or connector
+            </li>
+            <li>
+             POWER fuse
+            </li>
+           </ul>
+          </div>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000000TGZG_02">
+      </a>
+      <h2 class="name">
+       WIRING DIAGRAM
+      </h2>
+      <img alt="" border="1" src="data:image/png;base64,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NBYEQAAEQAAEQAAEQAACFnMABEAABEAABEAABECgVQQgYFs1XGgsCIAACIAACIAACIAABCzmAAiAAAiAAAiAAAiAQKsIQMC2arjQWBAAARAAARAAARAAAQhYzAEQAAEQAAEQAAEQAIFWEYCAbdVwobEgAAIgAAIgAAIgAAIQsJgDIAACIAACIAACIAACrSIAAduq4UJjQQAEQAAEQAAEQAAEIGAxB0AABEAABEAABEAABFpFAAK2VcOFxoIACIAACIAACIAACEDAYg6AAAiAAAiAAAiAAAi0igAEbKuGC40FARAAARAAARAAARCAgMUcAAEQAAEQAAEQAAEQaBUBCNhWDRcaCwIgAAIgAAIgAAIgAAGLOQACIAACIAACIAACINAqAhCwrRouNBYEQAAEQAAEQAAEQAACFnMABEAABEAABEAABECgVQQgYFs1XGgsCIAACIAACIAACIAABCzmAAiAAAiAAAiAAAiAQKsIQMC2arjQWBAAARAAARAAARAAAQhYzAEQAAEQAAEQAAEQAIFWEYCAbdVwobEgAAIgAAIgAAIgAAIQsJgDIAACIAACIAACIAACrSIAAduq4UJjQQAEQAAEQAAEQAAEIGAxB0AABEAABEAABEAABFpFAAK2VcOFxoIACIAACIAACIAACEDAYg6AAAiAAAiAAAiAAAi0igAEbKuGC40FARAAARAAARAAARCAgMUcAAEQAAEQAAEQAAEQaBUBCNhWDRcaCwIgAAIgAAIgAAIgAAGLOQACIAACIAACIAACINAqAhCwrRouNBYEQAAEQAAEQAAEQAACFnMABEAABEAABEAABECgVQQgYFs1XGgsCIAACIAACIAACIAABCzmAAiAAAiAAAiAAAiAQKsIQMC2arjQWBAAARAAARAAARAAAQhYzAEQAAEQAAEQAAEQAIFWEYCAbdVwobEgAAIgAAIgAAIgAAIQsJgDIAACIAACIAACIAACrSIAAduq4UJjQQAEQAAEQAAEQAAEIGAxB0AABEAABEAABEAABFpFAAK2VcOFxoIACIAACIAACIAACEDAYg6AAAiAAAiAAAiAAAi0igAEbKuGC40FARAAARAAARAAARCAgMUcAAEQAAEQAAEQAAEQaBUBCNhWDRcaCwIgAAIgAAIgAAIgAAGLOQACIAACIAACIAACINAqAhCwrRouNBYEQAAEQAAEQAAEQAACFnMABEAABEAABEAABECgVQQgYFs1XGgsCIAACIAACIAACIAABCzmAAiAAAiAAAiAAAiAQKsIQMC2arjQWBAAARAAARAAARAAAQhYzAEQAAEQAAEQAAEQAIFWEYCAbdVwobEgAAIgAAIgAAIgAAIQsJgDIAACIAACIAACIAACrSIAAduq4UJjQQAEQAAEQAAEQAAEIGAxB0AABEAABEAABEAABFpFAAK2VcOFxoIACIAACIAACIAACEDAYg6AAAiAAAiAAAiAAAi0igAEbKuGC40FARAAARAAARAAARCAgMUcAAEQAAEQAAEQAAEQaBUBCNhWDRcaCwIgAAIgAAIgAAIgAAGLOQACIAACIAACIAACINAqAhCwrRouNBYEQAAEQAAEQAAEQAACFnMABEAABEAABEAABECgVQQgYFs1XGgsCIAACIAACIAACIAABCzmAAiAAAiAAAiAAAiAQKsIQMC2arjQWBAAARAAARAAARAAAQhYzAEQAAEQAAEQAAEQAIFWEYCAbdVwobEgAAIgAAIgAAIgAAIQsJgDIAACIAACIAACIAACrSIAAduq4UJjQQAEQAAEQAAEQAAEIGAxB0AABEAABEAABEAABFpFAAK2VcOFxoIACIAACIAACIAACEDAYg6AAAiAAAiAAAiAAAi0igAEbKuGC40FARAAARAAARAAARBolID91a9+ZRyRJz3pSaR+x+/5pX8m3/umx/CDAAiAAAiAAAiAAAi0j0CjBGz78KHFIAACIAACIAACIAACVRNohID9xje+Qffeey+tXr268P4//vjjsXL5s+c///k0ODhYeH0oEARAAARAAARAAARAoFwCjRCwV111Fe3du5eOOuooOnz4sLHHq1atEt/x//yypdMz6+n5/SOPPEJvfOMb6VWvepVwQ5AuCYmo999IGwfnaHTfPG1Zo6VWvyNON0Y0u4/m1YSu/LI4kWaMFjrFj9PiyjStT2xcAxOIvizTZFHtL7K8xLEssN0NHBo0CQRAAARAAATaTKARArY1ABNFTyhuQwG7QJr4TBKwuydoYGSJZhWBvP/GjTQ4NtxeEZt7cHfTxMAUDZkeGvKUnTQWecpGXhAAARAAARAAgVIJNELAvvKVryR2IzjhhBNEZw8dOiT+P/LII2Pv9e9kek5rymf6/Oc//zlNT0/T29/+9hItsHM0PE40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"/>
+      <a name="RM100000000TGZG_03">
+      </a>
+      <h2 class="name">
+       CAUTION / NOTICE / HINT
+      </h2>
+      <div class="notice">
+       <p class="notegen">
+        NOTICE:
+       </p>
+       <ul class="note">
+        <li>
+         Inspect the fuses for circuits related to this system before performing the following procedure.
+        </li>
+        <li>
+         When a power window regulator motor assembly is replaced or removed and reinstalled, it requires initialization.
+         <p class="para2">
+          Click here
+          <span class="mlink">
+           <span class="myfrom:2016 myto:2022 startdate:201511">
+            <a href="RM100000000SU7M.html" id="d3658e315">
+             <img alt="2016 - 2022 MY Prius [11/2015 -        ]; WINDOW / GLASS: POWER WINDOW CONTROL SYSTEM: INITIALIZATION" class="info" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAAXNSR0IArs4c6QAAAkBJREFUSEvtVU9o01Ac/lKapWmrbra2nVPqnw0n2xytHQoiTFScUMSLCCIqbqgTvIkWBM968OLJedjwOlHBizAEvYlQrSKMyWhxhznEIEaTNG3WvvHezEyKTeOpE/wuL+T3+37vy/f7vReOEEKwSsBRMcdvVFEyqtD036r8vuVngfewGMVX2YtgiwpRFFYSzbjJ5UjJMU6JtbVp3TOHFDAxqYvNtUaSgdH0ahRz9Noia0Gz8O86870wiaJcAC+GoGoG4snLmHuVQUfiOvJTx1AxfqC6qCO2dwzh+CBmniRRUj6jtecmy3WDE/tdzsxC7hbKP/MAH4L04TZ2XyBsw670S7ybWIf4kRfwB4IIRHYiN96BaH8G0b5zyI23o/fULIRgp6MeW5sGRlWQaqAugYopfnuLQHgP5PkpCG0JVLQCth+eQPZeEOHuEVQMGdsOTuLNfY6JpTAdbU9k3ItpdLS/vL8DVXoNcX0S/OZhzD/rA6no2JSexdzjyIoz/nDKJoY5Sta6apXrNlExujzD2hTaOsS+8uPTA0hdUpgzifML8Hhj7P30o354xRgi3cPIPz/Jcpxcp5y/Ok2alIWmKvAJwJqNA6y4ND2GDb2n8Sn7AFtSZ20bmjMW3XUVvtYdDefXJmbwigqlXH9mnKpxHud5a6ik1pn/l57FMlubmu0M1WU7TVQd+72LgFb8c6edYiaXria/Ub51l5GhXzfw3YcKZIWghedQNpbXWtD3FGbMzLOuJqdejrWmlacbwL4egiVcNWtev/kfSAAAAABJRU5ErkJggg==" title="2016 - 2022 MY Prius [11/2015 -        ]; WINDOW / GLASS: POWER WINDOW CONTROL SYSTEM: INITIALIZATION"/>
+            </a>
+           </span>
+          </span>
+         </p>
+        </li>
+        <li>
+         If the main body ECU (multiplex network body ECU) is replaced, refer to Registration.
+         <p class="para2">
+          Click here
+          <span class="mlink">
+           <span class="myfrom:2016 myto:2018 startdate:201511 enddate:201812">
+            <a href="RM100000000S230.html" id="d3658e326">
+             <img alt="2016 - 2018 MY Prius [11/2015 - 12/2018]; THEFT DETERRENT / KEYLESS ENTRY: IMMOBILISER SYSTEM: REGISTRATION" class="info" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAAXNSR0IArs4c6QAAAkBJREFUSEvtVU9o01Ac/lKapWmrbra2nVPqnw0n2xytHQoiTFScUMSLCCIqbqgTvIkWBM968OLJedjwOlHBizAEvYlQrSKMyWhxhznEIEaTNG3WvvHezEyKTeOpE/wuL+T3+37vy/f7vReOEEKwSsBRMcdvVFEyqtD036r8vuVngfewGMVX2YtgiwpRFFYSzbjJ5UjJMU6JtbVp3TOHFDAxqYvNtUaSgdH0ahRz9Noia0Gz8O86870wiaJcAC+GoGoG4snLmHuVQUfiOvJTx1AxfqC6qCO2dwzh+CBmniRRUj6jtecmy3WDE/tdzsxC7hbKP/MAH4L04TZ2XyBsw670S7ybWIf4kRfwB4IIRHYiN96BaH8G0b5zyI23o/fULIRgp6MeW5sGRlWQaqAugYopfnuLQHgP5PkpCG0JVLQCth+eQPZeEOHuEVQMGdsOTuLNfY6JpTAdbU9k3ItpdLS/vL8DVXoNcX0S/OZhzD/rA6no2JSexdzjyIoz/nDKJoY5Sta6apXrNlExujzD2hTaOsS+8uPTA0hdUpgzifML8Hhj7P30o354xRgi3cPIPz/Jcpxcp5y/Ok2alIWmKvAJwJqNA6y4ND2GDb2n8Sn7AFtSZ20bmjMW3XUVvtYdDefXJmbwigqlXH9mnKpxHud5a6ik1pn/l57FMlubmu0M1WU7TVQd+72LgFb8c6edYiaXria/Ub51l5GhXzfw3YcKZIWghedQNpbXWtD3FGbMzLOuJqdejrWmlacbwL4egiVcNWtev/kfSAAAAABJRU5ErkJggg==" title="2016 - 2018 MY Prius [11/2015 - 12/2018]; THEFT DETERRENT / KEYLESS ENTRY: IMMOBILISER SYSTEM: REGISTRATION"/>
+            </a>
+           </span>
+           <span class="myfrom:2019 myto:2022 startdate:201812">
+            <a href="RM100000001FZQN.html" id="d3658e327">
+             <img alt="2019 - 2022 MY Prius [12/2018 -        ]; THEFT DETERRENT / KEYLESS ENTRY: IMMOBILISER SYSTEM: REGISTRATION" class="info" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAAXNSR0IArs4c6QAAAkBJREFUSEvtVU9o01Ac/lKapWmrbra2nVPqnw0n2xytHQoiTFScUMSLCCIqbqgTvIkWBM968OLJedjwOlHBizAEvYlQrSKMyWhxhznEIEaTNG3WvvHezEyKTeOpE/wuL+T3+37vy/f7vReOEEKwSsBRMcdvVFEyqtD036r8vuVngfewGMVX2YtgiwpRFFYSzbjJ5UjJMU6JtbVp3TOHFDAxqYvNtUaSgdH0ahRz9Noia0Gz8O86870wiaJcAC+GoGoG4snLmHuVQUfiOvJTx1AxfqC6qCO2dwzh+CBmniRRUj6jtecmy3WDE/tdzsxC7hbKP/MAH4L04TZ2XyBsw670S7ybWIf4kRfwB4IIRHYiN96BaH8G0b5zyI23o/fULIRgp6MeW5sGRlWQaqAugYopfnuLQHgP5PkpCG0JVLQCth+eQPZeEOHuEVQMGdsOTuLNfY6JpTAdbU9k3ItpdLS/vL8DVXoNcX0S/OZhzD/rA6no2JSexdzjyIoz/nDKJoY5Sta6apXrNlExujzD2hTaOsS+8uPTA0hdUpgzifML8Hhj7P30o354xRgi3cPIPz/Jcpxcp5y/Ok2alIWmKvAJwJqNA6y4ND2GDb2n8Sn7AFtSZ20bmjMW3XUVvtYdDefXJmbwigqlXH9mnKpxHud5a6ik1pn/l57FMlubmu0M1WU7TVQd+72LgFb8c6edYiaXria/Ub51l5GhXzfw3YcKZIWghedQNpbXWtD3FGbMzLOuJqdejrWmlacbwL4egiVcNWtev/kfSAAAAABJRU5ErkJggg==" title="2019 - 2022 MY Prius [12/2018 -        ]; THEFT DETERRENT / KEYLESS ENTRY: IMMOBILISER SYSTEM: REGISTRATION"/>
+            </a>
+           </span>
+          </span>
+         </p>
+        </li>
+       </ul>
+      </div>
+      <a name="RM100000000TGZG_07">
+      </a>
+      <h2 class="name">
+       PROCEDURE
+      </h2>
+      <a name="RM100000000TGZG_07_0028">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           1.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           CLEAR DTC
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (a) Clear the DTCs.
+      </p>
+      <h4 class="gtsInfoTitle">
+       Body Electrical &gt; Main Body &gt; Clear DTCs
+      </h4>
+      <table>
+       <tbody>
+        <tr>
+         <td>
+          <table align="left" cellpadding="0" cellspacing="0" class="arrowdn" width="5%">
+           <tbody>
+            <tr>
+             <td align="center" class="arrow">
+              NEXT
+             </td>
+            </tr>
+            <tr>
+             <td align="left" class="arrow" width="10%">
+              <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAAXNSR0IArs4c6QAAARRJREFUOE+lkk8KgkAUxj/RsqiN0AGCdkLHCNy4VPAKrrpOJ0hatQw8hIugXdANXBjkv8F41oia+afczMzzzW++770nmGaQue4Yvj+GosTFCiDf00fx8jk/vOPlHNoLjMWZKI54zl/r6RS+gK7LoGmTv2CGEcJxxBeQSJYV4XCY/wxlLMnvFkA6LBYpfH86GHo+P6Cq0ifwckmxXg8DmuYd+71ciKgopKhtx9jtZr1Vcqv8wgeQfsgyQ5p2N+l6DbFcipXHG4G3G8Nq1Q6sW21V2Md63WonsK3rNMCbTdVqL2CTdV0PcDx+L0djDctVLnddkkJEUbOyXgp5Eg18EAjwvKwY4G9z1amQLpL17TZptcofeALLqpzLvaof7AAAAABJRU5ErkJggg=="/>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000000TGZG_07_0011">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           2.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           CHECK FOR DTC
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (a) Check for DTCs.
+      </p>
+      <h4 class="gtsInfoTitle">
+       Body Electrical &gt; Main Body &gt; Trouble Codes
+      </h4>
+      <table border="1" class="result" width="100%">
+       <thead>
+        <tr>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Result
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Proceed to
+          </p>
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" valign="middle">
+          <p class="entry">
+           B1206 and B2321 are output simultaneously
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="judge-value">
+           A
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" valign="middle">
+          <p class="entry">
+           Only B2321 is output
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="judge-value">
+           B
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table cellpadding="0" cellspacing="0" class="arrow">
+       <tbody>
+        <tr>
+         <td class="arrow">
+          A
+         </td>
+         <td align="left" class="arrow">
+          <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAUCAYAAAC9BQwsAAAAAXNSR0IArs4c6QAAAPxJREFUOE+Vkj0OgkAUhGcx6y+lPTHxAhyAhjvQ0NNZWHoDSws6ehru4BWo6KDgAJaIIDFrxKxZBBbY+s37duYNcZyMed4GUx8BGNP1EmG4mKQlqpqxLPsSw7CCrtNRC2qiOGnbD/j+alDcIPJpVX0higBNm/UuaBHFSdfNcTisO8WdRHGyLzgpUVzwH9wgURQ7zh385qOJYnBJAkwicvFu9wShNGdVNXw3Ljqfc5xO62nENH39bjvKo2k+cL02fyX1SOmnfgSWtWyVoNfjfl8gjhUA8/HNOR5vuFy20qI3PH6+Fsdzabn5ttpjWSowDLQCkCFrYhAUnQHIhG/a33XSA6ezYwAAAABJRU5ErkJggg=="/>
+         </td>
+         <td>
+          <p class="actcif">
+           <span class="mlink">
+            <span class="myfrom:2016 myto:2022 startdate:201511">
+             <a href="RM100000000TGYY.html" id="d3658e522" title="2016 - 2022 MY Prius [11/2015 -        ]; NETWORKING: LIN COMMUNICATION SYSTEM: B1206; P/W Master Switch Communication Stop">
+              GO TO DTC B1206
+             </a>
+            </span>
+           </span>
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table>
+       <tbody>
+        <tr>
+         <td>
+          <table align="left" cellpadding="0" cellspacing="0" class="arrowdn" width="5%">
+           <tbody>
+            <tr>
+             <td align="center" class="arrow">
+              B
+             </td>
+            </tr>
+            <tr>
+             <td align="left" class="arrow" width="10%">
+              <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAAXNSR0IArs4c6QAAARRJREFUOE+lkk8KgkAUxj/RsqiN0AGCdkLHCNy4VPAKrrpOJ0hatQw8hIugXdANXBjkv8F41oia+afczMzzzW++770nmGaQue4Yvj+GosTFCiDf00fx8jk/vOPlHNoLjMWZKI54zl/r6RS+gK7LoGmTv2CGEcJxxBeQSJYV4XCY/wxlLMnvFkA6LBYpfH86GHo+P6Cq0ifwckmxXg8DmuYd+71ciKgopKhtx9jtZr1Vcqv8wgeQfsgyQ5p2N+l6DbFcipXHG4G3G8Nq1Q6sW21V2Md63WonsK3rNMCbTdVqL2CTdV0PcDx+L0djDctVLnddkkJEUbOyXgp5Eg18EAjwvKwY4G9z1amQLpL17TZptcofeALLqpzLvaof7AAAAABJRU5ErkJggg=="/>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000000TGZG_07_0016">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           3.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           INSPECT MULTIPLEX NETWORK MASTER SWITCH ASSEMBLY
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table border="0" width="100%">
+       <tbody>
+        <tr>
+         <td class="side">
+          <p class="test1">
+           (a) Remove the multiplex network master switch assembly.
+          </p>
+          <p class="hintgen">
+           HINT:
+          </p>
+          <p class="hint">
+           Click here
+           <span class="mlink">
+            <span class="myfrom:2016 myto:2022 startdate:201511">
+             <a href="RM100000000S6S1.html" id="d3658e600">
+              <img alt="2016 - 2022 MY Prius [11/2015 -        ]; WINDOW / GLASS: POWER WINDOW MASTER SWITCH: REMOVAL" class="info" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAAXNSR0IArs4c6QAAAkBJREFUSEvtVU9o01Ac/lKapWmrbra2nVPqnw0n2xytHQoiTFScUMSLCCIqbqgTvIkWBM968OLJedjwOlHBizAEvYlQrSKMyWhxhznEIEaTNG3WvvHezEyKTeOpE/wuL+T3+37vy/f7vReOEEKwSsBRMcdvVFEyqtD036r8vuVngfewGMVX2YtgiwpRFFYSzbjJ5UjJMU6JtbVp3TOHFDAxqYvNtUaSgdH0ahRz9Noia0Gz8O86870wiaJcAC+GoGoG4snLmHuVQUfiOvJTx1AxfqC6qCO2dwzh+CBmniRRUj6jtecmy3WDE/tdzsxC7hbKP/MAH4L04TZ2XyBsw670S7ybWIf4kRfwB4IIRHYiN96BaH8G0b5zyI23o/fULIRgp6MeW5sGRlWQaqAugYopfnuLQHgP5PkpCG0JVLQCth+eQPZeEOHuEVQMGdsOTuLNfY6JpTAdbU9k3ItpdLS/vL8DVXoNcX0S/OZhzD/rA6no2JSexdzjyIoz/nDKJoY5Sta6apXrNlExujzD2hTaOsS+8uPTA0hdUpgzifML8Hhj7P30o354xRgi3cPIPz/Jcpxcp5y/Ok2alIWmKvAJwJqNA6y4ND2GDb2n8Sn7AFtSZ20bmjMW3XUVvtYdDefXJmbwigqlXH9mnKpxHud5a6ik1pn/l57FMlubmu0M1WU7TVQd+72LgFb8c6edYiaXria/Ub51l5GhXzfw3YcKZIWghedQNpbXWtD3FGbMzLOuJqdejrWmlacbwL4egiVcNWtev/kfSAAAAABJRU5ErkJggg==" title="2016 - 2022 MY Prius [11/2015 -        ]; WINDOW / GLASS: POWER WINDOW MASTER SWITCH: REMOVAL"/>
+             </a>
+            </span>
+           </span>
+          </p>
+         </td>
+         <td class="sidsid">
+          <table align="right">
+           <tbody>
+            <tr>
+             <td align="right">
+              <img alt="" border="1" src="data:image/png;base64,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5fPslD7SpFD23FCbUp6VWrcmy2umlzb/85//dPvtt5875phjspUVZqn3ve99Q0OWRpTOuWOPPdbttttu87wtZQIPyxuzykvBV53KiCqmfCwBCTFootVkIc9KCbdJUQWHaVxozfGMM85wO+64Y7YU/9nPfubWWGONoSDLoSVK6fyf/OQnbqONNsrsLjNnznSrrLLKUHR8CilYWUNAKw6Q5bbbbpspFpdffrl7+ctf3nuAhpYo6VlCf9ZZZ50s/Ofiiy92m2yyydCSJEsrPP0PP/xwNuj/85//uP/7v/8b9Xfotxe96EWZyQIZjz/++Kj7tCw9o/zvq35OvW/BBRd08803X1bfvLr57dSfV1pppUyTGsZLFIzp06e7ww8/3O2xxx7uqKOO6j0UQ0mU0tmy5P7Upz7leEsOk3Faj2wM9u9973sz0lhuueVGfvrf//7nnve85xVOAuJLb731Vvfoo49mBv4111zTPfLII6X3jcXM0vWXvxdYYIHMk3v//fdnq4jXv/71mc1Nfo9p84033pg5+U488cSxaEYrn8FLhr7+/e9/72655ZZsJdbnayiJUjqUzv3Tn/6UaZQsI8qI0refaftYyEHT9m1g0l6M9Ndff7275JJLKo115Jx55pmZZ/SrX/1qZuRv67XnnntmJhZIbu21165UTeJq11prLXfeeee13kaXN2b98arHsoCSZ4eVcSNLcNEqy+ZPJbBbctPQEaV05nXXXZe9EYmR/P73v9+S7hjbaggWn/nMZ9zyyy/vWE7leaDzaqYnE0v3zTbbzB199NHu05/+dGbakOX72LZs9NOo51ZbbeX++Mc/uiuvvNJhLvDJociTryVS7t3vfrfbeeedh8rzKxjIuGEl8prXvMYttthi7oYbbhjBdLz7ehDPH1qiPOSQQ9w+++zjzjrrrCwUqOxtKIHo9913X2E/+NvONtxwQ0fokUzMQXRiXZk+Udbx6IITzrEjjjhinhCrunWse/8nP/lJd+edd2bOhzrtk3EyadIkN23atMyu3daL1RKxwHfddZfjyN7Ya911181CgV760pfm3iI4bL311u7b3/62u/baa1uvXce2P1RuaIkS7YKl0+2331667Gaphfb54Q9/ONNA9f7ton3I2Lv22muvzA528skn1+mngdyrNUomBYTOjowUItEvGP6eOHGiu+qqqzKsIEteFGiW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"/>
+             </td>
+            </tr>
+            <tr>
+             <td>
+              <table border="1" cellspacing="0" class="callout" style="width:3.434793307in;">
+               <colgroup>
+                <col style="width:15%"/>
+                <col style="width:85%"/>
+               </colgroup>
+               <tbody>
+                <tr>
+                 <td align="center" valign="middle">
+                  <p class="entry">
+                   *a
+                  </p>
+                 </td>
+                 <td align="left" valign="middle">
+                  <p class="entry">
+                   Component without harness connected
+                  </p>
+                  <p class="para">
+                   (Multiplex Network Master Switch Assembly)
+                  </p>
+                 </td>
+                </tr>
+               </tbody>
+              </table>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (b) Measure the resistance according to the value(s) in the table below.
+      </p>
+      <p class="spec">
+       Standard Resistance:
+      </p>
+      <img src="data:image/png;base64,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"/>
+      <br/>
+      <span class="ewdmlink">
+       <span class="myfrom:2016 myto:2022 startdate:201511">
+        <a href="javascript:void(0)" id="d3658e619" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c&amp;code=J7')">
+         <span class="ewdlink" title="2016 - 2022 MY Prius EWD">
+          Click Location &amp; Routing(J7)
+         </span>
+        </a>
+       </span>
+       <br/>
+      </span>
+      <span class="ewdmlink">
+       <span class="myfrom:2016 myto:2022 startdate:201511">
+        <a href="javascript:void(0)" id="d3658e624" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=J7&amp;pinno=16,17')">
+         <span class="ewdlink" title="2016 - 2022 MY Prius EWD">
+          Click Connector(J7)
+         </span>
+        </a>
+       </span>
+       <br/>
+      </span>
+      <table border="1" width="100%">
+       <colgroup>
+        <col/>
+        <col/>
+        <col/>
+       </colgroup>
+       <thead>
+        <tr>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Tester Connection
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Condition
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Specified Condition
+          </p>
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           J7-16 (LIN2) - J7-17 (LIN1)
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           Always
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           Below 1 Ω
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table cellpadding="0" cellspacing="0" class="arrow">
+       <tbody>
+        <tr>
+         <td class="arrow">
+          NG
+         </td>
+         <td align="left" class="arrow">
+          <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAUCAYAAAC9BQwsAAAAAXNSR0IArs4c6QAAAPxJREFUOE+Vkj0OgkAUhGcx6y+lPTHxAhyAhjvQ0NNZWHoDSws6ehru4BWo6KDgAJaIIDFrxKxZBBbY+s37duYNcZyMed4GUx8BGNP1EmG4mKQlqpqxLPsSw7CCrtNRC2qiOGnbD/j+alDcIPJpVX0higBNm/UuaBHFSdfNcTisO8WdRHGyLzgpUVzwH9wgURQ7zh385qOJYnBJAkwicvFu9wShNGdVNXw3Ljqfc5xO62nENH39bjvKo2k+cL02fyX1SOmnfgSWtWyVoNfjfl8gjhUA8/HNOR5vuFy20qI3PH6+Fsdzabn5ttpjWSowDLQCkCFrYhAUnQHIhG/a33XSA6ezYwAAAABJRU5ErkJggg=="/>
+         </td>
+         <td>
+          <p class="actcif">
+           REPLACE MULTIPLEX NETWORK MASTER SWITCH ASSEMBLY
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table>
+       <tbody>
+        <tr>
+         <td>
+          <table align="left" cellpadding="0" cellspacing="0" class="arrowdn" width="5%">
+           <tbody>
+            <tr>
+             <td align="center" class="arrow">
+              OK
+             </td>
+            </tr>
+            <tr>
+             <td align="left" class="arrow" width="10%">
+              <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAAXNSR0IArs4c6QAAARRJREFUOE+lkk8KgkAUxj/RsqiN0AGCdkLHCNy4VPAKrrpOJ0hatQw8hIugXdANXBjkv8F41oia+afczMzzzW++770nmGaQue4Yvj+GosTFCiDf00fx8jk/vOPlHNoLjMWZKI54zl/r6RS+gK7LoGmTv2CGEcJxxBeQSJYV4XCY/wxlLMnvFkA6LBYpfH86GHo+P6Cq0ifwckmxXg8DmuYd+71ciKgopKhtx9jtZr1Vcqv8wgeQfsgyQ5p2N+l6DbFcipXHG4G3G8Nq1Q6sW21V2Md63WonsK3rNMCbTdVqL2CTdV0PcDx+L0djDctVLnddkkJEUbOyXgp5Eg18EAjwvKwY4G9z1amQLpL17TZptcofeALLqpzLvaof7AAAAABJRU5ErkJggg=="/>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000000TGZG_07_0003">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           4.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           CHECK HARNESS AND CONNECTOR (MULTIPLEX NETWORK MASTER SWITCH ASSEMBLY - POWER WINDOW REGULATOR MOTOR ASSEMBLY (for Driver Door))
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (a) Disconnect the J2 power window regulator motor assembly (for driver door) connector.
+      </p>
+      <p class="test1">
+       (b) Measure the resistance according to the value(s) in the table below.
+      </p>
+      <p class="notegen">
+       NOTICE:
+      </p>
+      <p class="note">
+       Make sure that each ECU is in sleep mode before performing the inspection. To enter sleep mode, turn the power switch from on (IG) to off and wait for 180 seconds or more without operating any switches.
+      </p>
+      <p class="spec">
+       Standard Resistance:
+      </p>
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAAAlCAYAAACgXxA5AAAAAXNSR0IArs4c6QAACPhJREFUeF7tW9GRozoQHKdj3p+cih0ChHFsGBCCnQr8LU6HVz3SiJGQgL21q652xc/VebFAo1ZPT498mud5pnKVCLw4AqcCrBdHtAzHESjAKkB4SwQKsN4S1jLoS4E1EpEpMS0R+E4q7B8jjc+R+omInoDUcpmzofpqiCqi+lyg9huR9mXGaj56AqiC6wxwGaKz+/y5BhkDrVy/JgKHgQUwAVR8BUACYEYigAnsBPZilnKfuVCaM9Fw735NYH/7RA8Bq3/01Hw4BcWspMGk2CpmLQEY7nfpcrjXhFRZrp8dgV1gMVPdeqKrC4QwEzOSSn8SJ/+ZsFcEPBqZucBg5fq5EdgElk9/ceoTsa5Tn6RA+RtEfeXSI0Cor+dI8+fwc6NaZpY3SAGFy3+N01ShZhIhziJeg86J9vnTaqnLraGRP3PMJmz2NGTOlrlyFypOn3Il9bp/JZXKPVvsh3v2Um98T+rZe2PszSN+RxuX7Xfj9+LYhaMfiU3qfUZU8qJ5K9qNy3f2R5axfPUnk1Ipriai7l7T5daz5RCL+fmOOwCsnvxUFKi4enxCzKf1FgA9Tj4EthDw10jDNHMqPQH4k0utiaqTn//oyVxrflbqkjHm2TIo5nOpsKHcZvJfMmSuxDZKfU2PlR+/J92SXZ5BZCpDXUIaAATYmHQ1NKsN6D9PzgaxGMioWLAl9Bipb13hpb9XWVuo+3N8PkfBlgUWBzxT5eHFB/cyAQBZf5EPxAK8dOVYV5Sc1AkBdcCz+xrLbMcYJ7u4uOTZ3Z/0Yss4AGHXrnWdLLAGHpjkUl2obmt+DnPGNBKWpcd74f/XYxUuxmrahsYH0Twv7Gyf63TrA5t0/f58z61nVtGbon+O1FQ9mdZ4j9Bz+3NcxVM2DuaI+QDI2OwAaN+ORNXIG+XV4EoCK6mtlGivCbtsQTnEPSYszDV/CmO5VOgB6tKisyJ4wbFbo23AKTRajNROkcKCgR4xkiyMfC/Fjlzt3sZgYQVsAFYq2AxmXhAiSflbu9jOZSRhRMuKC3jBzJjrMIXsvQArBLEwVu799LuIFInBKffoGIEoNNMdZabcfUlgNY+e+tvINLz4UU4nPYh3izCWDOwDfl0Y64Rq0gNOgUp0GSrExIQkIMPnGnTxRE6ni00XbRdoEZkDNkBza5iBYqDwbia7cKKB9KLndjEzITONZYHcxYwFYE0xsGy6xTth0RE7dCj0ZmUAfeQYKz0f/R7ad9zaALJudfvalJgEltdG4qB7PwrWgW3T6CDE4BLatwCJhDtuVmYqFi9eHM9YUwiWpIZxaTMeR1gUQQX4UjrrdGrWae050skteg5YNgX3uykEKQeMCJ2XYyw8wwLc6SOnabcZq6c9IIj3uGdMy0aKtdxbGEuYJgegrYdip4BS9yxQZhqIxz81dYHYdLoEGgspVapKJ+Dj6iyXGrBYtUu1Vuv1NHwO/r1sGm2ovuP5S1o/wlhbKTiIzZPo1ILdMowFbXOvWVzHrOq1VJTm7edgrI6gLXOXLVzCNJ9NW1wErdPxd8CVYSyrjbRIP/oQBKlmM3UbWmAL6JSU8PaiH17YUiBDPlN3HwKGAytcTqj8Fi3CVsnpwvoNbGjTYm9Tnhb+LQIfMuZhYH00ZM6oNjHPvQWOGcumQs2iwtKitfYYC/NlIT7h6YgCNvPIgANLIY2OLeJlY7B1pRjz6Hof11iyyxxTwG9aAmcnkKvmRNcsqRC1VOowjTMhnsRsUUc7TzQW0oSpiIPHZquqCFciVYl9YYBhQpAN71yusNTu51KeWTH00kS8d6gKM2W46Jdc8aHFMVLyWmMt4l3SrS8aHIttV4XWhjBOqviqMKjIbQHUTfXuCRNbORINM8qyvVxzDHJpxgLaxfz0mshpI8As0VBOiffQ55LmtWpiE8rjqNRGxYQS/Xms6sLr2WcvjCTA1KJVV2c5NmB+VBVbTmP1Hz01SPmRFRCHHAvOwFpprDVj4bviu3GlXBn2seJY+9R/7wIJET9bYn/Ep5ICaEhYMsdgtL4rbTd8jJw+Ah9LtWxi7RU3qcXQC8S7NKK19cBeVegv2cU4ZjdoZoAvZO6GhmtNSLOxuJXUABEtGilV1e3ZDR4A8Ixglm6Zi3saK6pUPROiUkXR8V8CWM7A3bMbxOPbA7+w+5aJ/DfgSgMLAhFWQeZ4TNIg9W2bhWkCg1RsB3lL19bJ+lgbznyyOsQicEegY4Mz1hayaDADkd4xP12p+TEBBmeQphgr8H52T2ogBW9UhS7t6fn48v9uaMSJkig7yKbYqwrFruDvO1sjFbdFdnyto7AHtm3nHd8OGMb6WkKvi+seOutLS6ex0js+q+VAVlfwltY5nVs6dDwV+nTI6cmms9gQ1elP2jWpXuXCWOuqy3tDE0Tyvlu962MlgBUbuzHjHGFUWXQpCHIgFBCjEEh1JvbAs1kQ5H7+FbjvDI7liAxLPFRbqYN/ShvZlop8b93WyfYKXQ/Sgg7HbwBwK1ER2CSTOEPRsmwalN6f4zI8XS1JRYnUgMLBp9sJgO2JJrPrIemAs3WT8bFMW6+MZt4k0slI6FkpRPYYS96B9RPGcfOxRrBhH44b4S+2Gfxzt35XaJlDAUMfjXELGDCa11FE5mlo5GazGKTqCM2DnH+0Ziu9y9eNYJbX1N1nZ2mohXe2A58YqMyq2tPiGOPGLRQPIGn+2uUIGuDSPzx60gGbIF0VQrxfrMGaOeGhARH0CtnzupBpuyQo0+nOFhC6urdgQyvsPad6N89jLbQcnWdfncNyixAATx3004wXHa35Dt2W734tAlhPaei/+6Dl/glS103nE6TxidHkaVFnJ6yqQAu0vSrla6Eqd/+rEdgFFicfd4QjPNSXYDF/XNn9JMzlc2lkA1Rdi0N+rzHh/tWglvf6wk/sWS+09reEfAloYt0lUdXaikXo+mhLWYCfG4FDjKWnz6cR3Y9Vg7CoozD6c5ipqGAKS/1cEKVm9mVg+epJfgWtzlHL31Cm+19D/654ltm6CPw1sEoESwS2IlCAVfDxlggUYL0lrGXQAqyCgbdEoADrLWEtg/4PRSbQ7J/5SpgAAAAASUVORK5CYII="/>
+      <br/>
+      <span class="ewdmlink">
+       <span class="myfrom:2016 myto:2022 startdate:201511">
+        <a href="javascript:void(0)" id="d3658e798" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c,c&amp;code=J7,J2')">
+         <span class="ewdlink" title="2016 - 2022 MY Prius EWD">
+          Click Location &amp; Routing(J7,J2)
+         </span>
+        </a>
+       </span>
+       <br/>
+      </span>
+      <span class="ewdmlink">
+       <span class="myfrom:2016 myto:2022 startdate:201511">
+        <a href="javascript:void(0)" id="d3658e803" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=J7&amp;pinno=16')">
+         <span class="ewdlink" title="2016 - 2022 MY Prius EWD">
+          Click Connector(J7)
+         </span>
+        </a>
+       </span>
+       <br/>
+      </span>
+      <span class="ewdmlink">
+       <span class="myfrom:2016 myto:2022 startdate:201511">
+        <a href="javascript:void(0)" id="d3658e808" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=J2&amp;pinno=9')">
+         <span class="ewdlink" title="2016 - 2022 MY Prius EWD">
+          Click Connector(J2)
+         </span>
+        </a>
+       </span>
+       <br/>
+      </span>
+      <table border="1" width="100%">
+       <colgroup>
+        <col/>
+        <col/>
+        <col/>
+       </colgroup>
+       <thead>
+        <tr>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Tester Connection
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Condition
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Specified Condition
+          </p>
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           J7-16 (LIN2) - J2-9 (LIN)
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           Power Switch off
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           Below 1 Ω
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           J7-16 (LIN2) or J2-9 (LIN) - Body ground
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           Power Switch off
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           10 kΩ or higher
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table cellpadding="0" cellspacing="0" class="arrow">
+       <tbody>
+        <tr>
+         <td class="arrow">
+          NG
+         </td>
+         <td align="left" class="arrow">
+          <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAUCAYAAAC9BQwsAAAAAXNSR0IArs4c6QAAAPxJREFUOE+Vkj0OgkAUhGcx6y+lPTHxAhyAhjvQ0NNZWHoDSws6ehru4BWo6KDgAJaIIDFrxKxZBBbY+s37duYNcZyMed4GUx8BGNP1EmG4mKQlqpqxLPsSw7CCrtNRC2qiOGnbD/j+alDcIPJpVX0higBNm/UuaBHFSdfNcTisO8WdRHGyLzgpUVzwH9wgURQ7zh385qOJYnBJAkwicvFu9wShNGdVNXw3Ljqfc5xO62nENH39bjvKo2k+cL02fyX1SOmnfgSWtWyVoNfjfl8gjhUA8/HNOR5vuFy20qI3PH6+Fsdzabn5ttpjWSowDLQCkCFrYhAUnQHIhG/a33XSA6ezYwAAAABJRU5ErkJggg=="/>
+         </td>
+         <td>
+          <p class="actcif">
+           REPAIR OR REPLACE HARNESS OR CONNECTOR
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table>
+       <tbody>
+        <tr>
+         <td>
+          <table align="left" cellpadding="0" cellspacing="0" class="arrowdn" width="5%">
+           <tbody>
+            <tr>
+             <td align="center" class="arrow">
+              OK
+             </td>
+            </tr>
+            <tr>
+             <td align="left" class="arrow" width="10%">
+              <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAAXNSR0IArs4c6QAAARRJREFUOE+lkk8KgkAUxj/RsqiN0AGCdkLHCNy4VPAKrrpOJ0hatQw8hIugXdANXBjkv8F41oia+afczMzzzW++770nmGaQue4Yvj+GosTFCiDf00fx8jk/vOPlHNoLjMWZKI54zl/r6RS+gK7LoGmTv2CGEcJxxBeQSJYV4XCY/wxlLMnvFkA6LBYpfH86GHo+P6Cq0ifwckmxXg8DmuYd+71ciKgopKhtx9jtZr1Vcqv8wgeQfsgyQ5p2N+l6DbFcipXHG4G3G8Nq1Q6sW21V2Md63WonsK3rNMCbTdVqL2CTdV0PcDx+L0djDctVLnddkkJEUbOyXgp5Eg18EAjwvKwY4G9z1amQLpL17TZptcofeALLqpzLvaof7AAAAABJRU5ErkJggg=="/>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000000TGZG_07_0005">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           5.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           CHECK HARNESS AND CONNECTOR (POWER WINDOW REGULATOR MOTOR ASSEMBLY (for Driver Door) - AUXILIARY BATTERY, BODY GROUND)
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (a) Measure the voltage according to the value(s) in the table below.
+      </p>
+      <p class="spec">
+       Standard Voltage:
+      </p>
+      <img src="data:image/png;base64,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"/>
+      <br/>
+      <span class="ewdmlink">
+       <span class="myfrom:2016 myto:2022 startdate:201511">
+        <a href="javascript:void(0)" id="d3658e991" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c&amp;code=J2')">
+         <span class="ewdlink" title="2016 - 2022 MY Prius EWD">
+          Click Location &amp; Routing(J2)
+         </span>
+        </a>
+       </span>
+       <br/>
+      </span>
+      <span class="ewdmlink">
+       <span class="myfrom:2016 myto:2022 startdate:201511">
+        <a href="javascript:void(0)" id="d3658e996" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=J2&amp;pinno=2,1')">
+         <span class="ewdlink" title="2016 - 2022 MY Prius EWD">
+          Click Connector(J2)
+         </span>
+        </a>
+       </span>
+       <br/>
+      </span>
+      <table border="1" width="100%">
+       <colgroup>
+        <col/>
+        <col/>
+        <col/>
+       </colgroup>
+       <thead>
+        <tr>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Tester Connection
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Condition
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Specified Condition
+          </p>
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           J2-2 (B) - J2-1 (GND)
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           Power Switch off
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           11 to 14 V
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (b) Measure the resistance according to the value(s) in the table below.
+      </p>
+      <p class="spec">
+       Standard Resistance:
+      </p>
+      <img src="data:image/png;base64,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"/>
+      <br/>
+      <span class="ewdmlink">
+       <span class="myfrom:2016 myto:2022 startdate:201511">
+        <a href="javascript:void(0)" id="d3658e1073" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c&amp;code=J2')">
+         <span class="ewdlink" title="2016 - 2022 MY Prius EWD">
+          Click Location &amp; Routing(J2)
+         </span>
+        </a>
+       </span>
+       <br/>
+      </span>
+      <span class="ewdmlink">
+       <span class="myfrom:2016 myto:2022 startdate:201511">
+        <a href="javascript:void(0)" id="d3658e1078" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=J2&amp;pinno=1')">
+         <span class="ewdlink" title="2016 - 2022 MY Prius EWD">
+          Click Connector(J2)
+         </span>
+        </a>
+       </span>
+       <br/>
+      </span>
+      <table border="1" width="100%">
+       <colgroup>
+        <col/>
+        <col/>
+        <col/>
+       </colgroup>
+       <thead>
+        <tr>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Tester Connection
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Condition
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Specified Condition
+          </p>
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           J2-1 (GND) - Body ground
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           Always
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           Below 1 Ω
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table cellpadding="0" cellspacing="0" class="arrow">
+       <tbody>
+        <tr>
+         <td class="arrow">
+          NG
+         </td>
+         <td align="left" class="arrow">
+          <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAUCAYAAAC9BQwsAAAAAXNSR0IArs4c6QAAAPxJREFUOE+Vkj0OgkAUhGcx6y+lPTHxAhyAhjvQ0NNZWHoDSws6ehru4BWo6KDgAJaIIDFrxKxZBBbY+s37duYNcZyMed4GUx8BGNP1EmG4mKQlqpqxLPsSw7CCrtNRC2qiOGnbD/j+alDcIPJpVX0higBNm/UuaBHFSdfNcTisO8WdRHGyLzgpUVzwH9wgURQ7zh385qOJYnBJAkwicvFu9wShNGdVNXw3Ljqfc5xO62nENH39bjvKo2k+cL02fyX1SOmnfgSWtWyVoNfjfl8gjhUA8/HNOR5vuFy20qI3PH6+Fsdzabn5ttpjWSowDLQCkCFrYhAUnQHIhG/a33XSA6ezYwAAAABJRU5ErkJggg=="/>
+         </td>
+         <td>
+          <p class="actcif">
+           REPAIR OR REPLACE HARNESS OR CONNECTOR
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table>
+       <tbody>
+        <tr>
+         <td>
+          <table align="left" cellpadding="0" cellspacing="0" class="arrowdn" width="5%">
+           <tbody>
+            <tr>
+             <td align="center" class="arrow">
+              OK
+             </td>
+            </tr>
+            <tr>
+             <td align="left" class="arrow" width="10%">
+              <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAAXNSR0IArs4c6QAAARRJREFUOE+lkk8KgkAUxj/RsqiN0AGCdkLHCNy4VPAKrrpOJ0hatQw8hIugXdANXBjkv8F41oia+afczMzzzW++770nmGaQue4Yvj+GosTFCiDf00fx8jk/vOPlHNoLjMWZKI54zl/r6RS+gK7LoGmTv2CGEcJxxBeQSJYV4XCY/wxlLMnvFkA6LBYpfH86GHo+P6Cq0ifwckmxXg8DmuYd+71ciKgopKhtx9jtZr1Vcqv8wgeQfsgyQ5p2N+l6DbFcipXHG4G3G8Nq1Q6sW21V2Md63WonsK3rNMCbTdVqL2CTdV0PcDx+L0djDctVLnddkkJEUbOyXgp5Eg18EAjwvKwY4G9z1amQLpL17TZptcofeALLqpzLvaof7AAAAABJRU5ErkJggg=="/>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000000TGZG_07_0006">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           6.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           REPLACE POWER WINDOW REGULATOR MOTOR ASSEMBLY (for Driver Door)
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (a) Replace the power window regulator motor assembly (for driver door).
+      </p>
+      <p class="hintgen">
+       HINT:
+      </p>
+      <p class="hint">
+       Click here
+       <span class="mlink">
+        <span class="myfrom:2016 myto:2018 startdate:201511 enddate:201812">
+         <a href="RM100000000S6SC.html" id="d3658e1235">
+          <img alt="2016 - 2018 MY Prius [11/2015 - 12/2018]; WINDOW / GLASS: POWER WINDOW REGULATOR MOTOR (for Front Door): REMOVAL" class="info" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAAXNSR0IArs4c6QAAAkBJREFUSEvtVU9o01Ac/lKapWmrbra2nVPqnw0n2xytHQoiTFScUMSLCCIqbqgTvIkWBM968OLJedjwOlHBizAEvYlQrSKMyWhxhznEIEaTNG3WvvHezEyKTeOpE/wuL+T3+37vy/f7vReOEEKwSsBRMcdvVFEyqtD036r8vuVngfewGMVX2YtgiwpRFFYSzbjJ5UjJMU6JtbVp3TOHFDAxqYvNtUaSgdH0ahRz9Noia0Gz8O86870wiaJcAC+GoGoG4snLmHuVQUfiOvJTx1AxfqC6qCO2dwzh+CBmniRRUj6jtecmy3WDE/tdzsxC7hbKP/MAH4L04TZ2XyBsw670S7ybWIf4kRfwB4IIRHYiN96BaH8G0b5zyI23o/fULIRgp6MeW5sGRlWQaqAugYopfnuLQHgP5PkpCG0JVLQCth+eQPZeEOHuEVQMGdsOTuLNfY6JpTAdbU9k3ItpdLS/vL8DVXoNcX0S/OZhzD/rA6no2JSexdzjyIoz/nDKJoY5Sta6apXrNlExujzD2hTaOsS+8uPTA0hdUpgzifML8Hhj7P30o354xRgi3cPIPz/Jcpxcp5y/Ok2alIWmKvAJwJqNA6y4ND2GDb2n8Sn7AFtSZ20bmjMW3XUVvtYdDefXJmbwigqlXH9mnKpxHud5a6ik1pn/l57FMlubmu0M1WU7TVQd+72LgFb8c6edYiaXria/Ub51l5GhXzfw3YcKZIWghedQNpbXWtD3FGbMzLOuJqdejrWmlacbwL4egiVcNWtev/kfSAAAAABJRU5ErkJggg==" title="2016 - 2018 MY Prius [11/2015 - 12/2018]; WINDOW / GLASS: POWER WINDOW REGULATOR MOTOR (for Front Door): REMOVAL"/>
+         </a>
+        </span>
+        <span class="myfrom:2019 myto:2020 startdate:201812 enddate:202007">
+         <a href="RM100000001GLFT.html" id="d3658e1236">
+          <img alt="2019 - 2020 MY Prius [12/2018 - 07/2020]; WINDOW / GLASS: POWER WINDOW REGULATOR MOTOR (for Front Door): REMOVAL" class="info" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAAXNSR0IArs4c6QAAAkBJREFUSEvtVU9o01Ac/lKapWmrbra2nVPqnw0n2xytHQoiTFScUMSLCCIqbqgTvIkWBM968OLJedjwOlHBizAEvYlQrSKMyWhxhznEIEaTNG3WvvHezEyKTeOpE/wuL+T3+37vy/f7vReOEEKwSsBRMcdvVFEyqtD036r8vuVngfewGMVX2YtgiwpRFFYSzbjJ5UjJMU6JtbVp3TOHFDAxqYvNtUaSgdH0ahRz9Noia0Gz8O86870wiaJcAC+GoGoG4snLmHuVQUfiOvJTx1AxfqC6qCO2dwzh+CBmniRRUj6jtecmy3WDE/tdzsxC7hbKP/MAH4L04TZ2XyBsw670S7ybWIf4kRfwB4IIRHYiN96BaH8G0b5zyI23o/fULIRgp6MeW5sGRlWQaqAugYopfnuLQHgP5PkpCG0JVLQCth+eQPZeEOHuEVQMGdsOTuLNfY6JpTAdbU9k3ItpdLS/vL8DVXoNcX0S/OZhzD/rA6no2JSexdzjyIoz/nDKJoY5Sta6apXrNlExujzD2hTaOsS+8uPTA0hdUpgzifML8Hhj7P30o354xRgi3cPIPz/Jcpxcp5y/Ok2alIWmKvAJwJqNA6y4ND2GDb2n8Sn7AFtSZ20bmjMW3XUVvtYdDefXJmbwigqlXH9mnKpxHud5a6ik1pn/l57FMlubmu0M1WU7TVQd+72LgFb8c6edYiaXria/Ub51l5GhXzfw3YcKZIWghedQNpbXWtD3FGbMzLOuJqdejrWmlacbwL4egiVcNWtev/kfSAAAAABJRU5ErkJggg==" title="2019 - 2020 MY Prius [12/2018 - 07/2020]; WINDOW / GLASS: POWER WINDOW REGULATOR MOTOR (for Front Door): REMOVAL"/>
+         </a>
+        </span>
+        <span class="myfrom:2021 myto:2022 startdate:202007">
+         <a href="RM100000001PORF.html" id="d3658e1237">
+          <img alt="2021 - 2022 MY Prius [07/2020 -        ]; WINDOW / GLASS: POWER WINDOW REGULATOR MOTOR (for Front Door): REMOVAL" class="info" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAAXNSR0IArs4c6QAAAkBJREFUSEvtVU9o01Ac/lKapWmrbra2nVPqnw0n2xytHQoiTFScUMSLCCIqbqgTvIkWBM968OLJedjwOlHBizAEvYlQrSKMyWhxhznEIEaTNG3WvvHezEyKTeOpE/wuL+T3+37vy/f7vReOEEKwSsBRMcdvVFEyqtD036r8vuVngfewGMVX2YtgiwpRFFYSzbjJ5UjJMU6JtbVp3TOHFDAxqYvNtUaSgdH0ahRz9Noia0Gz8O86870wiaJcAC+GoGoG4snLmHuVQUfiOvJTx1AxfqC6qCO2dwzh+CBmniRRUj6jtecmy3WDE/tdzsxC7hbKP/MAH4L04TZ2XyBsw670S7ybWIf4kRfwB4IIRHYiN96BaH8G0b5zyI23o/fULIRgp6MeW5sGRlWQaqAugYopfnuLQHgP5PkpCG0JVLQCth+eQPZeEOHuEVQMGdsOTuLNfY6JpTAdbU9k3ItpdLS/vL8DVXoNcX0S/OZhzD/rA6no2JSexdzjyIoz/nDKJoY5Sta6apXrNlExujzD2hTaOsS+8uPTA0hdUpgzifML8Hhj7P30o354xRgi3cPIPz/Jcpxcp5y/Ok2alIWmKvAJwJqNA6y4ND2GDb2n8Sn7AFtSZ20bmjMW3XUVvtYdDefXJmbwigqlXH9mnKpxHud5a6ik1pn/l57FMlubmu0M1WU7TVQd+72LgFb8c6edYiaXria/Ub51l5GhXzfw3YcKZIWghedQNpbXWtD3FGbMzLOuJqdejrWmlacbwL4egiVcNWtev/kfSAAAAABJRU5ErkJggg==" title="2021 - 2022 MY Prius [07/2020 -        ]; WINDOW / GLASS: POWER WINDOW REGULATOR MOTOR (for Front Door): REMOVAL"/>
+         </a>
+        </span>
+       </span>
+      </p>
+      <table>
+       <tbody>
+        <tr>
+         <td>
+          <table align="left" cellpadding="0" cellspacing="0" class="arrowdn" width="5%">
+           <tbody>
+            <tr>
+             <td align="center" class="arrow">
+              NEXT
+             </td>
+            </tr>
+            <tr>
+             <td align="left" class="arrow" width="10%">
+              <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAAXNSR0IArs4c6QAAARRJREFUOE+lkk8KgkAUxj/RsqiN0AGCdkLHCNy4VPAKrrpOJ0hatQw8hIugXdANXBjkv8F41oia+afczMzzzW++770nmGaQue4Yvj+GosTFCiDf00fx8jk/vOPlHNoLjMWZKI54zl/r6RS+gK7LoGmTv2CGEcJxxBeQSJYV4XCY/wxlLMnvFkA6LBYpfH86GHo+P6Cq0ifwckmxXg8DmuYd+71ciKgopKhtx9jtZr1Vcqv8wgeQfsgyQ5p2N+l6DbFcipXHG4G3G8Nq1Q6sW21V2Md63WonsK3rNMCbTdVqL2CTdV0PcDx+L0djDctVLnddkkJEUbOyXgp5Eg18EAjwvKwY4G9z1amQLpL17TZptcofeALLqpzLvaof7AAAAABJRU5ErkJggg=="/>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000000TGZG_07_0029">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           7.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           CLEAR DTC
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (a) Clear the DTCs.
+      </p>
+      <h4 class="gtsInfoTitle">
+       Body Electrical &gt; Main Body &gt; Clear DTCs
+      </h4>
+      <table>
+       <tbody>
+        <tr>
+         <td>
+          <table align="left" cellpadding="0" cellspacing="0" class="arrowdn" width="5%">
+           <tbody>
+            <tr>
+             <td align="center" class="arrow">
+              NEXT
+             </td>
+            </tr>
+            <tr>
+             <td align="left" class="arrow" width="10%">
+              <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAAXNSR0IArs4c6QAAARRJREFUOE+lkk8KgkAUxj/RsqiN0AGCdkLHCNy4VPAKrrpOJ0hatQw8hIugXdANXBjkv8F41oia+afczMzzzW++770nmGaQue4Yvj+GosTFCiDf00fx8jk/vOPlHNoLjMWZKI54zl/r6RS+gK7LoGmTv2CGEcJxxBeQSJYV4XCY/wxlLMnvFkA6LBYpfH86GHo+P6Cq0ifwckmxXg8DmuYd+71ciKgopKhtx9jtZr1Vcqv8wgeQfsgyQ5p2N+l6DbFcipXHG4G3G8Nq1Q6sW21V2Md63WonsK3rNMCbTdVqL2CTdV0PcDx+L0djDctVLnddkkJEUbOyXgp5Eg18EAjwvKwY4G9z1amQLpL17TZptcofeALLqpzLvaof7AAAAABJRU5ErkJggg=="/>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000000TGZG_07_0007">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           8.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           CHECK FOR DTC
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (a) Check for DTCs.
+      </p>
+      <h4 class="gtsInfoTitle">
+       Body Electrical &gt; Main Body &gt; Trouble Codes
+      </h4>
+      <table border="1" class="result" width="100%">
+       <thead>
+        <tr>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Result
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Proceed to
+          </p>
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" valign="middle">
+          <p class="entry">
+           B2321 is not output
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="judge-value">
+           A
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" valign="middle">
+          <p class="entry">
+           B2321 is output
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="judge-value">
+           B
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table cellpadding="0" cellspacing="0" class="arrow">
+       <tbody>
+        <tr>
+         <td class="arrow">
+          A
+         </td>
+         <td align="left" class="arrow">
+          <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAUCAYAAAC9BQwsAAAAAXNSR0IArs4c6QAAAPxJREFUOE+Vkj0OgkAUhGcx6y+lPTHxAhyAhjvQ0NNZWHoDSws6ehru4BWo6KDgAJaIIDFrxKxZBBbY+s37duYNcZyMed4GUx8BGNP1EmG4mKQlqpqxLPsSw7CCrtNRC2qiOGnbD/j+alDcIPJpVX0higBNm/UuaBHFSdfNcTisO8WdRHGyLzgpUVzwH9wgURQ7zh385qOJYnBJAkwicvFu9wShNGdVNXw3Ljqfc5xO62nENH39bjvKo2k+cL02fyX1SOmnfgSWtWyVoNfjfl8gjhUA8/HNOR5vuFy20qI3PH6+Fsdzabn5ttpjWSowDLQCkCFrYhAUnQHIhG/a33XSA6ezYwAAAABJRU5ErkJggg=="/>
+         </td>
+         <td>
+          <p class="actcif">
+           END (POWER WINDOW REGULATOR MOTOR ASSEMBLY (for Driver Door) WAS DEFECTIVE)
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table cellpadding="0" cellspacing="0" class="arrow">
+       <tbody>
+        <tr>
+         <td class="arrow">
+          B
+         </td>
+         <td align="left" class="arrow">
+          <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAUCAYAAAC9BQwsAAAAAXNSR0IArs4c6QAAAPxJREFUOE+Vkj0OgkAUhGcx6y+lPTHxAhyAhjvQ0NNZWHoDSws6ehru4BWo6KDgAJaIIDFrxKxZBBbY+s37duYNcZyMed4GUx8BGNP1EmG4mKQlqpqxLPsSw7CCrtNRC2qiOGnbD/j+alDcIPJpVX0higBNm/UuaBHFSdfNcTisO8WdRHGyLzgpUVzwH9wgURQ7zh385qOJYnBJAkwicvFu9wShNGdVNXw3Ljqfc5xO62nENH39bjvKo2k+cL02fyX1SOmnfgSWtWyVoNfjfl8gjhUA8/HNOR5vuFy20qI3PH6+Fsdzabn5ttpjWSowDLQCkCFrYhAUnQHIhG/a33XSA6ezYwAAAABJRU5ErkJggg=="/>
+         </td>
+         <td>
+          <p class="actcif">
+           <span class="mlink">
+            REPLACE MAIN BODY ECU (MULTIPLEX NETWORK BODY ECU)
+            <span class="myfrom:2016 myto:2018 startdate:201511 enddate:201812">
+             <a href="RM100000000TBX6.html" id="d3658e1495">
+              <img alt="2016 - 2018 MY Prius [11/2015 - 12/2018]; POWER DISTRIBUTION: MAIN BODY ECU: REMOVAL" class="info" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAAXNSR0IArs4c6QAAAkBJREFUSEvtVU9o01Ac/lKapWmrbra2nVPqnw0n2xytHQoiTFScUMSLCCIqbqgTvIkWBM968OLJedjwOlHBizAEvYlQrSKMyWhxhznEIEaTNG3WvvHezEyKTeOpE/wuL+T3+37vy/f7vReOEEKwSsBRMcdvVFEyqtD036r8vuVngfewGMVX2YtgiwpRFFYSzbjJ5UjJMU6JtbVp3TOHFDAxqYvNtUaSgdH0ahRz9Noia0Gz8O86870wiaJcAC+GoGoG4snLmHuVQUfiOvJTx1AxfqC6qCO2dwzh+CBmniRRUj6jtecmy3WDE/tdzsxC7hbKP/MAH4L04TZ2XyBsw670S7ybWIf4kRfwB4IIRHYiN96BaH8G0b5zyI23o/fULIRgp6MeW5sGRlWQaqAugYopfnuLQHgP5PkpCG0JVLQCth+eQPZeEOHuEVQMGdsOTuLNfY6JpTAdbU9k3ItpdLS/vL8DVXoNcX0S/OZhzD/rA6no2JSexdzjyIoz/nDKJoY5Sta6apXrNlExujzD2hTaOsS+8uPTA0hdUpgzifML8Hhj7P30o354xRgi3cPIPz/Jcpxcp5y/Ok2alIWmKvAJwJqNA6y4ND2GDb2n8Sn7AFtSZ20bmjMW3XUVvtYdDefXJmbwigqlXH9mnKpxHud5a6ik1pn/l57FMlubmu0M1WU7TVQd+72LgFb8c6edYiaXria/Ub51l5GhXzfw3YcKZIWghedQNpbXWtD3FGbMzLOuJqdejrWmlacbwL4egiVcNWtev/kfSAAAAABJRU5ErkJggg==" title="2016 - 2018 MY Prius [11/2015 - 12/2018]; POWER DISTRIBUTION: MAIN BODY ECU: REMOVAL"/>
+             </a>
+            </span>
+            <span class="myfrom:2019 myto:2020 startdate:201812 enddate:202007">
+             <a href="RM100000001GJRW.html" id="d3658e1496">
+              <img alt="2019 - 2020 MY Prius [12/2018 - 07/2020]; POWER DISTRIBUTION: MAIN BODY ECU: REMOVAL" class="info" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAAXNSR0IArs4c6QAAAkBJREFUSEvtVU9o01Ac/lKapWmrbra2nVPqnw0n2xytHQoiTFScUMSLCCIqbqgTvIkWBM968OLJedjwOlHBizAEvYlQrSKMyWhxhznEIEaTNG3WvvHezEyKTeOpE/wuL+T3+37vy/f7vReOEEKwSsBRMcdvVFEyqtD036r8vuVngfewGMVX2YtgiwpRFFYSzbjJ5UjJMU6JtbVp3TOHFDAxqYvNtUaSgdH0ahRz9Noia0Gz8O86870wiaJcAC+GoGoG4snLmHuVQUfiOvJTx1AxfqC6qCO2dwzh+CBmniRRUj6jtecmy3WDE/tdzsxC7hbKP/MAH4L04TZ2XyBsw670S7ybWIf4kRfwB4IIRHYiN96BaH8G0b5zyI23o/fULIRgp6MeW5sGRlWQaqAugYopfnuLQHgP5PkpCG0JVLQCth+eQPZeEOHuEVQMGdsOTuLNfY6JpTAdbU9k3ItpdLS/vL8DVXoNcX0S/OZhzD/rA6no2JSexdzjyIoz/nDKJoY5Sta6apXrNlExujzD2hTaOsS+8uPTA0hdUpgzifML8Hhj7P30o354xRgi3cPIPz/Jcpxcp5y/Ok2alIWmKvAJwJqNA6y4ND2GDb2n8Sn7AFtSZ20bmjMW3XUVvtYdDefXJmbwigqlXH9mnKpxHud5a6ik1pn/l57FMlubmu0M1WU7TVQd+72LgFb8c6edYiaXria/Ub51l5GhXzfw3YcKZIWghedQNpbXWtD3FGbMzLOuJqdejrWmlacbwL4egiVcNWtev/kfSAAAAABJRU5ErkJggg==" title="2019 - 2020 MY Prius [12/2018 - 07/2020]; POWER DISTRIBUTION: MAIN BODY ECU: REMOVAL"/>
+             </a>
+            </span>
+            <span class="myfrom:2021 myto:2022 startdate:202007">
+             <a href="RM100000001PF9R.html" id="d3658e1497">
+              <img alt="2021 - 2022 MY Prius [07/2020 -        ]; POWER DISTRIBUTION: MAIN BODY ECU: REMOVAL" class="info" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAAXNSR0IArs4c6QAAAkBJREFUSEvtVU9o01Ac/lKapWmrbra2nVPqnw0n2xytHQoiTFScUMSLCCIqbqgTvIkWBM968OLJedjwOlHBizAEvYlQrSKMyWhxhznEIEaTNG3WvvHezEyKTeOpE/wuL+T3+37vy/f7vReOEEKwSsBRMcdvVFEyqtD036r8vuVngfewGMVX2YtgiwpRFFYSzbjJ5UjJMU6JtbVp3TOHFDAxqYvNtUaSgdH0ahRz9Noia0Gz8O86870wiaJcAC+GoGoG4snLmHuVQUfiOvJTx1AxfqC6qCO2dwzh+CBmniRRUj6jtecmy3WDE/tdzsxC7hbKP/MAH4L04TZ2XyBsw670S7ybWIf4kRfwB4IIRHYiN96BaH8G0b5zyI23o/fULIRgp6MeW5sGRlWQaqAugYopfnuLQHgP5PkpCG0JVLQCth+eQPZeEOHuEVQMGdsOTuLNfY6JpTAdbU9k3ItpdLS/vL8DVXoNcX0S/OZhzD/rA6no2JSexdzjyIoz/nDKJoY5Sta6apXrNlExujzD2hTaOsS+8uPTA0hdUpgzifML8Hhj7P30o354xRgi3cPIPz/Jcpxcp5y/Ok2alIWmKvAJwJqNA6y4ND2GDb2n8Sn7AFtSZ20bmjMW3XUVvtYdDefXJmbwigqlXH9mnKpxHud5a6ik1pn/l57FMlubmu0M1WU7TVQd+72LgFb8c6edYiaXria/Ub51l5GhXzfw3YcKZIWghedQNpbXWtD3FGbMzLOuJqdejrWmlacbwL4egiVcNWtev/kfSAAAAABJRU5ErkJggg==" title="2021 - 2022 MY Prius [07/2020 -        ]; POWER DISTRIBUTION: MAIN BODY ECU: REMOVAL"/>
+             </a>
+            </span>
+           </span>
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </td>
+    </tr>
+   </tbody>
+  </table>
+ </body>
+</html>

@@ -1,0 +1,2816 @@
+<html>
+ <head>
+  <title>
+   PARK ASSIST / MONITORING: INTUITIVE PARKING ASSIST SYSTEM: C1AF8; Rr IPA Sensor Communication Circuit; 2019 - 2022 MY Prius [12/2018 -        ]
+  </title>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <style type="text/css">
+   /*CQ T300010120 - To fix the callout issue. Call out class been added which overrides the default table class to Reduce the gap between the figure & callout table*/
+
+
+body
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 18px;
+	background-color: #ffffff;
+	
+	padding-right: 20px;
+	padding-left: 4px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+H1, H2, H3, H4, H5, H6
+{
+    color: #000000;
+}
+
+H1	
+{
+	font-size: 20px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	line-height: 24px;
+}
+
+H2	
+{
+	font-size: 18px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	line-height: 22px;
+}
+
+H3	
+{
+	font-size: 16px;
+	font-weight: bold;
+	font-style:	normal;
+	text-decoration: none;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	line-height: 18px;
+	}
+
+H4	
+{
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	line-height: 18px;
+	}
+
+H5, DT 
+{
+	font-size: 14px;
+	font-weight: bold;
+	font-style:	normal;
+	text-decoration: none;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	line-height: 16px;
+	}
+
+H6	
+{
+	font-size: 13px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	line-height: 16px;
+}
+
+
+h1.markdiv
+{
+	color: #000099;
+	margin-bottom: 1pt;
+}
+
+h1.modyear
+{
+	color: #000099;
+	margin-bottom: 10pt;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+
+h1.modname
+{
+	color: #000099;
+	margin-bottom: 0pt;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	text-valign:left;
+}
+
+h2.name
+{
+	color: #330099;
+	margin-bottom: 10pt;
+	text-decoration: underline;
+	font-size: 20px;
+	font-weight: bold;
+	text-indent: -3pt;
+	margin-left: 6pt;
+}
+
+h4.tbltitle,h4.listtitle
+{
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+}
+
+h4.gtsInfoTitle
+{
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+	margin-left: 12pt;
+}
+
+table.gtsInfoTable
+{
+	margin-left: 12pt;
+	width:auto;
+}
+
+table.gtsInfoTable td
+{
+	text-align:center;
+}
+
+p.step1
+{
+	font-weight: bold;
+	font-size: 13px;
+	margin-bottom: 5pt;
+	text-indent: -6pt;
+	margin-left: 12pt;
+}
+
+p.test1
+{
+	
+	font-size: 13px;
+	margin-bottom: 5pt;
+	text-indent: -12pt;
+	margin-left: 12pt;
+	font-weight: normal;
+	
+}
+
+p.test1p
+{
+	
+	font-size: 12px;
+	margin-bottom: 5pt;
+	text-indent: -12pt;
+	margin-left: 12pt;
+	font-weight: normal;
+}
+
+p.test2
+{
+	
+	font-size: 13px;
+	margin-bottom: 5pt;
+	text-indent: -12pt;
+	margin-left: 24pt;
+}
+
+p.s1
+{
+	font-weight: bold;
+	font-size: 13px;
+	margin-bottom: 5pt;
+	text-indent: -6pt;
+	margin-left: 12pt;
+}
+
+
+div.step3, ol.list
+{
+	text-indent: -15pt;
+	margin-left: 40pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+div.step3, ul.list
+{
+	text-indent: -15pt;
+	margin-left: 40pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+div.step2, ul.list
+{
+	text-indent: -1pt;
+	margin-left: 25pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+div.step2, ol.list
+{
+	text-indent: -1pt;
+	margin-left: 25pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+
+div.s3, ol.list
+{
+	text-indent: -15pt;
+	margin-left: 40pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+div.s3, ul.list
+{
+	text-indent: -15pt;
+	margin-left: 40pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+div.s2, ul.list
+{
+	text-indent: -1pt;
+	margin-left: 20pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+div.s2, ol.list
+{
+	text-indent: 2pt;
+	margin-left: 20pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+p.step3p
+
+{
+	text-indent: -1pt;
+	margin-left: 48pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+p.step2p
+
+{
+	text-indent: -1pt;
+	margin-left: 30pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+p.s2p
+{
+	text-indent: -1pt;
+	margin-left: 30pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+p.s3p
+
+{
+	text-indent: -1pt;
+	margin-left: 48pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+
+
+p.step2
+{
+	text-indent: -15pt;
+	margin-left: 30pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+p.s2
+{
+	text-indent: -15pt;
+	margin-left: 30pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+/*CQ T300015245 - Modified the style class by reomoving p tag to apply the style for any element with class=xref */
+.xref
+ {
+   font-size: 12px;
+   color: black;
+   font-weight: bold;
+   margin-bottom: 0;
+ }
+
+p.step3
+{
+	text-indent: -17pt;
+	margin-left: 47pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+p.s3
+{
+	text-indent: -17pt;
+	margin-left:47pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+
+/*CQ T300014436 - Repair Procedure NOTICE titles not underlined in standard view*/
+p.notegen
+{
+	color: #CD950C;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: inherit;
+	text-indent: -1pt;
+	margin-left: 12pt;
+	margin-bottom: -4px;
+}
+
+p.note
+{
+	color: #CD950C;
+	margin-top: 5pt;
+	font-size: 12px;
+	line-height: 15px;
+	text-indent: -1pt;
+	margin-left: 30pt;
+	text-align: left;
+}
+
+p.notice
+{
+	color: #CD950C;
+	margin-top: 5pt;
+	font-size: 12px;
+	line-height: 15px;
+	text-indent: -1pt;
+	margin-left: 30pt;
+	text-align: left;
+}
+
+
+p.hintgen { color: green; font-weight: bold; font-size: 12px;line-height: inherit;text-indent: -1pt;margin-left: 12pt;margin-bottom: -4px;}
+p.hint { color: green; margin-top: 5pt; font-size: 12px; line-height: 15px;text-indent: -1pt;margin-left: 30pt;text-align: left;}
+
+
+
+p.warngen
+{
+	color: red;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: inherit;
+	text-indent: -1pt;
+	margin-left: 12pt;
+	margin-bottom: -4px;
+}
+
+p.warning
+{
+	color: red;
+	margin-top: 5pt;
+	font-size: 12px;
+	line-height: 15px;
+	text-indent: -15pt;
+	margin-left: 30pt;
+	text-align: left;
+}
+
+p.warn
+{
+	color: red;
+	margin-top: 5pt;
+	font-size: 12px;
+	line-height: 15px;
+	text-indent: -1pt;
+	margin-left: 30pt;
+	text-align: left;
+}
+
+p.sst
+{
+	text-indent: 40px;
+	font-weight: bold;
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+}
+
+p.subnum
+{
+	text-indent: 20px;
+	font-style: italic;
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+}
+
+p.spec
+{
+	margin-left: 40px;
+	text-indent: -3px;
+	font-size: 12px;
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+}
+
+p.specsub
+{
+	color:  blue;
+	text-indent: 40px;
+	font-style:  italic;
+	font-weight: bold;
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+}
+
+p.torque
+{
+	text-indent: 40px;
+	font-weight: bold;
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+}
+
+p.thead
+{
+	font-weight: bold;
+	text-align:  center;
+	font-size: 12px;
+}
+
+p.dtc
+{
+	color:  #0000FF;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+	font-size: 12px;
+}
+
+p.testgrp
+{
+	font-size: 13px;
+	font-weight: bold;
+	border: 1px none White;
+	background-color: InfoBackground;
+}
+
+p.resright
+{
+	text-indent:  50%;
+	font-size: 12px;
+}
+
+p.rescid
+{
+	text-align: left;
+	font-size: 12px;
+}
+
+/*CQ T300015246 - Modified the font weight style for action ci fins to bold */
+p.actcif
+{
+	text-align: left;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: normal;
+	line-height: inherit;
+	background-color: white;
+	
+}
+
+p.actcir
+{
+	text-align: left;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: normal;
+	line-height: inherit;
+}
+
+p.para
+{
+	margin-left: 2pt;
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+p.entry
+{
+	margin-left: 2pt;
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+p.para2
+{
+	text-indent: -3pt;
+	margin-left: 30pt;
+	margin-top: 10pt;
+	margin-bottom: 0pt;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+p.para3
+{
+	text-indent: 0pt;
+	margin-left: 47pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+p.list
+{
+	font-size: 12px;
+	font-weight: normal;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	line-height: 18px;
+	margin-left: 20pt;
+	text-indent:  -1pt;
+}
+
+li
+{
+	font-size: 12px;
+	font-weight: normal;
+}
+	
+
+p.list1
+{
+	font-size: 12px;
+	font-weight: normal;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	line-height: 18px;
+	margin-left: 20pt;
+	text-indent:  -1pt;
+}
+
+div.side
+{
+	margin-top: 10pt;
+	margin-bottom: 10pt;
+	font-size: 12px;
+}
+
+ul.list
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+ul.note
+{
+	color: #CD950C;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+ul.warn
+{
+	color: red;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+ul.hint
+{
+	color: green;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+ol.note
+{
+	color: #CD950C;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+ol.hint
+{
+	color: green;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+ol.warn
+{
+	color: red;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+td.head
+{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	vertical-align: top;
+	background-color: transparent;
+	font-size: 12px;
+}
+
+td.foot
+{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	vertical-align: top;
+	background-color: transparent;
+	font-size: 12px;
+}
+
+td.arrow
+ {
+        font-size: 16px;
+    	font-weight: bold;
+    	background-gcolor: blue;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	
+	background-color: white;
+ }
+
+td.testgrp
+{
+	background-color: InfoBackground;
+	font-size: 12px;
+}
+
+.testgrp
+{
+	background-color: InfoBackground;
+	border: 1px solid Gray;
+	font-size: 12px;
+}
+
+
+
+.frame
+{
+	
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	background-color: #ffffff;
+	
+}
+
+.header
+{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	background-color: transparent;
+	vertical-align: top;
+	background-image: url(../stylegraphics/header.bg.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	
+}
+
+.footer
+{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	background-color: transparent;
+	vertical-align: top;
+	background-image: url(../stylegraphics/footer.bg.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+
+img.info
+{
+	
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom:  -3px;
+	margin-right: 0px;
+	
+}
+
+IMG 
+{
+	margin-top: 4px;
+	margin-left: 4px;
+	margin-bottom: 4px;
+	margin-right: 4px;
+	
+}
+
+img.block
+{
+	display: block;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	
+}
+
+
+
+BLOCKQUOTE, PRE	
+{	
+	font-family: Courier New, monospace;
+	font-size: 10px;
+	line-height: 12px;
+}
+
+A:link
+{
+	font-size: 12px;
+	line-height: inherit;
+	text-decoration: none;
+	color: Blue;
+}
+
+A:visited
+{
+	font-size: 12px;
+	line-height: inherit;
+	text-decoration: none;
+	color: Blue;
+}
+
+A:active
+{
+	font-size: 12px;
+	line-height: inherit;
+	text-decoration: none;
+	color: Black;
+}
+
+A:hover
+{
+	text-decoration: none;
+}
+
+table.arrow
+{
+	font-size: 16px;
+	font-weight: normal;
+	
+	margin-left: 300px;
+	border: 0;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	
+	
+}
+
+table.arrowdn
+{
+	font-size: 16px;
+	font-weight: normal;
+	
+	
+	border: 0;
+	
+	
+}
+
+table:side 
+{
+	font-size: 12px;
+	font-weight: normal;
+	background-color: white;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+table:no 
+{
+	font-size: 12px;
+	font-weight: normal;
+	background-color: #000000;
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+
+
+
+table 
+{
+	font-size: 12px;
+	font-weight: normal;
+	background-color: #ffffff;
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+
+.side
+{
+	font-size: 12px;
+	font-weight: normal;
+	background-color: white;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	vertical-align:  middle; 
+}
+
+
+
+td:no 
+{
+	font-size: 12px;
+	font-weight: normal;
+	background-color: #000000;
+}
+
+
+
+
+td
+{
+	font-size: 12px;
+	font-weight: normal;
+	background-color: f5f5f5;
+}
+
+
+
+
+
+TH, THEAD, TFOOT
+{
+	color: #000000;
+}
+
+TFOOT, THEAD 
+{	
+	vertical-align: baseline;
+	font-size: 13px;
+	font-weight: bold;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	background-color: #cccccc;
+}
+
+TH	
+{
+	vertical-align: baseline;
+	font-weight: bold;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-transform: uppercase;
+	background-color: #cccccc;
+} 
+
+/*CQ T300010120 - Overrides the default table class to Reduce the gap between the figure & callout table*/
+table.callout 
+{
+	font-size: 12px;
+	font-weight: normal;
+	background-color: #ffffff;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	margin-left: 3px;
+	border-collapse: collapse;
+	border:1px solid #000000;
+}
+
+p.torquevalue
+{
+	text-indent: 60px;
+	font-weight: bold;
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+}
+
+p.torquetext
+{
+	text-indent: 20px;
+	font-weight: bold;
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+}
+
+/*CQ T300015102 - Added to differeniate the table level footnotes and figure related footnotes.*/
+td.tablefootnote
+{
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	background-color: #ffffff;
+	font-size: 90%;
+}
+
+.figurefootnote
+{
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	background-color: #ffffff;
+	font-size: 90%;
+}
+
+span.ewdlink
+{
+	color: #0210dd;
+	text-decoration: underline;
+	font-weight: bold;
+}
+/* TGD Changes */
+div.gtsExec
+{
+	visibility: hidden;
+}
+  </style>
+ </head>
+ <body id="C">
+  <table border="0" cellpadding="4" class="frame" id="RM100000001GHI6" width="100%">
+   <colgroup>
+    <col/>
+   </colgroup>
+   <tbody>
+    <tr>
+     <td class="frame">
+      <table border="1" class="side" width="100%">
+       <tbody>
+        <tr>
+         <td align="left" class="side" colspan="1" valign="top">
+          <b>
+           Last Modified:
+          </b>
+          08-30-2021
+         </td>
+         <td class="side">
+          6.10:8.0.50
+         </td>
+         <td class="side">
+          <b>
+           Doc ID:
+          </b>
+          RM100000001GHI6
+         </td>
+        </tr>
+        <tr>
+         <td align="left" class="side" valign="top">
+          <b>
+           Model Year Start:
+          </b>
+          2019
+         </td>
+         <td align="left" class="side" valign="top">
+          <b>
+           Model:
+          </b>
+          Prius
+         </td>
+         <td align="left" class="side" valign="top">
+          <b>
+           Prod Date Range:
+          </b>
+          [12/2018 -  
+													 
+													 
+													 
+													 
+													 
+													 
+													 
+													 
+													 
+													]
+         </td>
+        </tr>
+        <tr>
+         <td align="left" class="side" colspan="3" valign="top">
+          <b>
+           Title:
+          </b>
+          PARK ASSIST / MONITORING: INTUITIVE PARKING ASSIST SYSTEM: C1AF8; Rr IPA Sensor Communication Circuit; 2019 - 2022 MY Prius [12/2018 -        ]
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table border="1" class="dtc" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" valign="middle" width="10%">
+          <p class="dtc">
+           DTC
+          </p>
+         </td>
+         <td align="center" valign="middle" width="10%">
+          <p class="dtc">
+           C1AF8
+          </p>
+         </td>
+         <td align="left">
+          <p class="dtc">
+           Rr IPA Sensor Communication Circuit
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000001GHI6_01">
+      </a>
+      <h2 class="name">
+       DESCRIPTION
+      </h2>
+      <p class="content5">
+       This DTC is stored when there is an open or short circuit in the communication line between the rear side sensors and the ECU, or when there is a malfunction in a rear side sensor.
+      </p>
+      <table border="1" width="100%">
+       <colgroup>
+        <col/>
+        <col/>
+        <col/>
+        <col/>
+       </colgroup>
+       <thead>
+        <tr>
+         <th align="center" valign="middle">
+          <p class="entry">
+           DTC No.
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Detection Item
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           DTC Detection Condition
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Trouble Area
+          </p>
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" valign="middle">
+          <p class="data-name">
+           C1AF8
+          </p>
+         </td>
+         <td align="left" valign="middle">
+          <p class="data-name">
+           Rr IPA Sensor Communication Circuit
+          </p>
+         </td>
+         <td align="left" valign="middle">
+          <p class="data-name">
+           An open or short circuit in the communication line between the rear side sensors and ECU or a malfunction in a rear side sensor during initialization mode after the power switch is turned on (IG).
+          </p>
+         </td>
+         <td align="left" valign="middle">
+          <div class="data-name">
+           <ul class="list">
+            <li>
+             Rear side ultrasonic sensor circuit
+            </li>
+            <li>
+             Harness or connector
+            </li>
+            <li>
+             Clearance warning ECU assembly
+            </li>
+           </ul>
+          </div>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000001GHI6_02">
+      </a>
+      <h2 class="name">
+       WIRING DIAGRAM
+      </h2>
+      <img alt="" border="1" src="data:image/png;base64,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"/>
+      <a name="RM100000001GHI6_05">
+      </a>
+      <h2 class="name">
+       PROCEDURE
+      </h2>
+      <a name="RM100000001GHI6_05_0053">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           1.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           VEHICLE CONDITION AND WORK DETAILS CHECK
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (a) Check the vehicle condition and work details.
+      </p>
+      <table border="1" class="result" width="100%">
+       <thead>
+        <tr>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Result
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Proceed to
+          </p>
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           The clearance warning ECU assembly or ultrasonic sensor has not been replaced
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="judge-value">
+           A
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           The clearance warning ECU assembly or ultrasonic sensor has been replaced
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="judge-value">
+           B
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table cellpadding="0" cellspacing="0" class="arrow">
+       <tbody>
+        <tr>
+         <td class="arrow">
+          B
+         </td>
+         <td align="left" class="arrow">
+          <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAUCAYAAAC9BQwsAAAAAXNSR0IArs4c6QAAAPxJREFUOE+Vkj0OgkAUhGcx6y+lPTHxAhyAhjvQ0NNZWHoDSws6ehru4BWo6KDgAJaIIDFrxKxZBBbY+s37duYNcZyMed4GUx8BGNP1EmG4mKQlqpqxLPsSw7CCrtNRC2qiOGnbD/j+alDcIPJpVX0higBNm/UuaBHFSdfNcTisO8WdRHGyLzgpUVzwH9wgURQ7zh385qOJYnBJAkwicvFu9wShNGdVNXw3Ljqfc5xO62nENH39bjvKo2k+cL02fyX1SOmnfgSWtWyVoNfjfl8gjhUA8/HNOR5vuFy20qI3PH6+Fsdzabn5ttpjWSowDLQCkCFrYhAUnQHIhG/a33XSA6ezYwAAAABJRU5ErkJggg=="/>
+         </td>
+         <td>
+          <p class="actcif">
+           <span class="mlink">
+            <span class="myfrom:2019 myto:2022 startdate:201812">
+             <a href="RM100000001FP4N.html" id="d3258e374" title="2019 - 2022 MY Prius [12/2018 -        ]; PARK ASSIST / MONITORING: INTELLIGENT CLEARANCE SONAR SYSTEM: CALIBRATION">
+              GO TO CALIBRATION
+             </a>
+            </span>
+           </span>
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table>
+       <tbody>
+        <tr>
+         <td>
+          <table align="left" cellpadding="0" cellspacing="0" class="arrowdn" width="5%">
+           <tbody>
+            <tr>
+             <td align="center" class="arrow">
+              A
+             </td>
+            </tr>
+            <tr>
+             <td align="left" class="arrow" width="10%">
+              <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAAXNSR0IArs4c6QAAARRJREFUOE+lkk8KgkAUxj/RsqiN0AGCdkLHCNy4VPAKrrpOJ0hatQw8hIugXdANXBjkv8F41oia+afczMzzzW++770nmGaQue4Yvj+GosTFCiDf00fx8jk/vOPlHNoLjMWZKI54zl/r6RS+gK7LoGmTv2CGEcJxxBeQSJYV4XCY/wxlLMnvFkA6LBYpfH86GHo+P6Cq0ifwckmxXg8DmuYd+71ciKgopKhtx9jtZr1Vcqv8wgeQfsgyQ5p2N+l6DbFcipXHG4G3G8Nq1Q6sW21V2Md63WonsK3rNMCbTdVqL2CTdV0PcDx+L0djDctVLnddkkJEUbOyXgp5Eg18EAjwvKwY4G9z1amQLpL17TZptcofeALLqpzLvaof7AAAAABJRU5ErkJggg=="/>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000001GHI6_05_0055">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           2.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           CHECK DTC
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (a) Check for DTCs.
+      </p>
+      <h4 class="gtsInfoTitle">
+       Body Electrical &gt; IPA/ICS/Clearance Sonar &gt; Trouble Codes
+      </h4>
+      <table>
+       <tbody>
+        <tr>
+         <td>
+          <table align="left" cellpadding="0" cellspacing="0" class="arrowdn" width="5%">
+           <tbody>
+            <tr>
+             <td align="center" class="arrow">
+              NEXT
+             </td>
+            </tr>
+            <tr>
+             <td align="left" class="arrow" width="10%">
+              <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAAXNSR0IArs4c6QAAARRJREFUOE+lkk8KgkAUxj/RsqiN0AGCdkLHCNy4VPAKrrpOJ0hatQw8hIugXdANXBjkv8F41oia+afczMzzzW++770nmGaQue4Yvj+GosTFCiDf00fx8jk/vOPlHNoLjMWZKI54zl/r6RS+gK7LoGmTv2CGEcJxxBeQSJYV4XCY/wxlLMnvFkA6LBYpfH86GHo+P6Cq0ifwckmxXg8DmuYd+71ciKgopKhtx9jtZr1Vcqv8wgeQfsgyQ5p2N+l6DbFcipXHG4G3G8Nq1Q6sW21V2Md63WonsK3rNMCbTdVqL2CTdV0PcDx+L0djDctVLnddkkJEUbOyXgp5Eg18EAjwvKwY4G9z1amQLpL17TZptcofeALLqpzLvaof7AAAAABJRU5ErkJggg=="/>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000001GHI6_05_0056">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           3.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           CLEAR DTC
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (a) Clear the DTCs.
+      </p>
+      <h4 class="gtsInfoTitle">
+       Body Electrical &gt; IPA/ICS/Clearance Sonar &gt; Clear DTCs
+      </h4>
+      <table>
+       <tbody>
+        <tr>
+         <td>
+          <table align="left" cellpadding="0" cellspacing="0" class="arrowdn" width="5%">
+           <tbody>
+            <tr>
+             <td align="center" class="arrow">
+              NEXT
+             </td>
+            </tr>
+            <tr>
+             <td align="left" class="arrow" width="10%">
+              <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAAXNSR0IArs4c6QAAARRJREFUOE+lkk8KgkAUxj/RsqiN0AGCdkLHCNy4VPAKrrpOJ0hatQw8hIugXdANXBjkv8F41oia+afczMzzzW++770nmGaQue4Yvj+GosTFCiDf00fx8jk/vOPlHNoLjMWZKI54zl/r6RS+gK7LoGmTv2CGEcJxxBeQSJYV4XCY/wxlLMnvFkA6LBYpfH86GHo+P6Cq0ifwckmxXg8DmuYd+71ciKgopKhtx9jtZr1Vcqv8wgeQfsgyQ5p2N+l6DbFcipXHG4G3G8Nq1Q6sW21V2Md63WonsK3rNMCbTdVqL2CTdV0PcDx+L0djDctVLnddkkJEUbOyXgp5Eg18EAjwvKwY4G9z1amQLpL17TZptcofeALLqpzLvaof7AAAAABJRU5ErkJggg=="/>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000001GHI6_05_0057">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           4.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           CHECK DTC OUTPUT (C1AF8)
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (a) Recheck for DTCs.
+      </p>
+      <h4 class="gtsInfoTitle">
+       Body Electrical &gt; IPA/ICS/Clearance Sonar &gt; Trouble Codes
+      </h4>
+      <table border="1" class="result" width="100%">
+       <thead>
+        <tr>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Result
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Proceed to
+          </p>
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           C1AF8 is not output
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="judge-value">
+           A
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           C1AF8 is output
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="judge-value">
+           B
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table cellpadding="0" cellspacing="0" class="arrow">
+       <tbody>
+        <tr>
+         <td class="arrow">
+          A
+         </td>
+         <td align="left" class="arrow">
+          <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAUCAYAAAC9BQwsAAAAAXNSR0IArs4c6QAAAPxJREFUOE+Vkj0OgkAUhGcx6y+lPTHxAhyAhjvQ0NNZWHoDSws6ehru4BWo6KDgAJaIIDFrxKxZBBbY+s37duYNcZyMed4GUx8BGNP1EmG4mKQlqpqxLPsSw7CCrtNRC2qiOGnbD/j+alDcIPJpVX0higBNm/UuaBHFSdfNcTisO8WdRHGyLzgpUVzwH9wgURQ7zh385qOJYnBJAkwicvFu9wShNGdVNXw3Ljqfc5xO62nENH39bjvKo2k+cL02fyX1SOmnfgSWtWyVoNfjfl8gjhUA8/HNOR5vuFy20qI3PH6+Fsdzabn5ttpjWSowDLQCkCFrYhAUnQHIhG/a33XSA6ezYwAAAABJRU5ErkJggg=="/>
+         </td>
+         <td>
+          <p class="actcif">
+           <span class="mlink">
+            USE SIMULATION METHOD TO CHECK
+            <span class="myfrom:2019 myto:2020 startdate:201812 enddate:202007">
+             <a href="RM100000001G13K.html" id="d3258e659">
+              <img alt="2019 - 2020 MY Prius [12/2018 - 07/2020]; INTRODUCTION: HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS: HOW TO PROCEED WITH TROUBLESHOOTING" class="info" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAAXNSR0IArs4c6QAAAkBJREFUSEvtVU9o01Ac/lKapWmrbra2nVPqnw0n2xytHQoiTFScUMSLCCIqbqgTvIkWBM968OLJedjwOlHBizAEvYlQrSKMyWhxhznEIEaTNG3WvvHezEyKTeOpE/wuL+T3+37vy/f7vReOEEKwSsBRMcdvVFEyqtD036r8vuVngfewGMVX2YtgiwpRFFYSzbjJ5UjJMU6JtbVp3TOHFDAxqYvNtUaSgdH0ahRz9Noia0Gz8O86870wiaJcAC+GoGoG4snLmHuVQUfiOvJTx1AxfqC6qCO2dwzh+CBmniRRUj6jtecmy3WDE/tdzsxC7hbKP/MAH4L04TZ2XyBsw670S7ybWIf4kRfwB4IIRHYiN96BaH8G0b5zyI23o/fULIRgp6MeW5sGRlWQaqAugYopfnuLQHgP5PkpCG0JVLQCth+eQPZeEOHuEVQMGdsOTuLNfY6JpTAdbU9k3ItpdLS/vL8DVXoNcX0S/OZhzD/rA6no2JSexdzjyIoz/nDKJoY5Sta6apXrNlExujzD2hTaOsS+8uPTA0hdUpgzifML8Hhj7P30o354xRgi3cPIPz/Jcpxcp5y/Ok2alIWmKvAJwJqNA6y4ND2GDb2n8Sn7AFtSZ20bmjMW3XUVvtYdDefXJmbwigqlXH9mnKpxHud5a6ik1pn/l57FMlubmu0M1WU7TVQd+72LgFb8c6edYiaXria/Ub51l5GhXzfw3YcKZIWghedQNpbXWtD3FGbMzLOuJqdejrWmlacbwL4egiVcNWtev/kfSAAAAABJRU5ErkJggg==" title="2019 - 2020 MY Prius [12/2018 - 07/2020]; INTRODUCTION: HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS: HOW TO PROCEED WITH TROUBLESHOOTING"/>
+             </a>
+            </span>
+            <span class="myfrom:2021 myto:2021 startdate:202007 enddate:202106">
+             <a href="RM100000001OZT6.html" id="d3258e660">
+              <img alt="2021 MY Prius [07/2020 - 06/2021]; INTRODUCTION: HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS: HOW TO PROCEED WITH TROUBLESHOOTING" class="info" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAAXNSR0IArs4c6QAAAkBJREFUSEvtVU9o01Ac/lKapWmrbra2nVPqnw0n2xytHQoiTFScUMSLCCIqbqgTvIkWBM968OLJedjwOlHBizAEvYlQrSKMyWhxhznEIEaTNG3WvvHezEyKTeOpE/wuL+T3+37vy/f7vReOEEKwSsBRMcdvVFEyqtD036r8vuVngfewGMVX2YtgiwpRFFYSzbjJ5UjJMU6JtbVp3TOHFDAxqYvNtUaSgdH0ahRz9Noia0Gz8O86870wiaJcAC+GoGoG4snLmHuVQUfiOvJTx1AxfqC6qCO2dwzh+CBmniRRUj6jtecmy3WDE/tdzsxC7hbKP/MAH4L04TZ2XyBsw670S7ybWIf4kRfwB4IIRHYiN96BaH8G0b5zyI23o/fULIRgp6MeW5sGRlWQaqAugYopfnuLQHgP5PkpCG0JVLQCth+eQPZeEOHuEVQMGdsOTuLNfY6JpTAdbU9k3ItpdLS/vL8DVXoNcX0S/OZhzD/rA6no2JSexdzjyIoz/nDKJoY5Sta6apXrNlExujzD2hTaOsS+8uPTA0hdUpgzifML8Hhj7P30o354xRgi3cPIPz/Jcpxcp5y/Ok2alIWmKvAJwJqNA6y4ND2GDb2n8Sn7AFtSZ20bmjMW3XUVvtYdDefXJmbwigqlXH9mnKpxHud5a6ik1pn/l57FMlubmu0M1WU7TVQd+72LgFb8c6edYiaXria/Ub51l5GhXzfw3YcKZIWghedQNpbXWtD3FGbMzLOuJqdejrWmlacbwL4egiVcNWtev/kfSAAAAABJRU5ErkJggg==" title="2021 MY Prius [07/2020 - 06/2021]; INTRODUCTION: HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS: HOW TO PROCEED WITH TROUBLESHOOTING"/>
+             </a>
+            </span>
+            <span class="myfrom:2022 myto:2022 startdate:202106">
+             <a href="RM100000001X951.html" id="d3258e661">
+              <img alt="2022 MY Prius [06/2021 -        ]; INTRODUCTION: HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS: HOW TO PROCEED WITH TROUBLESHOOTING" class="info" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAAXNSR0IArs4c6QAAAkBJREFUSEvtVU9o01Ac/lKapWmrbra2nVPqnw0n2xytHQoiTFScUMSLCCIqbqgTvIkWBM968OLJedjwOlHBizAEvYlQrSKMyWhxhznEIEaTNG3WvvHezEyKTeOpE/wuL+T3+37vy/f7vReOEEKwSsBRMcdvVFEyqtD036r8vuVngfewGMVX2YtgiwpRFFYSzbjJ5UjJMU6JtbVp3TOHFDAxqYvNtUaSgdH0ahRz9Noia0Gz8O86870wiaJcAC+GoGoG4snLmHuVQUfiOvJTx1AxfqC6qCO2dwzh+CBmniRRUj6jtecmy3WDE/tdzsxC7hbKP/MAH4L04TZ2XyBsw670S7ybWIf4kRfwB4IIRHYiN96BaH8G0b5zyI23o/fULIRgp6MeW5sGRlWQaqAugYopfnuLQHgP5PkpCG0JVLQCth+eQPZeEOHuEVQMGdsOTuLNfY6JpTAdbU9k3ItpdLS/vL8DVXoNcX0S/OZhzD/rA6no2JSexdzjyIoz/nDKJoY5Sta6apXrNlExujzD2hTaOsS+8uPTA0hdUpgzifML8Hhj7P30o354xRgi3cPIPz/Jcpxcp5y/Ok2alIWmKvAJwJqNA6y4ND2GDb2n8Sn7AFtSZ20bmjMW3XUVvtYdDefXJmbwigqlXH9mnKpxHud5a6ik1pn/l57FMlubmu0M1WU7TVQd+72LgFb8c6edYiaXria/Ub51l5GhXzfw3YcKZIWghedQNpbXWtD3FGbMzLOuJqdejrWmlacbwL4egiVcNWtev/kfSAAAAABJRU5ErkJggg==" title="2022 MY Prius [06/2021 -        ]; INTRODUCTION: HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS: HOW TO PROCEED WITH TROUBLESHOOTING"/>
+             </a>
+            </span>
+           </span>
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table>
+       <tbody>
+        <tr>
+         <td>
+          <table align="left" cellpadding="0" cellspacing="0" class="arrowdn" width="5%">
+           <tbody>
+            <tr>
+             <td align="center" class="arrow">
+              B
+             </td>
+            </tr>
+            <tr>
+             <td align="left" class="arrow" width="10%">
+              <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAAXNSR0IArs4c6QAAARRJREFUOE+lkk8KgkAUxj/RsqiN0AGCdkLHCNy4VPAKrrpOJ0hatQw8hIugXdANXBjkv8F41oia+afczMzzzW++770nmGaQue4Yvj+GosTFCiDf00fx8jk/vOPlHNoLjMWZKI54zl/r6RS+gK7LoGmTv2CGEcJxxBeQSJYV4XCY/wxlLMnvFkA6LBYpfH86GHo+P6Cq0ifwckmxXg8DmuYd+71ciKgopKhtx9jtZr1Vcqv8wgeQfsgyQ5p2N+l6DbFcipXHG4G3G8Nq1Q6sW21V2Md63WonsK3rNMCbTdVqL2CTdV0PcDx+L0djDctVLnddkkJEUbOyXgp5Eg18EAjwvKwY4G9z1amQLpL17TZptcofeALLqpzLvaof7AAAAABJRU5ErkJggg=="/>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000001GHI6_05_0058">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           5.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           CHECK CONNECTOR CONNECTION CONDITION (CLEARANCE WARNING ECU ASSEMBLY)
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (a) Check that the connector is properly connected to the clearance warning ECU assembly.
+      </p>
+      <table>
+       <tbody>
+        <tr>
+         <td>
+          <table align="left" cellpadding="0" cellspacing="0" class="arrowdn" width="5%">
+           <tbody>
+            <tr>
+             <td align="center" class="arrow">
+              NEXT
+             </td>
+            </tr>
+            <tr>
+             <td align="left" class="arrow" width="10%">
+              <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAAXNSR0IArs4c6QAAARRJREFUOE+lkk8KgkAUxj/RsqiN0AGCdkLHCNy4VPAKrrpOJ0hatQw8hIugXdANXBjkv8F41oia+afczMzzzW++770nmGaQue4Yvj+GosTFCiDf00fx8jk/vOPlHNoLjMWZKI54zl/r6RS+gK7LoGmTv2CGEcJxxBeQSJYV4XCY/wxlLMnvFkA6LBYpfH86GHo+P6Cq0ifwckmxXg8DmuYd+71ciKgopKhtx9jtZr1Vcqv8wgeQfsgyQ5p2N+l6DbFcipXHG4G3G8Nq1Q6sW21V2Md63WonsK3rNMCbTdVqL2CTdV0PcDx+L0djDctVLnddkkJEUbOyXgp5Eg18EAjwvKwY4G9z1amQLpL17TZptcofeALLqpzLvaof7AAAAABJRU5ErkJggg=="/>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000001GHI6_05_0059">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           6.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           CLEAR DTC
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (a) Clear the DTCs.
+      </p>
+      <h4 class="gtsInfoTitle">
+       Body Electrical &gt; IPA/ICS/Clearance Sonar &gt; Clear DTCs
+      </h4>
+      <table>
+       <tbody>
+        <tr>
+         <td>
+          <table align="left" cellpadding="0" cellspacing="0" class="arrowdn" width="5%">
+           <tbody>
+            <tr>
+             <td align="center" class="arrow">
+              NEXT
+             </td>
+            </tr>
+            <tr>
+             <td align="left" class="arrow" width="10%">
+              <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAAXNSR0IArs4c6QAAARRJREFUOE+lkk8KgkAUxj/RsqiN0AGCdkLHCNy4VPAKrrpOJ0hatQw8hIugXdANXBjkv8F41oia+afczMzzzW++770nmGaQue4Yvj+GosTFCiDf00fx8jk/vOPlHNoLjMWZKI54zl/r6RS+gK7LoGmTv2CGEcJxxBeQSJYV4XCY/wxlLMnvFkA6LBYpfH86GHo+P6Cq0ifwckmxXg8DmuYd+71ciKgopKhtx9jtZr1Vcqv8wgeQfsgyQ5p2N+l6DbFcipXHG4G3G8Nq1Q6sW21V2Md63WonsK3rNMCbTdVqL2CTdV0PcDx+L0djDctVLnddkkJEUbOyXgp5Eg18EAjwvKwY4G9z1amQLpL17TZptcofeALLqpzLvaof7AAAAABJRU5ErkJggg=="/>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000001GHI6_05_0060">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           7.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           CHECK DTC OUTPUT (C1AF8)
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (a) Recheck for DTCs.
+      </p>
+      <h4 class="gtsInfoTitle">
+       Body Electrical &gt; IPA/ICS/Clearance Sonar &gt; Trouble Codes
+      </h4>
+      <table border="1" class="result" width="100%">
+       <thead>
+        <tr>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Result
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Proceed to
+          </p>
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           C1AF8 is not output
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="judge-value">
+           A
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           C1AF8 is output
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="judge-value">
+           B
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table cellpadding="0" cellspacing="0" class="arrow">
+       <tbody>
+        <tr>
+         <td class="arrow">
+          A
+         </td>
+         <td align="left" class="arrow">
+          <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAUCAYAAAC9BQwsAAAAAXNSR0IArs4c6QAAAPxJREFUOE+Vkj0OgkAUhGcx6y+lPTHxAhyAhjvQ0NNZWHoDSws6ehru4BWo6KDgAJaIIDFrxKxZBBbY+s37duYNcZyMed4GUx8BGNP1EmG4mKQlqpqxLPsSw7CCrtNRC2qiOGnbD/j+alDcIPJpVX0higBNm/UuaBHFSdfNcTisO8WdRHGyLzgpUVzwH9wgURQ7zh385qOJYnBJAkwicvFu9wShNGdVNXw3Ljqfc5xO62nENH39bjvKo2k+cL02fyX1SOmnfgSWtWyVoNfjfl8gjhUA8/HNOR5vuFy20qI3PH6+Fsdzabn5ttpjWSowDLQCkCFrYhAUnQHIhG/a33XSA6ezYwAAAABJRU5ErkJggg=="/>
+         </td>
+         <td>
+          <p class="actcif">
+           END (CONNECTOR CONNECTION MALFUNCTION)
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table>
+       <tbody>
+        <tr>
+         <td>
+          <table align="left" cellpadding="0" cellspacing="0" class="arrowdn" width="5%">
+           <tbody>
+            <tr>
+             <td align="center" class="arrow">
+              B
+             </td>
+            </tr>
+            <tr>
+             <td align="left" class="arrow" width="10%">
+              <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAAXNSR0IArs4c6QAAARRJREFUOE+lkk8KgkAUxj/RsqiN0AGCdkLHCNy4VPAKrrpOJ0hatQw8hIugXdANXBjkv8F41oia+afczMzzzW++770nmGaQue4Yvj+GosTFCiDf00fx8jk/vOPlHNoLjMWZKI54zl/r6RS+gK7LoGmTv2CGEcJxxBeQSJYV4XCY/wxlLMnvFkA6LBYpfH86GHo+P6Cq0ifwckmxXg8DmuYd+71ciKgopKhtx9jtZr1Vcqv8wgeQfsgyQ5p2N+l6DbFcipXHG4G3G8Nq1Q6sW21V2Md63WonsK3rNMCbTdVqL2CTdV0PcDx+L0djDctVLnddkkJEUbOyXgp5Eg18EAjwvKwY4G9z1amQLpL17TZptcofeALLqpzLvaof7AAAAABJRU5ErkJggg=="/>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000001GHI6_05_0062">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           8.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           CHECK CONNECTOR CONNECTION CONDITION (ULTRASONIC SENSOR)
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (a) Check that the connector is properly connected to the rear side ultrasonic sensor sensor.
+      </p>
+      <table>
+       <tbody>
+        <tr>
+         <td>
+          <table align="left" cellpadding="0" cellspacing="0" class="arrowdn" width="5%">
+           <tbody>
+            <tr>
+             <td align="center" class="arrow">
+              NEXT
+             </td>
+            </tr>
+            <tr>
+             <td align="left" class="arrow" width="10%">
+              <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAAXNSR0IArs4c6QAAARRJREFUOE+lkk8KgkAUxj/RsqiN0AGCdkLHCNy4VPAKrrpOJ0hatQw8hIugXdANXBjkv8F41oia+afczMzzzW++770nmGaQue4Yvj+GosTFCiDf00fx8jk/vOPlHNoLjMWZKI54zl/r6RS+gK7LoGmTv2CGEcJxxBeQSJYV4XCY/wxlLMnvFkA6LBYpfH86GHo+P6Cq0ifwckmxXg8DmuYd+71ciKgopKhtx9jtZr1Vcqv8wgeQfsgyQ5p2N+l6DbFcipXHG4G3G8Nq1Q6sW21V2Md63WonsK3rNMCbTdVqL2CTdV0PcDx+L0djDctVLnddkkJEUbOyXgp5Eg18EAjwvKwY4G9z1amQLpL17TZptcofeALLqpzLvaof7AAAAABJRU5ErkJggg=="/>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000001GHI6_05_0063">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           9.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           CLEAR DTC
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (a) Clear the DTCs.
+      </p>
+      <h4 class="gtsInfoTitle">
+       Body Electrical &gt; IPA/ICS/Clearance Sonar &gt; Clear DTCs
+      </h4>
+      <table>
+       <tbody>
+        <tr>
+         <td>
+          <table align="left" cellpadding="0" cellspacing="0" class="arrowdn" width="5%">
+           <tbody>
+            <tr>
+             <td align="center" class="arrow">
+              NEXT
+             </td>
+            </tr>
+            <tr>
+             <td align="left" class="arrow" width="10%">
+              <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAAXNSR0IArs4c6QAAARRJREFUOE+lkk8KgkAUxj/RsqiN0AGCdkLHCNy4VPAKrrpOJ0hatQw8hIugXdANXBjkv8F41oia+afczMzzzW++770nmGaQue4Yvj+GosTFCiDf00fx8jk/vOPlHNoLjMWZKI54zl/r6RS+gK7LoGmTv2CGEcJxxBeQSJYV4XCY/wxlLMnvFkA6LBYpfH86GHo+P6Cq0ifwckmxXg8DmuYd+71ciKgopKhtx9jtZr1Vcqv8wgeQfsgyQ5p2N+l6DbFcipXHG4G3G8Nq1Q6sW21V2Md63WonsK3rNMCbTdVqL2CTdV0PcDx+L0djDctVLnddkkJEUbOyXgp5Eg18EAjwvKwY4G9z1amQLpL17TZptcofeALLqpzLvaof7AAAAABJRU5ErkJggg=="/>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000001GHI6_05_0064">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           10.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           CHECK DTC OUTPUT (C1AF8)
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (a) Recheck for DTCs.
+      </p>
+      <h4 class="gtsInfoTitle">
+       Body Electrical &gt; IPA/ICS/Clearance Sonar &gt; Trouble Codes
+      </h4>
+      <table border="1" class="result" width="100%">
+       <thead>
+        <tr>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Result
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Proceed to
+          </p>
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           C1AF8 is not output
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="judge-value">
+           A
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           C1AF8 is output
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="judge-value">
+           B
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table cellpadding="0" cellspacing="0" class="arrow">
+       <tbody>
+        <tr>
+         <td class="arrow">
+          A
+         </td>
+         <td align="left" class="arrow">
+          <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAUCAYAAAC9BQwsAAAAAXNSR0IArs4c6QAAAPxJREFUOE+Vkj0OgkAUhGcx6y+lPTHxAhyAhjvQ0NNZWHoDSws6ehru4BWo6KDgAJaIIDFrxKxZBBbY+s37duYNcZyMed4GUx8BGNP1EmG4mKQlqpqxLPsSw7CCrtNRC2qiOGnbD/j+alDcIPJpVX0higBNm/UuaBHFSdfNcTisO8WdRHGyLzgpUVzwH9wgURQ7zh385qOJYnBJAkwicvFu9wShNGdVNXw3Ljqfc5xO62nENH39bjvKo2k+cL02fyX1SOmnfgSWtWyVoNfjfl8gjhUA8/HNOR5vuFy20qI3PH6+Fsdzabn5ttpjWSowDLQCkCFrYhAUnQHIhG/a33XSA6ezYwAAAABJRU5ErkJggg=="/>
+         </td>
+         <td>
+          <p class="actcif">
+           END (CONNECTOR CONNECTION MALFUNCTION)
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table>
+       <tbody>
+        <tr>
+         <td>
+          <table align="left" cellpadding="0" cellspacing="0" class="arrowdn" width="5%">
+           <tbody>
+            <tr>
+             <td align="center" class="arrow">
+              B
+             </td>
+            </tr>
+            <tr>
+             <td align="left" class="arrow" width="10%">
+              <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAAXNSR0IArs4c6QAAARRJREFUOE+lkk8KgkAUxj/RsqiN0AGCdkLHCNy4VPAKrrpOJ0hatQw8hIugXdANXBjkv8F41oia+afczMzzzW++770nmGaQue4Yvj+GosTFCiDf00fx8jk/vOPlHNoLjMWZKI54zl/r6RS+gK7LoGmTv2CGEcJxxBeQSJYV4XCY/wxlLMnvFkA6LBYpfH86GHo+P6Cq0ifwckmxXg8DmuYd+71ciKgopKhtx9jtZr1Vcqv8wgeQfsgyQ5p2N+l6DbFcipXHG4G3G8Nq1Q6sW21V2Md63WonsK3rNMCbTdVqL2CTdV0PcDx+L0djDctVLnddkkJEUbOyXgp5Eg18EAjwvKwY4G9z1amQLpL17TZptcofeALLqpzLvaof7AAAAABJRU5ErkJggg=="/>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000001GHI6_05_0002">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           11.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           CHECK HARNESS AND CONNECTOR (CLEARANCE WARNING ECU ASSEMBLY - REAR SIDE ULTRASONIC SENSOR LH)
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (a) Disconnect the F26 clearance warning ECU assembly connector.
+      </p>
+      <p class="test1">
+       (b) Disconnect the P1 rear side ultrasonic sensor LH connector.
+      </p>
+      <p class="test1">
+       (c) Measure the resistance according to the value(s) in the table below.
+      </p>
+      <p class="spec">
+       Standard Resistance:
+      </p>
+      <img src="data:image/png;base64,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"/>
+      <br/>
+      <span class="ewdmlink">
+       <span class="myfrom:2019 myto:2022 startdate:201812">
+        <a href="javascript:void(0)" id="d3258e1243" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c,c&amp;code=F26,P1')">
+         <span class="ewdlink" title="2019 - 2022 MY Prius EWD">
+          Click Location &amp; Routing(F26,P1)
+         </span>
+        </a>
+       </span>
+       <br/>
+      </span>
+      <span class="ewdmlink">
+       <span class="myfrom:2019 myto:2022 startdate:201812">
+        <a href="javascript:void(0)" id="d3258e1248" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=F26&amp;pinno=21,26,25')">
+         <span class="ewdlink" title="2019 - 2022 MY Prius EWD">
+          Click Connector(F26)
+         </span>
+        </a>
+       </span>
+       <br/>
+      </span>
+      <span class="ewdmlink">
+       <span class="myfrom:2019 myto:2022 startdate:201812">
+        <a href="javascript:void(0)" id="d3258e1253" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=P1&amp;pinno=4,5,6')">
+         <span class="ewdlink" title="2019 - 2022 MY Prius EWD">
+          Click Connector(P1)
+         </span>
+        </a>
+       </span>
+       <br/>
+      </span>
+      <table border="1" width="100%">
+       <colgroup>
+        <col/>
+        <col/>
+        <col/>
+       </colgroup>
+       <thead>
+        <tr>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Tester Connection
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Condition
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Specified Condition
+          </p>
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           F26-21 (CSB2) - P1-4 (S1)
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           Always
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           Below 1 Ω
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           F26-26 (LIN2) - P1-5 (S2)
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           Always
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           Below 1 Ω
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           F26-25 (CSG2) - P1-6 (E2)
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           Always
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           Below 1 Ω
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           F26-21 (CSB2) or P1-4 (S1) - Body ground
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           Always
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           10 kΩ or higher
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           F26-26 (LIN2) or P1-5 (S2) - Body ground
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           Always
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           10 kΩ or higher
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           F26-25 (CSG2) or P1-6 (E2) - Body ground
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           Always
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           10 kΩ or higher
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table cellpadding="0" cellspacing="0" class="arrow">
+       <tbody>
+        <tr>
+         <td class="arrow">
+          NG
+         </td>
+         <td align="left" class="arrow">
+          <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAUCAYAAAC9BQwsAAAAAXNSR0IArs4c6QAAAPxJREFUOE+Vkj0OgkAUhGcx6y+lPTHxAhyAhjvQ0NNZWHoDSws6ehru4BWo6KDgAJaIIDFrxKxZBBbY+s37duYNcZyMed4GUx8BGNP1EmG4mKQlqpqxLPsSw7CCrtNRC2qiOGnbD/j+alDcIPJpVX0higBNm/UuaBHFSdfNcTisO8WdRHGyLzgpUVzwH9wgURQ7zh385qOJYnBJAkwicvFu9wShNGdVNXw3Ljqfc5xO62nENH39bjvKo2k+cL02fyX1SOmnfgSWtWyVoNfjfl8gjhUA8/HNOR5vuFy20qI3PH6+Fsdzabn5ttpjWSowDLQCkCFrYhAUnQHIhG/a33XSA6ezYwAAAABJRU5ErkJggg=="/>
+         </td>
+         <td>
+          <p class="actcif">
+           REPAIR OR REPLACE HARNESS OR CONNECTOR
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table>
+       <tbody>
+        <tr>
+         <td>
+          <table align="left" cellpadding="0" cellspacing="0" class="arrowdn" width="5%">
+           <tbody>
+            <tr>
+             <td align="center" class="arrow">
+              OK
+             </td>
+            </tr>
+            <tr>
+             <td align="left" class="arrow" width="10%">
+              <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAAXNSR0IArs4c6QAAARRJREFUOE+lkk8KgkAUxj/RsqiN0AGCdkLHCNy4VPAKrrpOJ0hatQw8hIugXdANXBjkv8F41oia+afczMzzzW++770nmGaQue4Yvj+GosTFCiDf00fx8jk/vOPlHNoLjMWZKI54zl/r6RS+gK7LoGmTv2CGEcJxxBeQSJYV4XCY/wxlLMnvFkA6LBYpfH86GHo+P6Cq0ifwckmxXg8DmuYd+71ciKgopKhtx9jtZr1Vcqv8wgeQfsgyQ5p2N+l6DbFcipXHG4G3G8Nq1Q6sW21V2Md63WonsK3rNMCbTdVqL2CTdV0PcDx+L0djDctVLnddkkJEUbOyXgp5Eg18EAjwvKwY4G9z1amQLpL17TZptcofeALLqpzLvaof7AAAAABJRU5ErkJggg=="/>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000001GHI6_05_0003">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           12.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           CHECK HARNESS AND CONNECTOR (REAR SIDE ULTRASONIC SENSOR LH - REAR SIDE ULTRASONIC SENSOR RH)
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (a) Disconnect the P2 rear side ultrasonic sensor RH connector.
+      </p>
+      <p class="test1">
+       (b) Measure the resistance according to the value(s) in the table below.
+      </p>
+      <p class="spec">
+       Standard Resistance:
+      </p>
+      <img src="data:image/png;base64,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"/>
+      <br/>
+      <span class="ewdmlink">
+       <span class="myfrom:2019 myto:2022 startdate:201812">
+        <a href="javascript:void(0)" id="d3258e1526" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=routing&amp;type=c,c&amp;code=P1,P2')">
+         <span class="ewdlink" title="2019 - 2022 MY Prius EWD">
+          Click Location &amp; Routing(P1,P2)
+         </span>
+        </a>
+       </span>
+       <br/>
+      </span>
+      <span class="ewdmlink">
+       <span class="myfrom:2019 myto:2022 startdate:201812">
+        <a href="javascript:void(0)" id="d3258e1531" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=P1&amp;pinno=1,2,3')">
+         <span class="ewdlink" title="2019 - 2022 MY Prius EWD">
+          Click Connector(P1)
+         </span>
+        </a>
+       </span>
+       <br/>
+      </span>
+      <span class="ewdmlink">
+       <span class="myfrom:2019 myto:2022 startdate:201812">
+        <a href="javascript:void(0)" id="d3258e1536" onclick="ewdLinkFormation('/t3Portal/ewdappu?ewd_type=component&amp;type=c&amp;code=P2&amp;pinno=4,5,6')">
+         <span class="ewdlink" title="2019 - 2022 MY Prius EWD">
+          Click Connector(P2)
+         </span>
+        </a>
+       </span>
+       <br/>
+      </span>
+      <table border="1" width="100%">
+       <colgroup>
+        <col/>
+        <col/>
+        <col/>
+       </colgroup>
+       <thead>
+        <tr>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Tester Connection
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Condition
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Specified Condition
+          </p>
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           P1-1 (S3) - P2-4 (S5)
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           Always
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           Below 1 Ω
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           P1-2 (S4) - P2-5 (S6)
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           Always
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           Below 1 Ω
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           P1-3 (E3) - P2-6 (E4)
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           Always
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           Below 1 Ω
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           P1-1 (S3) or P2-4 (S5) - Body ground
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           Always
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           10 kΩ or higher
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           P1-2 (S4) or P2-5 (S6) - Body ground
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           Always
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           10 kΩ or higher
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           P1-3 (E3) or P2-6 (E4) - Body ground
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           Always
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           10 kΩ or higher
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table cellpadding="0" cellspacing="0" class="arrow">
+       <tbody>
+        <tr>
+         <td class="arrow">
+          NG
+         </td>
+         <td align="left" class="arrow">
+          <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAUCAYAAAC9BQwsAAAAAXNSR0IArs4c6QAAAPxJREFUOE+Vkj0OgkAUhGcx6y+lPTHxAhyAhjvQ0NNZWHoDSws6ehru4BWo6KDgAJaIIDFrxKxZBBbY+s37duYNcZyMed4GUx8BGNP1EmG4mKQlqpqxLPsSw7CCrtNRC2qiOGnbD/j+alDcIPJpVX0higBNm/UuaBHFSdfNcTisO8WdRHGyLzgpUVzwH9wgURQ7zh385qOJYnBJAkwicvFu9wShNGdVNXw3Ljqfc5xO62nENH39bjvKo2k+cL02fyX1SOmnfgSWtWyVoNfjfl8gjhUA8/HNOR5vuFy20qI3PH6+Fsdzabn5ttpjWSowDLQCkCFrYhAUnQHIhG/a33XSA6ezYwAAAABJRU5ErkJggg=="/>
+         </td>
+         <td>
+          <p class="actcif">
+           REPAIR OR REPLACE HARNESS OR CONNECTOR
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table>
+       <tbody>
+        <tr>
+         <td>
+          <table align="left" cellpadding="0" cellspacing="0" class="arrowdn" width="5%">
+           <tbody>
+            <tr>
+             <td align="center" class="arrow">
+              OK
+             </td>
+            </tr>
+            <tr>
+             <td align="left" class="arrow" width="10%">
+              <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAAXNSR0IArs4c6QAAARRJREFUOE+lkk8KgkAUxj/RsqiN0AGCdkLHCNy4VPAKrrpOJ0hatQw8hIugXdANXBjkv8F41oia+afczMzzzW++770nmGaQue4Yvj+GosTFCiDf00fx8jk/vOPlHNoLjMWZKI54zl/r6RS+gK7LoGmTv2CGEcJxxBeQSJYV4XCY/wxlLMnvFkA6LBYpfH86GHo+P6Cq0ifwckmxXg8DmuYd+71ciKgopKhtx9jtZr1Vcqv8wgeQfsgyQ5p2N+l6DbFcipXHG4G3G8Nq1Q6sW21V2Md63WonsK3rNMCbTdVqL2CTdV0PcDx+L0djDctVLnddkkJEUbOyXgp5Eg18EAjwvKwY4G9z1amQLpL17TZptcofeALLqpzLvaof7AAAAABJRU5ErkJggg=="/>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000001GHI6_05_0066">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           13.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           REPLACE REAR SIDE ULTRASONIC SENSOR LH
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (a) Replace the rear side ultrasonic sensor LH with a known good one.
+      </p>
+      <p class="hintgen">
+       HINT:
+      </p>
+      <p class="hint">
+       Click here
+       <span class="mlink">
+        <span class="myfrom:2019 myto:2022 startdate:201812">
+         <a href="RM100000001G347.html" id="d3258e1798">
+          <img alt="2019 - 2022 MY Prius [12/2018 -        ]; PARK ASSIST / MONITORING: ULTRASONIC SENSOR (for Rear): REMOVAL" class="info" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAAXNSR0IArs4c6QAAAkBJREFUSEvtVU9o01Ac/lKapWmrbra2nVPqnw0n2xytHQoiTFScUMSLCCIqbqgTvIkWBM968OLJedjwOlHBizAEvYlQrSKMyWhxhznEIEaTNG3WvvHezEyKTeOpE/wuL+T3+37vy/f7vReOEEKwSsBRMcdvVFEyqtD036r8vuVngfewGMVX2YtgiwpRFFYSzbjJ5UjJMU6JtbVp3TOHFDAxqYvNtUaSgdH0ahRz9Noia0Gz8O86870wiaJcAC+GoGoG4snLmHuVQUfiOvJTx1AxfqC6qCO2dwzh+CBmniRRUj6jtecmy3WDE/tdzsxC7hbKP/MAH4L04TZ2XyBsw670S7ybWIf4kRfwB4IIRHYiN96BaH8G0b5zyI23o/fULIRgp6MeW5sGRlWQaqAugYopfnuLQHgP5PkpCG0JVLQCth+eQPZeEOHuEVQMGdsOTuLNfY6JpTAdbU9k3ItpdLS/vL8DVXoNcX0S/OZhzD/rA6no2JSexdzjyIoz/nDKJoY5Sta6apXrNlExujzD2hTaOsS+8uPTA0hdUpgzifML8Hhj7P30o354xRgi3cPIPz/Jcpxcp5y/Ok2alIWmKvAJwJqNA6y4ND2GDb2n8Sn7AFtSZ20bmjMW3XUVvtYdDefXJmbwigqlXH9mnKpxHud5a6ik1pn/l57FMlubmu0M1WU7TVQd+72LgFb8c6edYiaXria/Ub51l5GhXzfw3YcKZIWghedQNpbXWtD3FGbMzLOuJqdejrWmlacbwL4egiVcNWtev/kfSAAAAABJRU5ErkJggg==" title="2019 - 2022 MY Prius [12/2018 -        ]; PARK ASSIST / MONITORING: ULTRASONIC SENSOR (for Rear): REMOVAL"/>
+         </a>
+        </span>
+       </span>
+      </p>
+      <table>
+       <tbody>
+        <tr>
+         <td>
+          <table align="left" cellpadding="0" cellspacing="0" class="arrowdn" width="5%">
+           <tbody>
+            <tr>
+             <td align="center" class="arrow">
+              NEXT
+             </td>
+            </tr>
+            <tr>
+             <td align="left" class="arrow" width="10%">
+              <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAAXNSR0IArs4c6QAAARRJREFUOE+lkk8KgkAUxj/RsqiN0AGCdkLHCNy4VPAKrrpOJ0hatQw8hIugXdANXBjkv8F41oia+afczMzzzW++770nmGaQue4Yvj+GosTFCiDf00fx8jk/vOPlHNoLjMWZKI54zl/r6RS+gK7LoGmTv2CGEcJxxBeQSJYV4XCY/wxlLMnvFkA6LBYpfH86GHo+P6Cq0ifwckmxXg8DmuYd+71ciKgopKhtx9jtZr1Vcqv8wgeQfsgyQ5p2N+l6DbFcipXHG4G3G8Nq1Q6sW21V2Md63WonsK3rNMCbTdVqL2CTdV0PcDx+L0djDctVLnddkkJEUbOyXgp5Eg18EAjwvKwY4G9z1amQLpL17TZptcofeALLqpzLvaof7AAAAABJRU5ErkJggg=="/>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000001GHI6_05_0067">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           14.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           CLEAR DTC
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (a) Clear the DTCs.
+      </p>
+      <h4 class="gtsInfoTitle">
+       Body Electrical &gt; IPA/ICS/Clearance Sonar &gt; Clear DTCs
+      </h4>
+      <table>
+       <tbody>
+        <tr>
+         <td>
+          <table align="left" cellpadding="0" cellspacing="0" class="arrowdn" width="5%">
+           <tbody>
+            <tr>
+             <td align="center" class="arrow">
+              NEXT
+             </td>
+            </tr>
+            <tr>
+             <td align="left" class="arrow" width="10%">
+              <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAAXNSR0IArs4c6QAAARRJREFUOE+lkk8KgkAUxj/RsqiN0AGCdkLHCNy4VPAKrrpOJ0hatQw8hIugXdANXBjkv8F41oia+afczMzzzW++770nmGaQue4Yvj+GosTFCiDf00fx8jk/vOPlHNoLjMWZKI54zl/r6RS+gK7LoGmTv2CGEcJxxBeQSJYV4XCY/wxlLMnvFkA6LBYpfH86GHo+P6Cq0ifwckmxXg8DmuYd+71ciKgopKhtx9jtZr1Vcqv8wgeQfsgyQ5p2N+l6DbFcipXHG4G3G8Nq1Q6sW21V2Md63WonsK3rNMCbTdVqL2CTdV0PcDx+L0djDctVLnddkkJEUbOyXgp5Eg18EAjwvKwY4G9z1amQLpL17TZptcofeALLqpzLvaof7AAAAABJRU5ErkJggg=="/>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000001GHI6_05_0068">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           15.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           CHECK DTC (C1AF8)
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (a) Check for DTCs.
+      </p>
+      <h4 class="gtsInfoTitle">
+       Body Electrical &gt; IPA/ICS/Clearance Sonar &gt; Trouble Codes
+      </h4>
+      <table border="1" class="result" width="100%">
+       <thead>
+        <tr>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Result
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Proceed to
+          </p>
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           C1AF8 is not output
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="judge-value">
+           A
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           C1AF8 is output
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="judge-value">
+           B
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table cellpadding="0" cellspacing="0" class="arrow">
+       <tbody>
+        <tr>
+         <td class="arrow">
+          A
+         </td>
+         <td align="left" class="arrow">
+          <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAUCAYAAAC9BQwsAAAAAXNSR0IArs4c6QAAAPxJREFUOE+Vkj0OgkAUhGcx6y+lPTHxAhyAhjvQ0NNZWHoDSws6ehru4BWo6KDgAJaIIDFrxKxZBBbY+s37duYNcZyMed4GUx8BGNP1EmG4mKQlqpqxLPsSw7CCrtNRC2qiOGnbD/j+alDcIPJpVX0higBNm/UuaBHFSdfNcTisO8WdRHGyLzgpUVzwH9wgURQ7zh385qOJYnBJAkwicvFu9wShNGdVNXw3Ljqfc5xO62nENH39bjvKo2k+cL02fyX1SOmnfgSWtWyVoNfjfl8gjhUA8/HNOR5vuFy20qI3PH6+Fsdzabn5ttpjWSowDLQCkCFrYhAUnQHIhG/a33XSA6ezYwAAAABJRU5ErkJggg=="/>
+         </td>
+         <td>
+          <p class="actcif">
+           END (REAR SIDE ULTRASONIC SENSOR LH WAS DEFECTIVE)
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table>
+       <tbody>
+        <tr>
+         <td>
+          <table align="left" cellpadding="0" cellspacing="0" class="arrowdn" width="5%">
+           <tbody>
+            <tr>
+             <td align="center" class="arrow">
+              B
+             </td>
+            </tr>
+            <tr>
+             <td align="left" class="arrow" width="10%">
+              <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAAXNSR0IArs4c6QAAARRJREFUOE+lkk8KgkAUxj/RsqiN0AGCdkLHCNy4VPAKrrpOJ0hatQw8hIugXdANXBjkv8F41oia+afczMzzzW++770nmGaQue4Yvj+GosTFCiDf00fx8jk/vOPlHNoLjMWZKI54zl/r6RS+gK7LoGmTv2CGEcJxxBeQSJYV4XCY/wxlLMnvFkA6LBYpfH86GHo+P6Cq0ifwckmxXg8DmuYd+71ciKgopKhtx9jtZr1Vcqv8wgeQfsgyQ5p2N+l6DbFcipXHG4G3G8Nq1Q6sW21V2Md63WonsK3rNMCbTdVqL2CTdV0PcDx+L0djDctVLnddkkJEUbOyXgp5Eg18EAjwvKwY4G9z1amQLpL17TZptcofeALLqpzLvaof7AAAAABJRU5ErkJggg=="/>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000001GHI6_05_0070">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           16.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           REPLACE REAR SIDE ULTRASONIC SENSOR RH
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (a) Replace the rear side ultrasonic sensor RH with a known good one.
+      </p>
+      <p class="hintgen">
+       HINT:
+      </p>
+      <p class="hint">
+       Click here
+       <span class="mlink">
+        <span class="myfrom:2019 myto:2022 startdate:201812">
+         <a href="RM100000001G347.html" id="d3258e2073">
+          <img alt="2019 - 2022 MY Prius [12/2018 -        ]; PARK ASSIST / MONITORING: ULTRASONIC SENSOR (for Rear): REMOVAL" class="info" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAAXNSR0IArs4c6QAAAkBJREFUSEvtVU9o01Ac/lKapWmrbra2nVPqnw0n2xytHQoiTFScUMSLCCIqbqgTvIkWBM968OLJedjwOlHBizAEvYlQrSKMyWhxhznEIEaTNG3WvvHezEyKTeOpE/wuL+T3+37vy/f7vReOEEKwSsBRMcdvVFEyqtD036r8vuVngfewGMVX2YtgiwpRFFYSzbjJ5UjJMU6JtbVp3TOHFDAxqYvNtUaSgdH0ahRz9Noia0Gz8O86870wiaJcAC+GoGoG4snLmHuVQUfiOvJTx1AxfqC6qCO2dwzh+CBmniRRUj6jtecmy3WDE/tdzsxC7hbKP/MAH4L04TZ2XyBsw670S7ybWIf4kRfwB4IIRHYiN96BaH8G0b5zyI23o/fULIRgp6MeW5sGRlWQaqAugYopfnuLQHgP5PkpCG0JVLQCth+eQPZeEOHuEVQMGdsOTuLNfY6JpTAdbU9k3ItpdLS/vL8DVXoNcX0S/OZhzD/rA6no2JSexdzjyIoz/nDKJoY5Sta6apXrNlExujzD2hTaOsS+8uPTA0hdUpgzifML8Hhj7P30o354xRgi3cPIPz/Jcpxcp5y/Ok2alIWmKvAJwJqNA6y4ND2GDb2n8Sn7AFtSZ20bmjMW3XUVvtYdDefXJmbwigqlXH9mnKpxHud5a6ik1pn/l57FMlubmu0M1WU7TVQd+72LgFb8c6edYiaXria/Ub51l5GhXzfw3YcKZIWghedQNpbXWtD3FGbMzLOuJqdejrWmlacbwL4egiVcNWtev/kfSAAAAABJRU5ErkJggg==" title="2019 - 2022 MY Prius [12/2018 -        ]; PARK ASSIST / MONITORING: ULTRASONIC SENSOR (for Rear): REMOVAL"/>
+         </a>
+        </span>
+       </span>
+      </p>
+      <table>
+       <tbody>
+        <tr>
+         <td>
+          <table align="left" cellpadding="0" cellspacing="0" class="arrowdn" width="5%">
+           <tbody>
+            <tr>
+             <td align="center" class="arrow">
+              NEXT
+             </td>
+            </tr>
+            <tr>
+             <td align="left" class="arrow" width="10%">
+              <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAAXNSR0IArs4c6QAAARRJREFUOE+lkk8KgkAUxj/RsqiN0AGCdkLHCNy4VPAKrrpOJ0hatQw8hIugXdANXBjkv8F41oia+afczMzzzW++770nmGaQue4Yvj+GosTFCiDf00fx8jk/vOPlHNoLjMWZKI54zl/r6RS+gK7LoGmTv2CGEcJxxBeQSJYV4XCY/wxlLMnvFkA6LBYpfH86GHo+P6Cq0ifwckmxXg8DmuYd+71ciKgopKhtx9jtZr1Vcqv8wgeQfsgyQ5p2N+l6DbFcipXHG4G3G8Nq1Q6sW21V2Md63WonsK3rNMCbTdVqL2CTdV0PcDx+L0djDctVLnddkkJEUbOyXgp5Eg18EAjwvKwY4G9z1amQLpL17TZptcofeALLqpzLvaof7AAAAABJRU5ErkJggg=="/>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000001GHI6_05_0071">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           17.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           CLEAR DTC
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (a) Clear the DTCs.
+      </p>
+      <h4 class="gtsInfoTitle">
+       Body Electrical &gt; IPA/ICS/Clearance Sonar &gt; Clear DTCs
+      </h4>
+      <table>
+       <tbody>
+        <tr>
+         <td>
+          <table align="left" cellpadding="0" cellspacing="0" class="arrowdn" width="5%">
+           <tbody>
+            <tr>
+             <td align="center" class="arrow">
+              NEXT
+             </td>
+            </tr>
+            <tr>
+             <td align="left" class="arrow" width="10%">
+              <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAAXNSR0IArs4c6QAAARRJREFUOE+lkk8KgkAUxj/RsqiN0AGCdkLHCNy4VPAKrrpOJ0hatQw8hIugXdANXBjkv8F41oia+afczMzzzW++770nmGaQue4Yvj+GosTFCiDf00fx8jk/vOPlHNoLjMWZKI54zl/r6RS+gK7LoGmTv2CGEcJxxBeQSJYV4XCY/wxlLMnvFkA6LBYpfH86GHo+P6Cq0ifwckmxXg8DmuYd+71ciKgopKhtx9jtZr1Vcqv8wgeQfsgyQ5p2N+l6DbFcipXHG4G3G8Nq1Q6sW21V2Md63WonsK3rNMCbTdVqL2CTdV0PcDx+L0djDctVLnddkkJEUbOyXgp5Eg18EAjwvKwY4G9z1amQLpL17TZptcofeALLqpzLvaof7AAAAABJRU5ErkJggg=="/>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000001GHI6_05_0072">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           18.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           CHECK DTC (C1AF8)
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (a) Check for DTCs.
+      </p>
+      <h4 class="gtsInfoTitle">
+       Body Electrical &gt; IPA/ICS/Clearance Sonar &gt; Trouble Codes
+      </h4>
+      <table border="1" class="result" width="100%">
+       <thead>
+        <tr>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Result
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Proceed to
+          </p>
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           C1AF8 is not output
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="judge-value">
+           A
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           C1AF8 is output
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="judge-value">
+           B
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table cellpadding="0" cellspacing="0" class="arrow">
+       <tbody>
+        <tr>
+         <td class="arrow">
+          A
+         </td>
+         <td align="left" class="arrow">
+          <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAUCAYAAAC9BQwsAAAAAXNSR0IArs4c6QAAAPxJREFUOE+Vkj0OgkAUhGcx6y+lPTHxAhyAhjvQ0NNZWHoDSws6ehru4BWo6KDgAJaIIDFrxKxZBBbY+s37duYNcZyMed4GUx8BGNP1EmG4mKQlqpqxLPsSw7CCrtNRC2qiOGnbD/j+alDcIPJpVX0higBNm/UuaBHFSdfNcTisO8WdRHGyLzgpUVzwH9wgURQ7zh385qOJYnBJAkwicvFu9wShNGdVNXw3Ljqfc5xO62nENH39bjvKo2k+cL02fyX1SOmnfgSWtWyVoNfjfl8gjhUA8/HNOR5vuFy20qI3PH6+Fsdzabn5ttpjWSowDLQCkCFrYhAUnQHIhG/a33XSA6ezYwAAAABJRU5ErkJggg=="/>
+         </td>
+         <td>
+          <p class="actcif">
+           END (REAR SIDE ULTRASONIC SENSOR RH WAS DEFECTIVE)
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table cellpadding="0" cellspacing="0" class="arrow">
+       <tbody>
+        <tr>
+         <td class="arrow">
+          B
+         </td>
+         <td align="left" class="arrow">
+          <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAUCAYAAAC9BQwsAAAAAXNSR0IArs4c6QAAAPxJREFUOE+Vkj0OgkAUhGcx6y+lPTHxAhyAhjvQ0NNZWHoDSws6ehru4BWo6KDgAJaIIDFrxKxZBBbY+s37duYNcZyMed4GUx8BGNP1EmG4mKQlqpqxLPsSw7CCrtNRC2qiOGnbD/j+alDcIPJpVX0higBNm/UuaBHFSdfNcTisO8WdRHGyLzgpUVzwH9wgURQ7zh385qOJYnBJAkwicvFu9wShNGdVNXw3Ljqfc5xO62nENH39bjvKo2k+cL02fyX1SOmnfgSWtWyVoNfjfl8gjhUA8/HNOR5vuFy20qI3PH6+Fsdzabn5ttpjWSowDLQCkCFrYhAUnQHIhG/a33XSA6ezYwAAAABJRU5ErkJggg=="/>
+         </td>
+         <td>
+          <p class="actcif">
+           <span class="mlink">
+            REPLACE CLEARANCE WARNING ECU ASSEMBLY
+            <span class="myfrom:2019 myto:2020 startdate:201812 enddate:202007">
+             <a href="RM100000001GL5O.html" id="d3258e2331">
+              <img alt="2019 - 2020 MY Prius [12/2018 - 07/2020]; PARK ASSIST / MONITORING: CLEARANCE WARNING ECU: REMOVAL" class="info" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAAXNSR0IArs4c6QAAAkBJREFUSEvtVU9o01Ac/lKapWmrbra2nVPqnw0n2xytHQoiTFScUMSLCCIqbqgTvIkWBM968OLJedjwOlHBizAEvYlQrSKMyWhxhznEIEaTNG3WvvHezEyKTeOpE/wuL+T3+37vy/f7vReOEEKwSsBRMcdvVFEyqtD036r8vuVngfewGMVX2YtgiwpRFFYSzbjJ5UjJMU6JtbVp3TOHFDAxqYvNtUaSgdH0ahRz9Noia0Gz8O86870wiaJcAC+GoGoG4snLmHuVQUfiOvJTx1AxfqC6qCO2dwzh+CBmniRRUj6jtecmy3WDE/tdzsxC7hbKP/MAH4L04TZ2XyBsw670S7ybWIf4kRfwB4IIRHYiN96BaH8G0b5zyI23o/fULIRgp6MeW5sGRlWQaqAugYopfnuLQHgP5PkpCG0JVLQCth+eQPZeEOHuEVQMGdsOTuLNfY6JpTAdbU9k3ItpdLS/vL8DVXoNcX0S/OZhzD/rA6no2JSexdzjyIoz/nDKJoY5Sta6apXrNlExujzD2hTaOsS+8uPTA0hdUpgzifML8Hhj7P30o354xRgi3cPIPz/Jcpxcp5y/Ok2alIWmKvAJwJqNA6y4ND2GDb2n8Sn7AFtSZ20bmjMW3XUVvtYdDefXJmbwigqlXH9mnKpxHud5a6ik1pn/l57FMlubmu0M1WU7TVQd+72LgFb8c6edYiaXria/Ub51l5GhXzfw3YcKZIWghedQNpbXWtD3FGbMzLOuJqdejrWmlacbwL4egiVcNWtev/kfSAAAAABJRU5ErkJggg==" title="2019 - 2020 MY Prius [12/2018 - 07/2020]; PARK ASSIST / MONITORING: CLEARANCE WARNING ECU: REMOVAL"/>
+             </a>
+            </span>
+            <span class="myfrom:2021 myto:2022 startdate:202007">
+             <a href="RM100000001POO2.html" id="d3258e2332">
+              <img alt="2021 - 2022 MY Prius [07/2020 -        ]; PARK ASSIST / MONITORING: CLEARANCE WARNING ECU: REMOVAL" class="info" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAAXNSR0IArs4c6QAAAkBJREFUSEvtVU9o01Ac/lKapWmrbra2nVPqnw0n2xytHQoiTFScUMSLCCIqbqgTvIkWBM968OLJedjwOlHBizAEvYlQrSKMyWhxhznEIEaTNG3WvvHezEyKTeOpE/wuL+T3+37vy/f7vReOEEKwSsBRMcdvVFEyqtD036r8vuVngfewGMVX2YtgiwpRFFYSzbjJ5UjJMU6JtbVp3TOHFDAxqYvNtUaSgdH0ahRz9Noia0Gz8O86870wiaJcAC+GoGoG4snLmHuVQUfiOvJTx1AxfqC6qCO2dwzh+CBmniRRUj6jtecmy3WDE/tdzsxC7hbKP/MAH4L04TZ2XyBsw670S7ybWIf4kRfwB4IIRHYiN96BaH8G0b5zyI23o/fULIRgp6MeW5sGRlWQaqAugYopfnuLQHgP5PkpCG0JVLQCth+eQPZeEOHuEVQMGdsOTuLNfY6JpTAdbU9k3ItpdLS/vL8DVXoNcX0S/OZhzD/rA6no2JSexdzjyIoz/nDKJoY5Sta6apXrNlExujzD2hTaOsS+8uPTA0hdUpgzifML8Hhj7P30o354xRgi3cPIPz/Jcpxcp5y/Ok2alIWmKvAJwJqNA6y4ND2GDb2n8Sn7AFtSZ20bmjMW3XUVvtYdDefXJmbwigqlXH9mnKpxHud5a6ik1pn/l57FMlubmu0M1WU7TVQd+72LgFb8c6edYiaXria/Ub51l5GhXzfw3YcKZIWghedQNpbXWtD3FGbMzLOuJqdejrWmlacbwL4egiVcNWtev/kfSAAAAABJRU5ErkJggg==" title="2021 - 2022 MY Prius [07/2020 -        ]; PARK ASSIST / MONITORING: CLEARANCE WARNING ECU: REMOVAL"/>
+             </a>
+            </span>
+           </span>
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </td>
+    </tr>
+   </tbody>
+  </table>
+ </body>
+</html>

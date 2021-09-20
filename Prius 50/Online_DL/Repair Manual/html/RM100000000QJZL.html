@@ -1,0 +1,2333 @@
+<html>
+ <head>
+  <title>
+   2ZR-FXE (ENGINE CONTROL): SFI SYSTEM: P261029,P261093; ECM/PCM Engine Off Timer Performance Signal Invalid; 2016 - 2022 MY Prius [11/2015 -        ]
+  </title>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <style type="text/css">
+   /*CQ T300010120 - To fix the callout issue. Call out class been added which overrides the default table class to Reduce the gap between the figure & callout table*/
+
+
+body
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 18px;
+	background-color: #ffffff;
+	
+	padding-right: 20px;
+	padding-left: 4px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+H1, H2, H3, H4, H5, H6
+{
+    color: #000000;
+}
+
+H1	
+{
+	font-size: 20px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	line-height: 24px;
+}
+
+H2	
+{
+	font-size: 18px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	line-height: 22px;
+}
+
+H3	
+{
+	font-size: 16px;
+	font-weight: bold;
+	font-style:	normal;
+	text-decoration: none;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	line-height: 18px;
+	}
+
+H4	
+{
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	line-height: 18px;
+	}
+
+H5, DT 
+{
+	font-size: 14px;
+	font-weight: bold;
+	font-style:	normal;
+	text-decoration: none;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	line-height: 16px;
+	}
+
+H6	
+{
+	font-size: 13px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	line-height: 16px;
+}
+
+
+h1.markdiv
+{
+	color: #000099;
+	margin-bottom: 1pt;
+}
+
+h1.modyear
+{
+	color: #000099;
+	margin-bottom: 10pt;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+
+h1.modname
+{
+	color: #000099;
+	margin-bottom: 0pt;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	text-valign:left;
+}
+
+h2.name
+{
+	color: #330099;
+	margin-bottom: 10pt;
+	text-decoration: underline;
+	font-size: 20px;
+	font-weight: bold;
+	text-indent: -3pt;
+	margin-left: 6pt;
+}
+
+h4.tbltitle,h4.listtitle
+{
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+}
+
+h4.gtsInfoTitle
+{
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+	margin-left: 12pt;
+}
+
+table.gtsInfoTable
+{
+	margin-left: 12pt;
+	width:auto;
+}
+
+table.gtsInfoTable td
+{
+	text-align:center;
+}
+
+p.step1
+{
+	font-weight: bold;
+	font-size: 13px;
+	margin-bottom: 5pt;
+	text-indent: -6pt;
+	margin-left: 12pt;
+}
+
+p.test1
+{
+	
+	font-size: 13px;
+	margin-bottom: 5pt;
+	text-indent: -12pt;
+	margin-left: 12pt;
+	font-weight: normal;
+	
+}
+
+p.test1p
+{
+	
+	font-size: 12px;
+	margin-bottom: 5pt;
+	text-indent: -12pt;
+	margin-left: 12pt;
+	font-weight: normal;
+}
+
+p.test2
+{
+	
+	font-size: 13px;
+	margin-bottom: 5pt;
+	text-indent: -12pt;
+	margin-left: 24pt;
+}
+
+p.s1
+{
+	font-weight: bold;
+	font-size: 13px;
+	margin-bottom: 5pt;
+	text-indent: -6pt;
+	margin-left: 12pt;
+}
+
+
+div.step3, ol.list
+{
+	text-indent: -15pt;
+	margin-left: 40pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+div.step3, ul.list
+{
+	text-indent: -15pt;
+	margin-left: 40pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+div.step2, ul.list
+{
+	text-indent: -1pt;
+	margin-left: 25pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+div.step2, ol.list
+{
+	text-indent: -1pt;
+	margin-left: 25pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+
+div.s3, ol.list
+{
+	text-indent: -15pt;
+	margin-left: 40pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+div.s3, ul.list
+{
+	text-indent: -15pt;
+	margin-left: 40pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+div.s2, ul.list
+{
+	text-indent: -1pt;
+	margin-left: 20pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+div.s2, ol.list
+{
+	text-indent: 2pt;
+	margin-left: 20pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+p.step3p
+
+{
+	text-indent: -1pt;
+	margin-left: 48pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+p.step2p
+
+{
+	text-indent: -1pt;
+	margin-left: 30pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+p.s2p
+{
+	text-indent: -1pt;
+	margin-left: 30pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+p.s3p
+
+{
+	text-indent: -1pt;
+	margin-left: 48pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+
+
+p.step2
+{
+	text-indent: -15pt;
+	margin-left: 30pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+p.s2
+{
+	text-indent: -15pt;
+	margin-left: 30pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+/*CQ T300015245 - Modified the style class by reomoving p tag to apply the style for any element with class=xref */
+.xref
+ {
+   font-size: 12px;
+   color: black;
+   font-weight: bold;
+   margin-bottom: 0;
+ }
+
+p.step3
+{
+	text-indent: -17pt;
+	margin-left: 47pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+p.s3
+{
+	text-indent: -17pt;
+	margin-left:47pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+}
+
+
+/*CQ T300014436 - Repair Procedure NOTICE titles not underlined in standard view*/
+p.notegen
+{
+	color: #CD950C;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: inherit;
+	text-indent: -1pt;
+	margin-left: 12pt;
+	margin-bottom: -4px;
+}
+
+p.note
+{
+	color: #CD950C;
+	margin-top: 5pt;
+	font-size: 12px;
+	line-height: 15px;
+	text-indent: -1pt;
+	margin-left: 30pt;
+	text-align: left;
+}
+
+p.notice
+{
+	color: #CD950C;
+	margin-top: 5pt;
+	font-size: 12px;
+	line-height: 15px;
+	text-indent: -1pt;
+	margin-left: 30pt;
+	text-align: left;
+}
+
+
+p.hintgen { color: green; font-weight: bold; font-size: 12px;line-height: inherit;text-indent: -1pt;margin-left: 12pt;margin-bottom: -4px;}
+p.hint { color: green; margin-top: 5pt; font-size: 12px; line-height: 15px;text-indent: -1pt;margin-left: 30pt;text-align: left;}
+
+
+
+p.warngen
+{
+	color: red;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: inherit;
+	text-indent: -1pt;
+	margin-left: 12pt;
+	margin-bottom: -4px;
+}
+
+p.warning
+{
+	color: red;
+	margin-top: 5pt;
+	font-size: 12px;
+	line-height: 15px;
+	text-indent: -15pt;
+	margin-left: 30pt;
+	text-align: left;
+}
+
+p.warn
+{
+	color: red;
+	margin-top: 5pt;
+	font-size: 12px;
+	line-height: 15px;
+	text-indent: -1pt;
+	margin-left: 30pt;
+	text-align: left;
+}
+
+p.sst
+{
+	text-indent: 40px;
+	font-weight: bold;
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+}
+
+p.subnum
+{
+	text-indent: 20px;
+	font-style: italic;
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+}
+
+p.spec
+{
+	margin-left: 40px;
+	text-indent: -3px;
+	font-size: 12px;
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+}
+
+p.specsub
+{
+	color:  blue;
+	text-indent: 40px;
+	font-style:  italic;
+	font-weight: bold;
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+}
+
+p.torque
+{
+	text-indent: 40px;
+	font-weight: bold;
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+}
+
+p.thead
+{
+	font-weight: bold;
+	text-align:  center;
+	font-size: 12px;
+}
+
+p.dtc
+{
+	color:  #0000FF;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+	font-size: 12px;
+}
+
+p.testgrp
+{
+	font-size: 13px;
+	font-weight: bold;
+	border: 1px none White;
+	background-color: InfoBackground;
+}
+
+p.resright
+{
+	text-indent:  50%;
+	font-size: 12px;
+}
+
+p.rescid
+{
+	text-align: left;
+	font-size: 12px;
+}
+
+/*CQ T300015246 - Modified the font weight style for action ci fins to bold */
+p.actcif
+{
+	text-align: left;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: normal;
+	line-height: inherit;
+	background-color: white;
+	
+}
+
+p.actcir
+{
+	text-align: left;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: normal;
+	line-height: inherit;
+}
+
+p.para
+{
+	margin-left: 2pt;
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+p.entry
+{
+	margin-left: 2pt;
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+p.para2
+{
+	text-indent: -3pt;
+	margin-left: 30pt;
+	margin-top: 10pt;
+	margin-bottom: 0pt;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+p.para3
+{
+	text-indent: 0pt;
+	margin-left: 47pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+p.list
+{
+	font-size: 12px;
+	font-weight: normal;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	line-height: 18px;
+	margin-left: 20pt;
+	text-indent:  -1pt;
+}
+
+li
+{
+	font-size: 12px;
+	font-weight: normal;
+}
+	
+
+p.list1
+{
+	font-size: 12px;
+	font-weight: normal;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	line-height: 18px;
+	margin-left: 20pt;
+	text-indent:  -1pt;
+}
+
+div.side
+{
+	margin-top: 10pt;
+	margin-bottom: 10pt;
+	font-size: 12px;
+}
+
+ul.list
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+ul.note
+{
+	color: #CD950C;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+ul.warn
+{
+	color: red;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+ul.hint
+{
+	color: green;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+ol.note
+{
+	color: #CD950C;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+ol.hint
+{
+	color: green;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+ol.warn
+{
+	color: red;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+td.head
+{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	vertical-align: top;
+	background-color: transparent;
+	font-size: 12px;
+}
+
+td.foot
+{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	vertical-align: top;
+	background-color: transparent;
+	font-size: 12px;
+}
+
+td.arrow
+ {
+        font-size: 16px;
+    	font-weight: bold;
+    	background-gcolor: blue;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	
+	background-color: white;
+ }
+
+td.testgrp
+{
+	background-color: InfoBackground;
+	font-size: 12px;
+}
+
+.testgrp
+{
+	background-color: InfoBackground;
+	border: 1px solid Gray;
+	font-size: 12px;
+}
+
+
+
+.frame
+{
+	
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	background-color: #ffffff;
+	
+}
+
+.header
+{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	background-color: transparent;
+	vertical-align: top;
+	background-image: url(../stylegraphics/header.bg.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	
+}
+
+.footer
+{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	background-color: transparent;
+	vertical-align: top;
+	background-image: url(../stylegraphics/footer.bg.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+
+img.info
+{
+	
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom:  -3px;
+	margin-right: 0px;
+	
+}
+
+IMG 
+{
+	margin-top: 4px;
+	margin-left: 4px;
+	margin-bottom: 4px;
+	margin-right: 4px;
+	
+}
+
+img.block
+{
+	display: block;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	
+}
+
+
+
+BLOCKQUOTE, PRE	
+{	
+	font-family: Courier New, monospace;
+	font-size: 10px;
+	line-height: 12px;
+}
+
+A:link
+{
+	font-size: 12px;
+	line-height: inherit;
+	text-decoration: none;
+	color: Blue;
+}
+
+A:visited
+{
+	font-size: 12px;
+	line-height: inherit;
+	text-decoration: none;
+	color: Blue;
+}
+
+A:active
+{
+	font-size: 12px;
+	line-height: inherit;
+	text-decoration: none;
+	color: Black;
+}
+
+A:hover
+{
+	text-decoration: none;
+}
+
+table.arrow
+{
+	font-size: 16px;
+	font-weight: normal;
+	
+	margin-left: 300px;
+	border: 0;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	
+	
+}
+
+table.arrowdn
+{
+	font-size: 16px;
+	font-weight: normal;
+	
+	
+	border: 0;
+	
+	
+}
+
+table:side 
+{
+	font-size: 12px;
+	font-weight: normal;
+	background-color: white;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+table:no 
+{
+	font-size: 12px;
+	font-weight: normal;
+	background-color: #000000;
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+
+
+
+table 
+{
+	font-size: 12px;
+	font-weight: normal;
+	background-color: #ffffff;
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+
+.side
+{
+	font-size: 12px;
+	font-weight: normal;
+	background-color: white;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	vertical-align:  middle; 
+}
+
+
+
+td:no 
+{
+	font-size: 12px;
+	font-weight: normal;
+	background-color: #000000;
+}
+
+
+
+
+td
+{
+	font-size: 12px;
+	font-weight: normal;
+	background-color: f5f5f5;
+}
+
+
+
+
+
+TH, THEAD, TFOOT
+{
+	color: #000000;
+}
+
+TFOOT, THEAD 
+{	
+	vertical-align: baseline;
+	font-size: 13px;
+	font-weight: bold;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	background-color: #cccccc;
+}
+
+TH	
+{
+	vertical-align: baseline;
+	font-weight: bold;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-transform: uppercase;
+	background-color: #cccccc;
+} 
+
+/*CQ T300010120 - Overrides the default table class to Reduce the gap between the figure & callout table*/
+table.callout 
+{
+	font-size: 12px;
+	font-weight: normal;
+	background-color: #ffffff;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	margin-left: 3px;
+	border-collapse: collapse;
+	border:1px solid #000000;
+}
+
+p.torquevalue
+{
+	text-indent: 60px;
+	font-weight: bold;
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+}
+
+p.torquetext
+{
+	text-indent: 20px;
+	font-weight: bold;
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	font-size: 12px;
+}
+
+/*CQ T300015102 - Added to differeniate the table level footnotes and figure related footnotes.*/
+td.tablefootnote
+{
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	background-color: #ffffff;
+	font-size: 90%;
+}
+
+.figurefootnote
+{
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	background-color: #ffffff;
+	font-size: 90%;
+}
+
+span.ewdlink
+{
+	color: #0210dd;
+	text-decoration: underline;
+	font-weight: bold;
+}
+/* TGD Changes */
+div.gtsExec
+{
+	visibility: hidden;
+}
+  </style>
+ </head>
+ <body id="C">
+  <table border="0" cellpadding="4" class="frame" id="RM100000000QJZL" width="100%">
+   <colgroup>
+    <col/>
+   </colgroup>
+   <tbody>
+    <tr>
+     <td class="frame">
+      <table border="1" class="side" width="100%">
+       <tbody>
+        <tr>
+         <td align="left" class="side" colspan="1" valign="top">
+          <b>
+           Last Modified:
+          </b>
+          08-30-2021
+         </td>
+         <td class="side">
+          6.10:8.0.50
+         </td>
+         <td class="side">
+          <b>
+           Doc ID:
+          </b>
+          RM100000000QJZL
+         </td>
+        </tr>
+        <tr>
+         <td align="left" class="side" valign="top">
+          <b>
+           Model Year Start:
+          </b>
+          2016
+         </td>
+         <td align="left" class="side" valign="top">
+          <b>
+           Model:
+          </b>
+          Prius
+         </td>
+         <td align="left" class="side" valign="top">
+          <b>
+           Prod Date Range:
+          </b>
+          [11/2015 -  
+													 
+													 
+													 
+													 
+													 
+													 
+													 
+													 
+													 
+													]
+         </td>
+        </tr>
+        <tr>
+         <td align="left" class="side" colspan="3" valign="top">
+          <b>
+           Title:
+          </b>
+          2ZR-FXE (ENGINE CONTROL): SFI SYSTEM: P261029,P261093; ECM/PCM Engine Off Timer Performance Signal Invalid; 2016 - 2022 MY Prius [11/2015 -        ]
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table border="1" class="dtc" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" valign="middle" width="10%">
+          <p class="dtc">
+           DTC
+          </p>
+         </td>
+         <td align="center" valign="middle" width="10%">
+          <p class="dtc">
+           P261029
+          </p>
+         </td>
+         <td align="left">
+          <p class="dtc">
+           ECM/PCM Engine Off Timer Performance Signal Invalid
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table border="1" class="dtc" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" valign="middle" width="10%">
+          <p class="dtc">
+           DTC
+          </p>
+         </td>
+         <td align="center" valign="middle" width="10%">
+          <p class="dtc">
+           P261093
+          </p>
+         </td>
+         <td align="left">
+          <p class="dtc">
+           ECM/PCM Engine Off Timer Performance No Operation
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000000QJZL_01">
+      </a>
+      <h2 class="name">
+       DTC SUMMARY
+      </h2>
+      <table border="1" width="100%">
+       <colgroup>
+        <col/>
+        <col/>
+        <col/>
+        <col/>
+        <col/>
+        <col/>
+        <col/>
+       </colgroup>
+       <thead>
+        <tr>
+         <th align="center" valign="middle">
+          <p class="entry">
+           DTC No.
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Detection Item
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           DTC Detection Condition
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Trouble Area
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           MIL
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Memory
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Note
+          </p>
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" valign="middle">
+          <p class="data-name">
+           P261029
+          </p>
+         </td>
+         <td align="left" valign="middle">
+          <p class="data-name">
+           ECM/PCM Engine Off Timer Performance Signal Invalid
+          </p>
+         </td>
+         <td align="left" valign="middle">
+          <p class="data-name">
+           ECM internal malfunction
+          </p>
+         </td>
+         <td align="left" valign="middle">
+          <p class="data-name">
+           ECM
+          </p>
+         </td>
+         <td align="left" valign="middle">
+          <p class="data-name">
+           Comes on
+          </p>
+         </td>
+         <td align="left" valign="middle">
+          <p class="data-name">
+           DTC stored
+          </p>
+         </td>
+         <td align="left" valign="middle">
+          <div class="data-name">
+           <ul class="list">
+            <li>
+             SAE Code: P2610
+            </li>
+            <li>
+             DTC for Mexico Models: Applies
+            </li>
+           </ul>
+          </div>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" valign="middle">
+          <p class="data-name">
+           P261093
+          </p>
+         </td>
+         <td align="left" valign="middle">
+          <p class="data-name">
+           ECM/PCM Engine Off Timer Performance No Operation
+          </p>
+         </td>
+         <td align="left" valign="middle">
+          <p class="data-name">
+           ECM internal malfunction
+          </p>
+         </td>
+         <td align="left" valign="middle">
+          <p class="data-name">
+           ECM
+          </p>
+         </td>
+         <td align="left" valign="middle">
+          <p class="data-name">
+           Comes on
+          </p>
+         </td>
+         <td align="left" valign="middle">
+          <p class="data-name">
+           DTC stored
+          </p>
+         </td>
+         <td align="left" valign="middle">
+          <div class="data-name">
+           <ul class="list">
+            <li>
+             SAE Code: P2610
+            </li>
+            <li>
+             DTC for Mexico Models: Does not apply
+            </li>
+           </ul>
+          </div>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table border="1" width="100%">
+       <colgroup>
+        <col align="right"/>
+        <col/>
+        <col/>
+        <col/>
+       </colgroup>
+       <thead>
+        <tr>
+         <th align="center" valign="middle">
+          <p class="entry">
+           DTC No.
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Monitoring Item
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Detection Timing
+          </p>
+         </th>
+         <th align="center" valign="middle">
+          <p class="entry">
+           Detection Logic
+          </p>
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="center" valign="middle">
+          <p class="entry">
+           P261029
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           Soak timer (built into ECM)
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           Power switch off
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           2 trip
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td align="center">
+          <p class="entry">
+           P261093
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           Soak timer (built into ECM)
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           Power switch on (IG)
+          </p>
+         </td>
+         <td align="center" valign="middle">
+          <p class="entry">
+           2 trip
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000000QJZL_02">
+      </a>
+      <h2 class="name">
+       DESCRIPTION
+      </h2>
+      <p class="content5">
+       The soak timer operates after the power switch is turned off. When a certain amount of time has elapsed since the power switch was turned off, the soak timer activates the ECM to perform malfunction checks which can only be performed after the power switch is turned off. The soak timer is built into the ECM.
+      </p>
+      <img alt="" border="1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAArAAAAHPCAYAAACr2Ok/AAAAAXNSR0IArs4c6QAAIABJREFUeF7sfQu4XEWV9U4I8v5FEBllMAnPADEiaMYBhVxeJkTwFTB8Agq5anAQRG4MPlAYQRLvBYYBTTQXo6gDYgB5hERAE9RheAgCBogzYZKMygwK6AiCI5D7f6u6q2919Xmfqj6PXuf78uV2n3rsWrvOOav3WbVrzMjIyIjwIAJEgAgQASJABIgAESACFUFgDAlsRTxFM4kAESACRIAIEAEiQAQUAiSwnAhEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABIgAESAClUKABLZS7qKxRIAIEAEiQASIABEgAiSwnANEgAgQASJABBwi8H//93+yxRZbxLaYtJzZUNI6ScsFGZm0btJy3bI/iz2xTkpRIGn/Scul6FoVTdquXS5pvbT2+C5PAusbYbZPBIgAESACtUAAD3ocSchpLQbMQSQmhb6gKgu5LIsdJs4ksL5mHdslAkSACBABIkAEiAAR8IIACawXWNkoESACRIAI1AEBHXl6+OGHZfXq1fKv//qvgr9f8YpXqOH99a9/VX/jfxz6b/N81u99t69t1/1ktTOsnbLbb/tKz1fTp7afzTEl+dvGJmje6O/y9p+3vj1ufH7Na14jhx56qPz93/+9vO1tb5Ptttuu8Ki0HicJbB3usBwDESACRIAIeEPgM5/5jFx00UWt9nfeeWdFVDdt2tTW59ixY1vf6b/xvz6ylA9qE+25at9uS9voqv1u2K/xTYu/HnuUf3DO9pvpdNO/Qe2EnU+Kb5r+g+ZXVP0o2/RYfve73ynCiuOggw6Sb3/727Lbbrt5u9bSNEwCmwYtliUCRIAIEIGeQeCZZ56R2bNny+233y4HHHCAfPaz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"/>
+      <a name="RM100000000QJZL_03">
+      </a>
+      <h2 class="name">
+       MONITOR DESCRIPTION
+      </h2>
+      <p class="content5">
+       If the soak timer activates the ECM even though only a short amount of time has elapsed since the power switch was turned off, or if the soak timer does not activate the ECM even though a considerable amount of time has elapsed since the power switch was turned off, the ECM determines that the soak timer is malfunctioning, illuminates the MIL and stores a DTC the next time the power switch is turned on (IG).
+      </p>
+      <a name="RM100000000QJZL_09">
+      </a>
+      <h2 class="name">
+       MONITOR STRATEGY
+      </h2>
+      <table border="1" width="100%">
+       <colgroup>
+        <col/>
+        <col/>
+       </colgroup>
+       <tbody>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           Related DTC
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           P2610: ECM internal engine off timer performance
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           Required Sensors/Components (Main)
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           ECM
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           Required Sensors/Components (Related)
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           -
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           Frequency of Operation
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           Once per driving cycle
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           Duration
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           2 times: Case 1
+          </p>
+          <p class="para">
+           -: Case 2 and 3
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           MIL Operation
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           2 driving cycles
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           Sequence of Operation
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           None
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000000QJZL_10">
+      </a>
+      <h2 class="name">
+       TYPICAL ENABLING CONDITIONS
+      </h2>
+      <h4 class="tbltitle" id="d476e657">
+       All
+      </h4>
+      <table border="1" width="100%">
+       <colgroup>
+        <col/>
+        <col/>
+       </colgroup>
+       <tbody>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           Monitor runs whenever the following DTCs are not stored
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           None
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <h4 class="tbltitle" id="d476e688">
+       Case 1
+      </h4>
+      <table border="1" width="100%">
+       <colgroup>
+        <col/>
+        <col/>
+       </colgroup>
+       <tbody>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           All of the following conditions are met
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           -
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           Auxiliary battery voltage
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           8 V or higher
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           Power switch
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           Off
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           Internal Engine OFF Timer clear record
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           Off
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <h4 class="tbltitle" id="d476e764">
+       Case 2
+      </h4>
+      <table border="1" width="100%">
+       <colgroup>
+        <col/>
+        <col/>
+       </colgroup>
+       <tbody>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           All of the following conditions are met
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           -
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           Internal engine off timer (elapsed time since engine stop)
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           10 minutes or more, and less than 30 minutes
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           Auxiliary battery voltage
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           8 V or higher
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           Power switch
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           On (IG)
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <h4 class="tbltitle" id="d476e840">
+       Case 3
+      </h4>
+      <table border="1" width="100%">
+       <colgroup>
+        <col/>
+        <col/>
+       </colgroup>
+       <tbody>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           All of the following conditions are met
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           -
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           Internal engine off timer (elapsed time from engine stop)
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           40 minutes or more
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           Auxiliary battery voltage
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           8 V or higher
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           Power switch
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           On (IG)
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000000QJZL_11">
+      </a>
+      <h2 class="name">
+       TYPICAL MALFUNCTION THRESHOLDS
+      </h2>
+      <h4 class="tbltitle" id="d476e925">
+       Case 1
+      </h4>
+      <table border="1" width="100%">
+       <colgroup>
+        <col/>
+        <col/>
+       </colgroup>
+       <tbody>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           One of the following conditions is met
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           A, B or C
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           A. Both of the following conditions are met
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           -
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           Internal engine off timer
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           9.375 seconds or more
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           CPU clock elapsed time
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           1.96608 seconds or more, and less than 8.323072 seconds
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           B. Both of the following conditions are met
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           -
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           Internal engine off timer
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           18.75 seconds or more
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           CPU clock elapsed time
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           8.323072 to 10.420224 seconds
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           C. Both of the following conditions are met
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           -
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           Internal engine off timer
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           Less than 9.375 seconds
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           CPU clock elapsed time
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           More than 10.420224 seconds
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <h4 class="tbltitle" id="d476e1091">
+       Case 2
+      </h4>
+      <table border="1" width="100%">
+       <colgroup>
+        <col/>
+        <col/>
+       </colgroup>
+       <tbody>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           ECM started by internal engine off timer last trip
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           Yes
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <h4 class="tbltitle" id="d476e1122">
+       Case 3
+      </h4>
+      <table border="1" width="100%">
+       <colgroup>
+        <col/>
+        <col/>
+       </colgroup>
+       <tbody>
+        <tr>
+         <td valign="middle">
+          <p class="entry">
+           ECM started by internal engine off timer last trip
+          </p>
+         </td>
+         <td valign="middle">
+          <p class="entry">
+           No
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000000QJZL_12">
+      </a>
+      <h2 class="name">
+       CONFIRMATION DRIVING PATTERN
+      </h2>
+      <div class="content5">
+       <ol class="list">
+        <li>
+         Connect the Techstream to the DLC3.
+        </li>
+        <li>
+         Turn the power switch on (IG).
+        </li>
+        <li>
+         Turn the Techstream on.
+        </li>
+        <li>
+         Clear the DTCs (even if no DTCs are stored, perform the clear DTC procedure).
+        </li>
+        <li>
+         Turn the power switch off and wait for at least 30 seconds.
+        </li>
+        <li>
+         Turn the power switch on (IG).
+        </li>
+        <li>
+         Turn the Techstream on.
+        </li>
+        <li>
+         Put the engine in Inspection Mode (Maintenance Mode).
+         <p class="para2">
+          Click here
+          <span class="mlink">
+           <span class="myfrom:2016 myto:2018 startdate:201511 enddate:201812">
+            <a href="RM100000000S6LL.html" id="d476e1214">
+             <img alt="2016 - 2018 MY Prius [11/2015 - 12/2018]; INTRODUCTION: REPAIR INSTRUCTION: INSPECTION MODE PROCEDURE" class="info" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAAXNSR0IArs4c6QAAAkBJREFUSEvtVU9o01Ac/lKapWmrbra2nVPqnw0n2xytHQoiTFScUMSLCCIqbqgTvIkWBM968OLJedjwOlHBizAEvYlQrSKMyWhxhznEIEaTNG3WvvHezEyKTeOpE/wuL+T3+37vy/f7vReOEEKwSsBRMcdvVFEyqtD036r8vuVngfewGMVX2YtgiwpRFFYSzbjJ5UjJMU6JtbVp3TOHFDAxqYvNtUaSgdH0ahRz9Noia0Gz8O86870wiaJcAC+GoGoG4snLmHuVQUfiOvJTx1AxfqC6qCO2dwzh+CBmniRRUj6jtecmy3WDE/tdzsxC7hbKP/MAH4L04TZ2XyBsw670S7ybWIf4kRfwB4IIRHYiN96BaH8G0b5zyI23o/fULIRgp6MeW5sGRlWQaqAugYopfnuLQHgP5PkpCG0JVLQCth+eQPZeEOHuEVQMGdsOTuLNfY6JpTAdbU9k3ItpdLS/vL8DVXoNcX0S/OZhzD/rA6no2JSexdzjyIoz/nDKJoY5Sta6apXrNlExujzD2hTaOsS+8uPTA0hdUpgzifML8Hhj7P30o354xRgi3cPIPz/Jcpxcp5y/Ok2alIWmKvAJwJqNA6y4ND2GDb2n8Sn7AFtSZ20bmjMW3XUVvtYdDefXJmbwigqlXH9mnKpxHud5a6ik1pn/l57FMlubmu0M1WU7TVQd+72LgFb8c6edYiaXria/Ub51l5GhXzfw3YcKZIWghedQNpbXWtD3FGbMzLOuJqdejrWmlacbwL4egiVcNWtev/kfSAAAAABJRU5ErkJggg==" title="2016 - 2018 MY Prius [11/2015 - 12/2018]; INTRODUCTION: REPAIR INSTRUCTION: INSPECTION MODE PROCEDURE"/>
+            </a>
+           </span>
+           <span class="myfrom:2019 myto:2022 startdate:201812">
+            <a href="RM100000001G189.html" id="d476e1215">
+             <img alt="2019 - 2022 MY Prius [12/2018 -        ]; INTRODUCTION: REPAIR INSTRUCTION: INSPECTION MODE PROCEDURE" class="info" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAAXNSR0IArs4c6QAAAkBJREFUSEvtVU9o01Ac/lKapWmrbra2nVPqnw0n2xytHQoiTFScUMSLCCIqbqgTvIkWBM968OLJedjwOlHBizAEvYlQrSKMyWhxhznEIEaTNG3WvvHezEyKTeOpE/wuL+T3+37vy/f7vReOEEKwSsBRMcdvVFEyqtD036r8vuVngfewGMVX2YtgiwpRFFYSzbjJ5UjJMU6JtbVp3TOHFDAxqYvNtUaSgdH0ahRz9Noia0Gz8O86870wiaJcAC+GoGoG4snLmHuVQUfiOvJTx1AxfqC6qCO2dwzh+CBmniRRUj6jtecmy3WDE/tdzsxC7hbKP/MAH4L04TZ2XyBsw670S7ybWIf4kRfwB4IIRHYiN96BaH8G0b5zyI23o/fULIRgp6MeW5sGRlWQaqAugYopfnuLQHgP5PkpCG0JVLQCth+eQPZeEOHuEVQMGdsOTuLNfY6JpTAdbU9k3ItpdLS/vL8DVXoNcX0S/OZhzD/rA6no2JSexdzjyIoz/nDKJoY5Sta6apXrNlExujzD2hTaOsS+8uPTA0hdUpgzifML8Hhj7P30o354xRgi3cPIPz/Jcpxcp5y/Ok2alIWmKvAJwJqNA6y4ND2GDb2n8Sn7AFtSZ20bmjMW3XUVvtYdDefXJmbwigqlXH9mnKpxHud5a6ik1pn/l57FMlubmu0M1WU7TVQd+72LgFb8c6edYiaXria/Ub51l5GhXzfw3YcKZIWghedQNpbXWtD3FGbMzLOuJqdejrWmlacbwL4egiVcNWtev/kfSAAAAABJRU5ErkJggg==" title="2019 - 2022 MY Prius [12/2018 -        ]; INTRODUCTION: REPAIR INSTRUCTION: INSPECTION MODE PROCEDURE"/>
+            </a>
+           </span>
+          </span>
+         </p>
+        </li>
+        <li>
+         Start the engine and warm it up.
+        </li>
+        <li>
+         Turn the power switch off and wait for at least 15 seconds.
+        </li>
+        <li>
+         Turn the power switch on (IG).
+        </li>
+        <li>
+         Turn the Techstream on.
+        </li>
+        <li>
+         Put the engine in Inspection Mode (Maintenance Mode).
+         <p class="para2">
+          Click here
+          <span class="mlink">
+           <span class="myfrom:2016 myto:2018 startdate:201511 enddate:201812">
+            <a href="RM100000000S6LL.html" id="d476e1250">
+             <img alt="2016 - 2018 MY Prius [11/2015 - 12/2018]; INTRODUCTION: REPAIR INSTRUCTION: INSPECTION MODE PROCEDURE" class="info" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAAXNSR0IArs4c6QAAAkBJREFUSEvtVU9o01Ac/lKapWmrbra2nVPqnw0n2xytHQoiTFScUMSLCCIqbqgTvIkWBM968OLJedjwOlHBizAEvYlQrSKMyWhxhznEIEaTNG3WvvHezEyKTeOpE/wuL+T3+37vy/f7vReOEEKwSsBRMcdvVFEyqtD036r8vuVngfewGMVX2YtgiwpRFFYSzbjJ5UjJMU6JtbVp3TOHFDAxqYvNtUaSgdH0ahRz9Noia0Gz8O86870wiaJcAC+GoGoG4snLmHuVQUfiOvJTx1AxfqC6qCO2dwzh+CBmniRRUj6jtecmy3WDE/tdzsxC7hbKP/MAH4L04TZ2XyBsw670S7ybWIf4kRfwB4IIRHYiN96BaH8G0b5zyI23o/fULIRgp6MeW5sGRlWQaqAugYopfnuLQHgP5PkpCG0JVLQCth+eQPZeEOHuEVQMGdsOTuLNfY6JpTAdbU9k3ItpdLS/vL8DVXoNcX0S/OZhzD/rA6no2JSexdzjyIoz/nDKJoY5Sta6apXrNlExujzD2hTaOsS+8uPTA0hdUpgzifML8Hhj7P30o354xRgi3cPIPz/Jcpxcp5y/Ok2alIWmKvAJwJqNA6y4ND2GDb2n8Sn7AFtSZ20bmjMW3XUVvtYdDefXJmbwigqlXH9mnKpxHud5a6ik1pn/l57FMlubmu0M1WU7TVQd+72LgFb8c6edYiaXria/Ub51l5GhXzfw3YcKZIWghedQNpbXWtD3FGbMzLOuJqdejrWmlacbwL4egiVcNWtev/kfSAAAAABJRU5ErkJggg==" title="2016 - 2018 MY Prius [11/2015 - 12/2018]; INTRODUCTION: REPAIR INSTRUCTION: INSPECTION MODE PROCEDURE"/>
+            </a>
+           </span>
+           <span class="myfrom:2019 myto:2022 startdate:201812">
+            <a href="RM100000001G189.html" id="d476e1251">
+             <img alt="2019 - 2022 MY Prius [12/2018 -        ]; INTRODUCTION: REPAIR INSTRUCTION: INSPECTION MODE PROCEDURE" class="info" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAAXNSR0IArs4c6QAAAkBJREFUSEvtVU9o01Ac/lKapWmrbra2nVPqnw0n2xytHQoiTFScUMSLCCIqbqgTvIkWBM968OLJedjwOlHBizAEvYlQrSKMyWhxhznEIEaTNG3WvvHezEyKTeOpE/wuL+T3+37vy/f7vReOEEKwSsBRMcdvVFEyqtD036r8vuVngfewGMVX2YtgiwpRFFYSzbjJ5UjJMU6JtbVp3TOHFDAxqYvNtUaSgdH0ahRz9Noia0Gz8O86870wiaJcAC+GoGoG4snLmHuVQUfiOvJTx1AxfqC6qCO2dwzh+CBmniRRUj6jtecmy3WDE/tdzsxC7hbKP/MAH4L04TZ2XyBsw670S7ybWIf4kRfwB4IIRHYiN96BaH8G0b5zyI23o/fULIRgp6MeW5sGRlWQaqAugYopfnuLQHgP5PkpCG0JVLQCth+eQPZeEOHuEVQMGdsOTuLNfY6JpTAdbU9k3ItpdLS/vL8DVXoNcX0S/OZhzD/rA6no2JSexdzjyIoz/nDKJoY5Sta6apXrNlExujzD2hTaOsS+8uPTA0hdUpgzifML8Hhj7P30o354xRgi3cPIPz/Jcpxcp5y/Ok2alIWmKvAJwJqNA6y4ND2GDb2n8Sn7AFtSZ20bmjMW3XUVvtYdDefXJmbwigqlXH9mnKpxHud5a6ik1pn/l57FMlubmu0M1WU7TVQd+72LgFb8c6edYiaXria/Ub51l5GhXzfw3YcKZIWghedQNpbXWtD3FGbMzLOuJqdejrWmlacbwL4egiVcNWtev/kfSAAAAABJRU5ErkJggg==" title="2019 - 2022 MY Prius [12/2018 -        ]; INTRODUCTION: REPAIR INSTRUCTION: INSPECTION MODE PROCEDURE"/>
+            </a>
+           </span>
+          </span>
+         </p>
+        </li>
+        <li>
+         Start the engine.
+        </li>
+        <li>
+         Stop the engine and leave the vehicle for 60 minutes or more.
+        </li>
+        <li>
+         Turn the power switch on (IG).
+        </li>
+        <li>
+         Turn the Techstream on.
+        </li>
+        <li>
+         Enter the following menus: Powertrain / Engine / Trouble Codes.
+        </li>
+        <li>
+         Read the pending DTCs.
+         <div class="hint">
+          <p class="hintgen">
+           HINT:
+          </p>
+          <ul class="hint">
+           <li>
+            If a pending DTC is output, the system is malfunctioning.
+           </li>
+           <li>
+            If a pending DTC is not output, perform the following procedure.
+           </li>
+          </ul>
+         </div>
+        </li>
+        <li>
+         Enter the following menus: Powertrain / Engine / Utility / All Readiness.
+        </li>
+        <li>
+         Input the DTC: P261029 or P261093.
+        </li>
+        <li>
+         Check the DTC judgment result.
+         <table border="1" width="100%">
+          <colgroup>
+           <col/>
+           <col/>
+          </colgroup>
+          <thead>
+           <tr>
+            <th align="center" valign="middle">
+             <p class="entry">
+              Techstream Display
+             </p>
+            </th>
+            <th align="center" valign="middle">
+             <p class="entry">
+              Description
+             </p>
+            </th>
+           </tr>
+          </thead>
+          <tbody>
+           <tr>
+            <td align="center" valign="middle">
+             <p class="entry">
+              NORMAL
+             </p>
+            </td>
+            <td valign="middle">
+             <div class="entry">
+              <ul class="list">
+               <li>
+                DTC judgment completed
+               </li>
+               <li>
+                System normal
+               </li>
+              </ul>
+             </div>
+            </td>
+           </tr>
+           <tr>
+            <td align="center" valign="middle">
+             <p class="entry">
+              ABNORMAL
+             </p>
+            </td>
+            <td valign="middle">
+             <div class="entry">
+              <ul class="list">
+               <li>
+                DTC judgment completed
+               </li>
+               <li>
+                System abnormal
+               </li>
+              </ul>
+             </div>
+            </td>
+           </tr>
+           <tr>
+            <td align="center" valign="middle">
+             <p class="entry">
+              INCOMPLETE
+             </p>
+            </td>
+            <td valign="middle">
+             <div class="entry">
+              <ul class="list">
+               <li>
+                DTC judgment not completed
+               </li>
+               <li>
+                Perform driving pattern after confirming DTC enabling conditions
+               </li>
+              </ul>
+             </div>
+            </td>
+           </tr>
+           <tr>
+            <td align="center" valign="middle">
+             <p class="entry">
+              N/A
+             </p>
+            </td>
+            <td valign="middle">
+             <div class="entry">
+              <ul class="list">
+               <li>
+                Unable to perform DTC judgment
+               </li>
+               <li>
+                Number of DTCs which do not fulfill DTC preconditions has reached ECU memory limit
+               </li>
+              </ul>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+         <p class="hintgen">
+          HINT:
+         </p>
+         <p class="hint">
+          If the judgment result is ABNORMAL, the system is malfunctioning.
+         </p>
+        </li>
+        <li>
+         If the judgment result is INCOMPLETE or N/A and no pending DTCs are output, perform a universal trip and check for permanent DTCs.
+         <p class="para2">
+          Click here
+          <span class="mlink">
+           <span class="myfrom:2016 myto:2020 startdate:201511 enddate:202007">
+            <a href="RM100000000QJXB.html" id="d476e1479">
+             <img alt="2016 - 2020 MY Prius [11/2015 - 07/2020]; 2ZR-FXE (ENGINE CONTROL): SFI SYSTEM: DTC CHECK / CLEAR" class="info" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAAXNSR0IArs4c6QAAAkBJREFUSEvtVU9o01Ac/lKapWmrbra2nVPqnw0n2xytHQoiTFScUMSLCCIqbqgTvIkWBM968OLJedjwOlHBizAEvYlQrSKMyWhxhznEIEaTNG3WvvHezEyKTeOpE/wuL+T3+37vy/f7vReOEEKwSsBRMcdvVFEyqtD036r8vuVngfewGMVX2YtgiwpRFFYSzbjJ5UjJMU6JtbVp3TOHFDAxqYvNtUaSgdH0ahRz9Noia0Gz8O86870wiaJcAC+GoGoG4snLmHuVQUfiOvJTx1AxfqC6qCO2dwzh+CBmniRRUj6jtecmy3WDE/tdzsxC7hbKP/MAH4L04TZ2XyBsw670S7ybWIf4kRfwB4IIRHYiN96BaH8G0b5zyI23o/fULIRgp6MeW5sGRlWQaqAugYopfnuLQHgP5PkpCG0JVLQCth+eQPZeEOHuEVQMGdsOTuLNfY6JpTAdbU9k3ItpdLS/vL8DVXoNcX0S/OZhzD/rA6no2JSexdzjyIoz/nDKJoY5Sta6apXrNlExujzD2hTaOsS+8uPTA0hdUpgzifML8Hhj7P30o354xRgi3cPIPz/Jcpxcp5y/Ok2alIWmKvAJwJqNA6y4ND2GDb2n8Sn7AFtSZ20bmjMW3XUVvtYdDefXJmbwigqlXH9mnKpxHud5a6ik1pn/l57FMlubmu0M1WU7TVQd+72LgFb8c6edYiaXria/Ub51l5GhXzfw3YcKZIWghedQNpbXWtD3FGbMzLOuJqdejrWmlacbwL4egiVcNWtev/kfSAAAAABJRU5ErkJggg==" title="2016 - 2020 MY Prius [11/2015 - 07/2020]; 2ZR-FXE (ENGINE CONTROL): SFI SYSTEM: DTC CHECK / CLEAR"/>
+            </a>
+           </span>
+           <span class="myfrom:2021 myto:2022 startdate:202007">
+            <a href="RM100000001PEL4.html" id="d476e1480">
+             <img alt="2021 - 2022 MY Prius [07/2020 -        ]; 2ZR-FXE (ENGINE CONTROL): SFI SYSTEM: DTC CHECK / CLEAR" class="info" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAAXNSR0IArs4c6QAAAkBJREFUSEvtVU9o01Ac/lKapWmrbra2nVPqnw0n2xytHQoiTFScUMSLCCIqbqgTvIkWBM968OLJedjwOlHBizAEvYlQrSKMyWhxhznEIEaTNG3WvvHezEyKTeOpE/wuL+T3+37vy/f7vReOEEKwSsBRMcdvVFEyqtD036r8vuVngfewGMVX2YtgiwpRFFYSzbjJ5UjJMU6JtbVp3TOHFDAxqYvNtUaSgdH0ahRz9Noia0Gz8O86870wiaJcAC+GoGoG4snLmHuVQUfiOvJTx1AxfqC6qCO2dwzh+CBmniRRUj6jtecmy3WDE/tdzsxC7hbKP/MAH4L04TZ2XyBsw670S7ybWIf4kRfwB4IIRHYiN96BaH8G0b5zyI23o/fULIRgp6MeW5sGRlWQaqAugYopfnuLQHgP5PkpCG0JVLQCth+eQPZeEOHuEVQMGdsOTuLNfY6JpTAdbU9k3ItpdLS/vL8DVXoNcX0S/OZhzD/rA6no2JSexdzjyIoz/nDKJoY5Sta6apXrNlExujzD2hTaOsS+8uPTA0hdUpgzifML8Hhj7P30o354xRgi3cPIPz/Jcpxcp5y/Ok2alIWmKvAJwJqNA6y4ND2GDb2n8Sn7AFtSZ20bmjMW3XUVvtYdDefXJmbwigqlXH9mnKpxHud5a6ik1pn/l57FMlubmu0M1WU7TVQd+72LgFb8c6edYiaXria/Ub51l5GhXzfw3YcKZIWghedQNpbXWtD3FGbMzLOuJqdejrWmlacbwL4egiVcNWtev/kfSAAAAABJRU5ErkJggg==" title="2021 - 2022 MY Prius [07/2020 -        ]; 2ZR-FXE (ENGINE CONTROL): SFI SYSTEM: DTC CHECK / CLEAR"/>
+            </a>
+           </span>
+          </span>
+         </p>
+         <div class="hint">
+          <p class="hintgen">
+           HINT:
+          </p>
+          <ul class="hint">
+           <li>
+            If a permanent DTC is output, the system is malfunctioning.
+           </li>
+           <li>
+            If no permanent DTCs are output, the system is normal.
+           </li>
+          </ul>
+         </div>
+        </li>
+       </ol>
+      </div>
+      <a name="RM100000000QJZL_05">
+      </a>
+      <h2 class="name">
+       CAUTION / NOTICE / HINT
+      </h2>
+      <div class="hint">
+       <p class="hintgen">
+        HINT:
+       </p>
+       <ul class="hint">
+        <li>
+         DTC P261029 or P261093 is stored if an internal ECM problem is detected. In this case, diagnosis is not required. ECM replacement is required.
+        </li>
+        <li>
+         Read freeze frame data using the Techstream. The ECM records vehicle and driving condition information as freeze frame data the moment a DTC is stored. When troubleshooting, freeze frame data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, if the air fuel ratio was lean or rich, and other data from the time the malfunction occurred.
+        </li>
+       </ul>
+      </div>
+      <a name="RM100000000QJZL_13">
+      </a>
+      <h2 class="name">
+       PROCEDURE
+      </h2>
+      <a name="RM100000000QJZL_13_0001">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           1.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           REPLACE ECM
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (a) Replace the ECM.
+      </p>
+      <p class="test1p">
+       Click here
+       <span class="mlink">
+        <span class="myfrom:2016 myto:2018 startdate:201511 enddate:201812">
+         <a href="RM100000000SPPN.html" id="d476e1551">
+          <img alt="2016 - 2018 MY Prius [11/2015 - 12/2018]; 2ZR-FXE (ENGINE CONTROL): ECM: REMOVAL" class="info" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAAXNSR0IArs4c6QAAAkBJREFUSEvtVU9o01Ac/lKapWmrbra2nVPqnw0n2xytHQoiTFScUMSLCCIqbqgTvIkWBM968OLJedjwOlHBizAEvYlQrSKMyWhxhznEIEaTNG3WvvHezEyKTeOpE/wuL+T3+37vy/f7vReOEEKwSsBRMcdvVFEyqtD036r8vuVngfewGMVX2YtgiwpRFFYSzbjJ5UjJMU6JtbVp3TOHFDAxqYvNtUaSgdH0ahRz9Noia0Gz8O86870wiaJcAC+GoGoG4snLmHuVQUfiOvJTx1AxfqC6qCO2dwzh+CBmniRRUj6jtecmy3WDE/tdzsxC7hbKP/MAH4L04TZ2XyBsw670S7ybWIf4kRfwB4IIRHYiN96BaH8G0b5zyI23o/fULIRgp6MeW5sGRlWQaqAugYopfnuLQHgP5PkpCG0JVLQCth+eQPZeEOHuEVQMGdsOTuLNfY6JpTAdbU9k3ItpdLS/vL8DVXoNcX0S/OZhzD/rA6no2JSexdzjyIoz/nDKJoY5Sta6apXrNlExujzD2hTaOsS+8uPTA0hdUpgzifML8Hhj7P30o354xRgi3cPIPz/Jcpxcp5y/Ok2alIWmKvAJwJqNA6y4ND2GDb2n8Sn7AFtSZ20bmjMW3XUVvtYdDefXJmbwigqlXH9mnKpxHud5a6ik1pn/l57FMlubmu0M1WU7TVQd+72LgFb8c6edYiaXria/Ub51l5GhXzfw3YcKZIWghedQNpbXWtD3FGbMzLOuJqdejrWmlacbwL4egiVcNWtev/kfSAAAAABJRU5ErkJggg==" title="2016 - 2018 MY Prius [11/2015 - 12/2018]; 2ZR-FXE (ENGINE CONTROL): ECM: REMOVAL"/>
+         </a>
+        </span>
+        <span class="myfrom:2019 myto:2020 startdate:201812 enddate:202007">
+         <a href="RM100000001GMYA.html" id="d476e1552">
+          <img alt="2019 - 2020 MY Prius [12/2018 - 07/2020]; 2ZR-FXE (ENGINE CONTROL): ECM: REMOVAL" class="info" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAAXNSR0IArs4c6QAAAkBJREFUSEvtVU9o01Ac/lKapWmrbra2nVPqnw0n2xytHQoiTFScUMSLCCIqbqgTvIkWBM968OLJedjwOlHBizAEvYlQrSKMyWhxhznEIEaTNG3WvvHezEyKTeOpE/wuL+T3+37vy/f7vReOEEKwSsBRMcdvVFEyqtD036r8vuVngfewGMVX2YtgiwpRFFYSzbjJ5UjJMU6JtbVp3TOHFDAxqYvNtUaSgdH0ahRz9Noia0Gz8O86870wiaJcAC+GoGoG4snLmHuVQUfiOvJTx1AxfqC6qCO2dwzh+CBmniRRUj6jtecmy3WDE/tdzsxC7hbKP/MAH4L04TZ2XyBsw670S7ybWIf4kRfwB4IIRHYiN96BaH8G0b5zyI23o/fULIRgp6MeW5sGRlWQaqAugYopfnuLQHgP5PkpCG0JVLQCth+eQPZeEOHuEVQMGdsOTuLNfY6JpTAdbU9k3ItpdLS/vL8DVXoNcX0S/OZhzD/rA6no2JSexdzjyIoz/nDKJoY5Sta6apXrNlExujzD2hTaOsS+8uPTA0hdUpgzifML8Hhj7P30o354xRgi3cPIPz/Jcpxcp5y/Ok2alIWmKvAJwJqNA6y4ND2GDb2n8Sn7AFtSZ20bmjMW3XUVvtYdDefXJmbwigqlXH9mnKpxHud5a6ik1pn/l57FMlubmu0M1WU7TVQd+72LgFb8c6edYiaXria/Ub51l5GhXzfw3YcKZIWghedQNpbXWtD3FGbMzLOuJqdejrWmlacbwL4egiVcNWtev/kfSAAAAABJRU5ErkJggg==" title="2019 - 2020 MY Prius [12/2018 - 07/2020]; 2ZR-FXE (ENGINE CONTROL): ECM: REMOVAL"/>
+         </a>
+        </span>
+        <span class="myfrom:2021 myto:2022 startdate:202007">
+         <a href="RM100000001PO2R.html" id="d476e1553">
+          <img alt="2021 - 2022 MY Prius [07/2020 -        ]; 2ZR-FXE (ENGINE CONTROL): ECM: REMOVAL" class="info" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAAXNSR0IArs4c6QAAAkBJREFUSEvtVU9o01Ac/lKapWmrbra2nVPqnw0n2xytHQoiTFScUMSLCCIqbqgTvIkWBM968OLJedjwOlHBizAEvYlQrSKMyWhxhznEIEaTNG3WvvHezEyKTeOpE/wuL+T3+37vy/f7vReOEEKwSsBRMcdvVFEyqtD036r8vuVngfewGMVX2YtgiwpRFFYSzbjJ5UjJMU6JtbVp3TOHFDAxqYvNtUaSgdH0ahRz9Noia0Gz8O86870wiaJcAC+GoGoG4snLmHuVQUfiOvJTx1AxfqC6qCO2dwzh+CBmniRRUj6jtecmy3WDE/tdzsxC7hbKP/MAH4L04TZ2XyBsw670S7ybWIf4kRfwB4IIRHYiN96BaH8G0b5zyI23o/fULIRgp6MeW5sGRlWQaqAugYopfnuLQHgP5PkpCG0JVLQCth+eQPZeEOHuEVQMGdsOTuLNfY6JpTAdbU9k3ItpdLS/vL8DVXoNcX0S/OZhzD/rA6no2JSexdzjyIoz/nDKJoY5Sta6apXrNlExujzD2hTaOsS+8uPTA0hdUpgzifML8Hhj7P30o354xRgi3cPIPz/Jcpxcp5y/Ok2alIWmKvAJwJqNA6y4ND2GDb2n8Sn7AFtSZ20bmjMW3XUVvtYdDefXJmbwigqlXH9mnKpxHud5a6ik1pn/l57FMlubmu0M1WU7TVQd+72LgFb8c6edYiaXria/Ub51l5GhXzfw3YcKZIWghedQNpbXWtD3FGbMzLOuJqdejrWmlacbwL4egiVcNWtev/kfSAAAAABJRU5ErkJggg==" title="2021 - 2022 MY Prius [07/2020 -        ]; 2ZR-FXE (ENGINE CONTROL): ECM: REMOVAL"/>
+         </a>
+        </span>
+       </span>
+      </p>
+      <table>
+       <tbody>
+        <tr>
+         <td>
+          <table align="left" cellpadding="0" cellspacing="0" class="arrowdn" width="5%">
+           <tbody>
+            <tr>
+             <td align="center" class="arrow">
+              NEXT
+             </td>
+            </tr>
+            <tr>
+             <td align="left" class="arrow" width="10%">
+              <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAAXNSR0IArs4c6QAAARRJREFUOE+lkk8KgkAUxj/RsqiN0AGCdkLHCNy4VPAKrrpOJ0hatQw8hIugXdANXBjkv8F41oia+afczMzzzW++770nmGaQue4Yvj+GosTFCiDf00fx8jk/vOPlHNoLjMWZKI54zl/r6RS+gK7LoGmTv2CGEcJxxBeQSJYV4XCY/wxlLMnvFkA6LBYpfH86GHo+P6Cq0ifwckmxXg8DmuYd+71ciKgopKhtx9jtZr1Vcqv8wgeQfsgyQ5p2N+l6DbFcipXHG4G3G8Nq1Q6sW21V2Md63WonsK3rNMCbTdVqL2CTdV0PcDx+L0djDctVLnddkkJEUbOyXgp5Eg18EAjwvKwY4G9z1amQLpL17TZptcofeALLqpzLvaof7AAAAABJRU5ErkJggg=="/>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000000QJZL_13_0004">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           2.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           CLEAR DTC
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (a) Connect the Techstream to the DLC3.
+      </p>
+      <p class="test1">
+       (b) Turn the power switch on (IG).
+      </p>
+      <p class="test1">
+       (c) Turn the Techstream on.
+      </p>
+      <p class="test1">
+       (d) Clear the DTCs.
+      </p>
+      <h4 class="gtsInfoTitle">
+       Powertrain &gt; Engine &gt; Clear DTCs
+      </h4>
+      <p class="test1">
+       (e) Turn the power switch off and wait for at least 30 seconds.
+      </p>
+      <table>
+       <tbody>
+        <tr>
+         <td>
+          <table align="left" cellpadding="0" cellspacing="0" class="arrowdn" width="5%">
+           <tbody>
+            <tr>
+             <td align="center" class="arrow">
+              NEXT
+             </td>
+            </tr>
+            <tr>
+             <td align="left" class="arrow" width="10%">
+              <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAAXNSR0IArs4c6QAAARRJREFUOE+lkk8KgkAUxj/RsqiN0AGCdkLHCNy4VPAKrrpOJ0hatQw8hIugXdANXBjkv8F41oia+afczMzzzW++770nmGaQue4Yvj+GosTFCiDf00fx8jk/vOPlHNoLjMWZKI54zl/r6RS+gK7LoGmTv2CGEcJxxBeQSJYV4XCY/wxlLMnvFkA6LBYpfH86GHo+P6Cq0ifwckmxXg8DmuYd+71ciKgopKhtx9jtZr1Vcqv8wgeQfsgyQ5p2N+l6DbFcipXHG4G3G8Nq1Q6sW21V2Md63WonsK3rNMCbTdVqL2CTdV0PcDx+L0djDctVLnddkkJEUbOyXgp5Eg18EAjwvKwY4G9z1amQLpL17TZptcofeALLqpzLvaof7AAAAABJRU5ErkJggg=="/>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="RM100000000QJZL_13_0002">
+      </a>
+      <table border="1" class="testgrp" width="100%">
+       <tbody>
+        <tr>
+         <td align="center" width="7%">
+          <p class="testgrp">
+           3.
+          </p>
+         </td>
+         <td>
+          <p class="testgrp">
+           CHECK WHETHER DTC OUTPUT RECURS (DTC P261029 OR P261093)
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p class="test1">
+       (a) Drive the vehicle in accordance with the driving pattern described in Confirmation Driving Pattern.
+      </p>
+      <p class="test1">
+       (b) Enter the following menus: Powertrain / Engine / Trouble Codes / Pending.
+      </p>
+      <h4 class="gtsInfoTitle">
+       Powertrain &gt; Engine &gt; Trouble Codes
+      </h4>
+      <p class="test1">
+       (c) If no pending DTCs are output, the repair has been successfully completed.
+      </p>
+      <table cellpadding="0" cellspacing="0" class="arrow">
+       <tbody>
+        <tr>
+         <td class="arrow">
+          NEXT
+         </td>
+         <td align="left" class="arrow">
+          <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAUCAYAAAC9BQwsAAAAAXNSR0IArs4c6QAAAPxJREFUOE+Vkj0OgkAUhGcx6y+lPTHxAhyAhjvQ0NNZWHoDSws6ehru4BWo6KDgAJaIIDFrxKxZBBbY+s37duYNcZyMed4GUx8BGNP1EmG4mKQlqpqxLPsSw7CCrtNRC2qiOGnbD/j+alDcIPJpVX0higBNm/UuaBHFSdfNcTisO8WdRHGyLzgpUVzwH9wgURQ7zh385qOJYnBJAkwicvFu9wShNGdVNXw3Ljqfc5xO62nENH39bjvKo2k+cL02fyX1SOmnfgSWtWyVoNfjfl8gjhUA8/HNOR5vuFy20qI3PH6+Fsdzabn5ttpjWSowDLQCkCFrYhAUnQHIhG/a33XSA6ezYwAAAABJRU5ErkJggg=="/>
+         </td>
+         <td>
+          <p class="actcif">
+           END
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </td>
+    </tr>
+   </tbody>
+  </table>
+ </body>
+</html>
